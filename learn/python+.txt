@@ -1,0 +1,15 @@
+glob.glob(dir)获取匹配dir路径的文件列表
+enumerate(sequence[,start=0])从start开始编号得到序列的(id,val)
+img=PIL.Image.open(path)打开图片
+img.resize((width,height),resample=0,box=None)box是范围，resample取样方式：
+NEAREST  0  选择输入图像的最近像素；忽略其它输入像素.
+LANCZOS 1 对所有对输出值相关的所有像素采用高质量的 Lanczos filter(截断正弦) 进行插值，以得到输出像素；当前 PIL 版本，其仅用于 resize 和 thumbnail 方法.
+BILINEAR 2 图片 resize 时，对所有对输出值相关的所有像素进行线性插值，以得到输出像素；线性插值时，采用对输入图像 2x2 的区域.
+BICUBIC 3 图片 resize 时，对所有对输出值相关的所有像素进行三次插值，以得到输出像素；线性插值时，采用对输入图像 4x4 的区域.
+BOX 4
+HAMMING 5
+img.save(path)保存图片
+x=csv.reader(iterable[,dialect='excel'][option])delimiter设置分隔符，读取csv文件。
+os.listdir(dir)获取文件夹列表
+random.shuffle(list)打乱顺序
+
