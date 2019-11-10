@@ -1,0 +1,197 @@
+
+F:\code\python\hand_writing\zj\lm2>python xlen2.py
+Using TensorFlow backend.
+2019-05-12 21:33:09.195387: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-12 21:33:09.349920: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-12 21:33:09.366491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-12 21:33:09.870296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-12 21:33:09.879805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-12 21:33:09.886185: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-12 21:33:09.893267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+start: 2019-05-12 21:33:12.273565
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-12 21:33:13.575546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-12 21:33:13.584159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-12 21:33:13.593316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-12 21:33:13.600456: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-12 21:33:13.607685: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2019-05-12 21:33:14.704959: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 253s 168ms/step - loss: 5.6037 - acc: 0.1385
+2019-05-12 21:37:26.067486 use: 253.79392099380493
+1502/1502 [==============================] - 138s 92ms/step
+Train Loss: 3.8103465581543436
+Train Accuracy: 0.365167776492242
+742/742 [==============================] - 166s 223ms/step
+Test Loss: 4.072626355995631
+Test Accuracy: 0.314503882849944
+2019-05-12 21:42:30.099693 use: 557.8261280059814
+Epoch 1/1
+1502/1502 [==============================] - 181s 121ms/step - loss: 3.8362 - acc: 0.3299
+2019-05-12 21:45:31.578826 use: 739.3052611351013
+1502/1502 [==============================] - 131s 87ms/step
+Train Loss: 2.9087134893343705
+Train Accuracy: 0.510571236775496
+742/742 [==============================] - 65s 88ms/step
+Test Loss: 3.287862761287812
+Test Accuracy: 0.4323652929931596
+2019-05-12 21:48:47.971022 use: 935.697457075119
+Epoch 1/1
+1502/1502 [==============================] - 191s 127ms/step - loss: 3.3361 - acc: 0.4095
+2019-05-12 21:51:58.764622 use: 1126.4910564422607
+1502/1502 [==============================] - 136s 90ms/step
+Train Loss: 2.532310621240009
+Train Accuracy: 0.581723036643827
+742/742 [==============================] - 65s 88ms/step
+Test Loss: 2.98779144648169
+Test Accuracy: 0.4864477031437816
+2019-05-12 21:55:19.990742 use: 1327.7171766757965
+Epoch 1/1
+1502/1502 [==============================] - 182s 121ms/step - loss: 3.0818 - acc: 0.4553
+2019-05-12 21:58:22.383364 use: 1510.1097991466522
+1502/1502 [==============================] - 132s 88ms/step
+Train Loss: 2.329086107753723
+Train Accuracy: 0.6205858853304592
+742/742 [==============================] - 65s 87ms/step
+Test Loss: 2.832093607421861
+Test Accuracy: 0.5132394143116311
+2019-05-12 22:01:38.987538 use: 1706.713972568512
+Epoch 1/1
+1502/1502 [==============================] - 190s 126ms/step - loss: 2.9144 - acc: 0.4855
+2019-05-12 22:04:49.491680 use: 1897.2181150913239
+1502/1502 [==============================] - 137s 91ms/step
+Train Loss: 2.182193814993857
+Train Accuracy: 0.6512516648093172
+742/742 [==============================] - 66s 89ms/step
+Test Loss: 2.7317890619005225
+Test Accuracy: 0.5343696144278992
+2019-05-12 22:08:12.934126 use: 2100.6605608463287
+Epoch 1/1
+1502/1502 [==============================] - 185s 123ms/step - loss: 2.7941 - acc: 0.5073
+2019-05-12 22:11:17.948963 use: 2285.675398349762
+1502/1502 [==============================] - 133s 88ms/step
+Train Loss: 2.0758201179904403
+Train Accuracy: 0.6744047925570674
+742/742 [==============================] - 66s 89ms/step
+Test Loss: 2.6618489356369808
+Test Accuracy: 0.5466744351911257
+2019-05-12 22:14:36.820390 use: 2484.5468249320984
+Epoch 1/1
+1502/1502 [==============================] - 191s 127ms/step - loss: 2.6984 - acc: 0.5257
+2019-05-12 22:17:48.373575 use: 2676.1000096797943
+1502/1502 [==============================] - 139s 92ms/step
+Train Loss: 1.9997379743306838
+Train Accuracy: 0.6879999994358591
+742/742 [==============================] - 66s 89ms/step
+Test Loss: 2.625894621313584
+Test Accuracy: 0.5530399276649676
+2019-05-12 22:21:13.271956 use: 2880.998391151428
+Epoch 1/1
+1502/1502 [==============================] - 183s 122ms/step - loss: 2.6249 - acc: 0.5391
+2019-05-12 22:24:16.584564 use: 3064.310999393463
+1502/1502 [==============================] - 133s 89ms/step
+Train Loss: 1.924153532946951
+Train Accuracy: 0.7038548593117934
+742/742 [==============================] - 66s 89ms/step
+Test Loss: 2.5858855636408666
+Test Accuracy: 0.5607324642245496
+2019-05-12 22:27:36.335514 use: 3264.061948776245
+Epoch 1/1
+1502/1502 [==============================] - 189s 126ms/step - loss: 2.5595 - acc: 0.5512
+2019-05-12 22:30:45.851660 use: 3453.578094482422
+1502/1502 [==============================] - 137s 91ms/step
+Train Loss: 1.8736431848669497
+Train Accuracy: 0.7150239666276543
+742/742 [==============================] - 66s 89ms/step
+Test Loss: 2.561950389609184
+Test Accuracy: 0.5664155542455166
+2019-05-12 22:34:09.219182 use: 3656.9456169605255
+Epoch 1/1
+1502/1502 [==============================] - 185s 123ms/step - loss: 2.5026 - acc: 0.5621
+2019-05-12 22:37:14.791876 use: 3842.518311023712
+1502/1502 [==============================] - 132s 88ms/step
+Train Loss: 1.8138024141880549
+Train Accuracy: 0.7269800277984888
+742/742 [==============================] - 66s 88ms/step
+Test Loss: 2.539564307999135
+Test Accuracy: 0.5702645188527435
+2019-05-12 22:40:32.539935 use: 4040.2663700580597
+Epoch 1/1
+1502/1502 [==============================] - 190s 127ms/step - loss: 2.4516 - acc: 0.5718
+2019-05-12 22:43:43.166022 use: 4230.892457485199
+1502/1502 [==============================] - 138s 92ms/step
+Train Loss: 1.7752611441078898
+Train Accuracy: 0.7350878831391011
+742/742 [==============================] - 66s 89ms/step
+Test Loss: 2.5331819908648554
+Test Accuracy: 0.5714297263908368
+2019-05-12 22:47:07.089429 use: 4434.815864086151
+Epoch 1/1
+1502/1502 [==============================] - 188s 125ms/step - loss: 2.4083 - acc: 0.5799
+2019-05-12 22:50:15.911180 use: 4623.63761472702
+1502/1502 [==============================] - 132s 88ms/step
+Train Loss: 1.738564850725283
+Train Accuracy: 0.7428908126252628
+742/742 [==============================] - 66s 88ms/step
+Test Loss: 2.524674702324872
+Test Accuracy: 0.5733474665154801
+2019-05-12 22:53:33.616994 use: 4821.343428850174
+Epoch 1/1
+1502/1502 [==============================] - 188s 125ms/step - loss: 2.3656 - acc: 0.5873
+2019-05-12 22:56:41.680861 use: 5009.407295703888
+1502/1502 [==============================] - 137s 91ms/step
+Train Loss: 1.6947527065099317
+Train Accuracy: 0.7516178422063073
+742/742 [==============================] - 66s 89ms/step
+Test Loss: 2.515867775168051
+Test Accuracy: 0.5754000695076896
+2019-05-12 23:00:05.063131 use: 5212.7895658016205
+Epoch 1/1
+1502/1502 [==============================] - 185s 123ms/step - loss: 2.3264 - acc: 0.5952
+2019-05-12 23:03:10.424899 use: 5398.1513340473175
+1502/1502 [==============================] - 134s 89ms/step
+Train Loss: 1.665195530168861
+Train Accuracy: 0.758635152672007
+742/742 [==============================] - 66s 88ms/step
+Test Loss: 2.5044593760811176
+Test Accuracy: 0.577261167019873
+2019-05-12 23:06:30.452439 use: 5598.1788737773895
+Epoch 1/1
+1502/1502 [==============================] - 190s 127ms/step - loss: 2.2931 - acc: 0.6023
+2019-05-12 23:09:41.192766 use: 5788.919201135635
+1502/1502 [==============================] - 136s 91ms/step
+Train Loss: 1.6322447682188925
+Train Accuracy: 0.7661478028951408
+ 53/742 [=>............................] - ETA: 1:04Traceback (most recent call last):
+  File "xlen2.py", line 261, in <module>
+    main()
+  File "xlen2.py", line 250, in main
+    score = model.evaluate_generator(generate(test_img, size, step_test, r_len, words, False), steps=step_test, verbose=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1472, in evaluate_generator
+    verbose=verbose)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 346, in evaluate_generator
+    outs = model.test_on_batch(x, y, sample_weight=sample_weight)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1256, in test_on_batch
+    outputs = self.test_function(ins)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2715, in __call__
+    return self._call(inputs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2655, in _call
+    dtype=tf.as_dtype(tensor.dtype).as_numpy_dtype))
+  File "C:\Program Files\Python37\lib\site-packages\numpy\core\numeric.py", line 538, in asarray
+    return array(a, dtype, copy=False, order=order)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\zj\lm2>
