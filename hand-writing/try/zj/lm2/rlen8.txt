@@ -1,0 +1,476 @@
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+start: 2019-05-13 13:54:37.533377
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 13:54:39.769663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 13:54:39.769720: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 13:54:39.769734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 13:54:39.769745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 13:54:39.770017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5262 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+2019-05-13 13:54:42.038799: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+ 901/1502 [================>.............] - ETA: 4:02 - loss: 6.9922 - acc: 0.02612019-05-13 14:00:42.997144: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 512.00M (536870912 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:00:42.998415: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 460.80M (483183872 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:00:42.999618: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 414.72M (434865664 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:00:43.000815: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 373.25M (391379200 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:00:43.002024: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 335.92M (352241408 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:00:43.003254: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 302.33M (317017344 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:00:43.004477: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 272.10M (285315840 bytes) from device: CUDA_ERROR_OUT1502/1502 [==============================] - 674s 449ms/step - loss: 6.5335 - acc: 0.0458
+TR: 1 2019-05-13 14:05:53.254256 use: 675.7209556102753
+1502/1502 [==============================] - 160s 106ms/step
+Train Loss: 4.954244647299085
+Train Accuracy: 0.19450998698149158
+742/742 [==============================] - 73s 99ms/step
+Test Loss: 5.1150563751391855
+Test Accuracy: 0.17050619189017552
+TE: 1 2019-05-13 14:09:46.496614 use: 908.9632716178894
+Epoch 1/1
+1502/1502 [==============================] - 652s 434ms/step - loss: 5.3085 - acc: 0.1222
+TR: 2 2019-05-13 14:20:38.549475 use: 1561.0161323547363
+1502/1502 [==============================] - 159s 106ms/step
+Train Loss: 4.153052180172124
+Train Accuracy: 0.31219973420096775
+742/742 [==============================] - 74s 100ms/step
+Test Loss: 4.39474603104341
+Test Accuracy: 0.26842149314850944
+TE: 2 2019-05-13 14:24:31.734095 use: 1794.200748205185
+Epoch 1/1
+1502/1502 [==============================] - 604s 402ms/step - loss: 4.9206 - acc: 0.1652
+TR: 3 2019-05-13 14:34:36.292687 use: 2398.7593607902527
+1502/1502 [==============================] - 153s 102ms/step
+Train Loss: 3.762776609743324
+Train Accuracy: 0.37882689758639204
+742/742 [==============================] - 75s 101ms/step
+Test Loss: 4.046396863036788
+Test Accuracy: 0.32168394263700456
+TE: 3 2019-05-13 14:38:24.416099 use: 2626.882756471634
+Epoch 1/1
+1502/1502 [==============================] - 606s 403ms/step - loss: 4.6925 - acc: 0.1945
+TR: 4 2019-05-13 14:48:30.255338 use: 3232.7220046520233
+1502/1502 [==============================] - 151s 101ms/step
+Train Loss: 3.525336839070174
+Train Accuracy: 0.42242743001479444
+742/742 [==============================] - 74s 100ms/step
+Test Loss: 3.836818859754789
+Test Accuracy: 0.3572983334673499
+TE: 4 2019-05-13 14:52:15.790492 use: 3458.2571725845337
+Epoch 1/1
+1502/1502 [==============================] - 610s 406ms/step - loss: 4.5378 - acc: 0.2157
+TR: 5 2019-05-13 15:02:26.382692 use: 4068.849345445633
+1502/1502 [==============================] - 148s 99ms/step
+Train Loss: 3.3412860985919735
+Train Accuracy: 0.45643675039595516
+742/742 [==============================] - 74s 100ms/step
+Test Loss: 3.675577294216907
+Test Accuracy: 0.385082630055136
+TE: 5 2019-05-13 15:06:08.535342 use: 4291.001998901367
+Epoch 1/1
+1502/1502 [==============================] - 609s 406ms/step - loss: 4.4170 - acc: 0.2327
+TR: 6 2019-05-13 15:16:18.127813 use: 4900.594473600388
+1502/1502 [==============================] - 147s 98ms/step
+Train Loss: 3.2235285873895636
+Train Accuracy: 0.47954993251557354
+742/742 [==============================] - 69s 93ms/step
+Test Loss: 3.569381000748381
+Test Accuracy: 0.40386353041609385
+TE: 6 2019-05-13 15:19:54.014555 use: 5116.481208324432
+Epoch 1/1
+  94/1502 [>.............................] - ETA: 7:40 - loss: 4.3001 - acc: 0.2508^CTraceback (most recent call last):
+  File "rlen8.py", line 258, in <module>
+    main()
+  File "rlen8.py", line 240, 
+
+
+
+F:\code\python\hand_writing\zj\lm2>python rlen8.py
+Using TensorFlow backend.
+2019-05-13 21:23:36.283107: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-13 21:23:36.467866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-13 21:23:36.491991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 21:23:37.279308: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 21:23:37.290971: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 21:23:37.300208: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 21:23:37.309443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-13 21:23:40.713838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 21:23:40.724725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 21:23:40.735651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 21:23:40.744427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 21:23:40.752594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-05-13 21:23:40.993056
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 21:23:44.543455: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 439s 292ms/step - loss: 4.3353 - acc: 0.2438
+TR: 7 2019-05-13 21:31:01.520487 use: 440.5274305343628
+1502/1502 [==============================] - 183s 122ms/step
+Train Loss: 3.13158071072854
+Train Accuracy: 0.4956657774597605
+742/742 [==============================] - 78s 105ms/step
+Test Loss: 3.492563835006081
+Test Accuracy: 0.4165918184427051
+TE: 7 2019-05-13 21:35:23.004011 use: 702.010954618454
+Epoch 1/1
+1502/1502 [==============================] - 424s 282ms/step - loss: 4.2515 - acc: 0.2567
+TR: 8 2019-05-13 21:42:27.237529 use: 1126.2444729804993
+1502/1502 [==============================] - 175s 117ms/step
+Train Loss: 3.056181674473454
+Train Accuracy: 0.5101011978206876
+742/742 [==============================] - 97s 130ms/step
+Test Loss: 3.432964289224622
+Test Accuracy: 0.4257732318178315
+TE: 8 2019-05-13 21:46:59.185537 use: 1398.192480802536
+Epoch 1/1
+1502/1502 [==============================] - 435s 290ms/step - loss: 4.1866 - acc: 0.2671
+TR: 9 2019-05-13 21:54:14.528567 use: 1833.5355112552643
+1014/1502 [===================>..........] - ETA: 1:08Traceback (most recent call last):
+  File "rlen8.py", line 258, in <module>
+    main()
+  File "rlen8.py", line 244, in main
+    score = model.evaluate_generator(generate(train_img, size, step_train, r_len, words, False), steps=step_train, verbose=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1472, in evaluate_generator
+    verbose=verbose)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 330, in evaluate_generator
+    generator_output = next(output_generator)
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 709, in get
+    six.reraise(*sys.exc_info())
+  File "C:\Program Files\Python37\lib\site-packages\six.py", line 693, in reraise
+    raise value
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 685, in get
+    inputs = self.queue.get(block=True).get()
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 657, in get
+    raise self._value
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 626, in next_sample
+    return six.next(_SHARED_SEQUENCES[uid])
+  File "rlen8.py", line 136, in generate
+    x = np.zeros((sz, 110, 110, 1))
+MemoryError
+
+F:\code\python\hand_writing\zj\lm2>python rlen8.py
+Using TensorFlow backend.
+2019-05-13 21:58:18.669117: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-13 21:58:18.799062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-13 21:58:18.818531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 21:58:19.345403: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 21:58:19.354060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 21:58:19.361011: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 21:58:19.367703: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-13 21:58:22.711558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 21:58:22.720491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 21:58:22.730554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 21:58:22.737169: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 21:58:22.743961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-05-13 21:58:22.936594
+2019-05-13 21:58:23.855732: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 231s 154ms/step
+Train Loss: 2.974790874873592
+Train Accuracy: 0.5262117172168511
+742/742 [==============================] - 119s 161ms/step
+Test Loss: 3.364858583874627
+Test Accuracy: 0.4390166930134501
+TE: 9 2019-05-13 22:04:13.770200 use: 350.83360624313354
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+ 928/1502 [=================>............] - ETA: 3:12 - loss: 4.1402 - acc: 0.2731Traceback (most recent call last):
+  File "rlen8.py", line 259, in <module>
+    main()
+  File "rlen8.py", line 241, in main
+    model.fit_generator(generate(train_img, size, step_train, r_len, words, True), steps_per_epoch=step_train, epochs=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 181, in fit_generator
+    generator_output = next(output_generator)
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 709, in get
+    six.reraise(*sys.exc_info())
+  File "C:\Program Files\Python37\lib\site-packages\six.py", line 693, in reraise
+    raise value
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 685, in get
+    inputs = self.queue.get(block=True).get()
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 657, in get
+    raise self._value
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 626, in next_sample
+    return six.next(_SHARED_SEQUENCES[uid])
+  File "rlen8.py", line 136, in generate
+    x = np.zeros((sz, 110, 110, 1))
+MemoryError
+
+F:\code\python\hand_writing\zj\lm2>python rlen8.py
+Using TensorFlow backend.
+2019-05-13 22:11:22.683180: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-13 22:11:22.817811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-13 22:11:22.836228: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 22:11:23.419742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 22:11:23.429534: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 22:11:23.436697: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 22:11:23.443349: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-13 22:11:26.434569: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 22:11:26.443335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 22:11:26.453446: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 22:11:26.460603: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 22:11:26.467431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-05-13 22:11:26.654077
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 22:11:29.115679: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+  47/1502 [..............................] - ETA: 7:09 - loss: 4.0940 - acc: 0.2756Traceback (most recent call last):
+  File "rlen8.py", line 259, in <module>
+    main()
+  File "rlen8.py", line 241, in main
+    model.fit_generator(generate(train_img, size, step_train, r_len, words, True), steps_per_epoch=step_train, epochs=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 181, in fit_generator
+    generator_output = next(output_generator)
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 709, in get
+    six.reraise(*sys.exc_info())
+  File "C:\Program Files\Python37\lib\site-packages\six.py", line 693, in reraise
+    raise value
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 685, in get
+    inputs = self.queue.get(block=True).get()
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 657, in get
+    raise self._value
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 626, in next_sample
+    return six.next(_SHARED_SEQUENCES[uid])
+  File "rlen8.py", line 136, in generate
+    x = np.zeros((sz, 110, 110, 1))
+MemoryError
+
+F:\code\python\hand_writing\zj\lm2>python rlen8.py
+Using TensorFlow backend.
+2019-05-13 22:12:35.014681: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-13 22:12:35.162698: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-13 22:12:35.181480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 22:12:35.723203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 22:12:35.735543: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 22:12:35.742674: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 22:12:35.750065: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-13 22:12:38.785214: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 22:12:38.794576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 22:12:38.805593: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 22:12:38.813899: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 22:12:38.822687: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-05-13 22:12:39.040430
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 22:12:41.333791: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 256.00M (268435456 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 22:12:41.359385: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 230.40M (241592064 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+Traceback (most recent call last):
+  File "rlen8.py", line 259, in <module>
+    main()
+  File "rlen8.py", line 241, in main
+    model.fit_generator(generate(train_img, size, step_train, r_len, words, True), steps_per_epoch=step_train, epochs=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 217, in fit_generator
+    class_weight=class_weight)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1217, in train_on_batch
+    outputs = self.train_function(ins)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2715, in __call__
+    return self._call(inputs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2655, in _call
+    dtype=tf.as_dtype(tensor.dtype).as_numpy_dtype))
+  File "C:\Program Files\Python37\lib\site-packages\numpy\core\numeric.py", line 538, in asarray
+    return array(a, dtype, copy=False, order=order)
+MemoryError
+
+F:\code\python\hand_writing\zj\lm2>python rlen8.py
+Using TensorFlow backend.
+2019-05-14 05:01:44.085736: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-14 05:01:44.248621: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-14 05:01:44.269063: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-14 05:01:44.772281: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-14 05:01:44.782520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-14 05:01:44.789052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-14 05:01:44.796074: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-14 05:01:48.050189: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-14 05:01:48.058847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-14 05:01:48.067485: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-14 05:01:48.074505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-14 05:01:48.082128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-05-14 05:01:48.277671
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-14 05:01:50.711721: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 372s 248ms/step - loss: 4.1448 - acc: 0.2734
+TR: 10 2019-05-14 05:08:01.307694 use: 373.03002309799194
+1502/1502 [==============================] - 143s 95ms/step
+Train Loss: 2.9027177947815184
+Train Accuracy: 0.5370386150800753
+742/742 [==============================] - 70s 95ms/step
+Test Loss: 3.3083896989205988
+Test Accuracy: 0.4464314123586207
+TE: 10 2019-05-14 05:11:34.408668 use: 586.1309969425201
+Epoch 1/1
+1502/1502 [==============================] - 345s 230ms/step - loss: 4.0877 - acc: 0.2817
+TR: 11 2019-05-14 05:17:20.288668 use: 932.0109968185425
+1502/1502 [==============================] - 153s 102ms/step
+Train Loss: 2.8590733271622946
+Train Accuracy: 0.5501824241582944
+742/742 [==============================] - 75s 101ms/step
+Test Loss: 3.2748590447369836
+Test Accuracy: 0.4548575984610435
+TE: 11 2019-05-14 05:21:07.934663 use: 1159.6569919586182
+Epoch 1/1
+1502/1502 [==============================] - 352s 234ms/step - loss: 4.0425 - acc: 0.2894
+TR: 12 2019-05-14 05:26:59.858662 use: 1511.5809915065765
+1502/1502 [==============================] - 149s 99ms/step
+Train Loss: 2.822730980922633
+Train Accuracy: 0.5571225052587837
+742/742 [==============================] - 71s 96ms/step
+Test Loss: 3.24724072932797
+Test Accuracy: 0.46018195515224936
+TE: 12 2019-05-14 05:30:40.000662 use: 1731.7229917049408
+Epoch 1/1
+1502/1502 [==============================] - 356s 237ms/step - loss: 4.0033 - acc: 0.2960
+TR: 13 2019-05-14 05:36:36.137540 use: 2087.8598697185516
+1502/1502 [==============================] - 154s 102ms/step
+Train Loss: 2.772739096265658
+Train Accuracy: 0.5663062600535496
+742/742 [==============================] - 75s 101ms/step
+Test Loss: 3.210008263489883
+Test Accuracy: 0.4652689550095377
+TE: 13 2019-05-14 05:40:24.654452 use: 2316.376780986786
+Epoch 1/1
+1502/1502 [==============================] - 356s 237ms/step - loss: 3.9682 - acc: 0.3021
+TR: 14 2019-05-14 05:46:21.329512 use: 2673.0518414974213
+1502/1502 [==============================] - 152s 101ms/step
+Train Loss: 2.7288941952899672
+Train Accuracy: 0.5750239688689794
+742/742 [==============================] - 76s 103ms/step
+Test Loss: 3.1779810191040014
+Test Accuracy: 0.4721819879111939
+TE: 14 2019-05-14 05:50:09.694663 use: 2901.416992664337
+Epoch 1/1
+1502/1502 [==============================] - 361s 240ms/step - loss: 3.9363 - acc: 0.3066
+TR: 15 2019-05-14 05:56:11.590636 use: 3263.312965154648
+1502/1502 [==============================] - 157s 105ms/step
+Train Loss: 2.703981513507198
+Train Accuracy: 0.58189347564936
+742/742 [==============================] - 77s 104ms/step
+Test Loss: 3.1648906438043527
+Test Accuracy: 0.47433978157475487
+TE: 15 2019-05-14 06:00:05.806243 use: 3497.528572320938
+Epoch 1/1
+1502/1502 [==============================] - 363s 241ms/step - loss: 3.9066 - acc: 0.3115
+TR: 16 2019-05-14 06:06:08.926977 use: 3860.6493062973022
+1502/1502 [==============================] - 152s 101ms/step
+Train Loss: 2.6803676434426746
+Train Accuracy: 0.5861571235520227
+742/742 [==============================] - 75s 101ms/step
+Test Loss: 3.150603412143616
+Test Accuracy: 0.4775710780331404
+TE: 16 2019-05-14 06:09:55.885879 use: 4087.6082079410553
+Epoch 1/1
+1502/1502 [==============================] - 369s 246ms/step - loss: 3.8769 - acc: 0.3166
+TR: 17 2019-05-14 06:16:05.021363 use: 4456.74369263649
+1502/1502 [==============================] - 157s 105ms/step
+Train Loss: 2.6411377483614276
+Train Accuracy: 0.592683088763576
+742/742 [==============================] - 76s 102ms/step
+Test Loss: 3.1215898895076926
+Test Accuracy: 0.4818812714175569
+TE: 17 2019-05-14 06:19:58.295673 use: 4690.018002033234
+Epoch 1/1
+1502/1502 [==============================] - 355s 236ms/step - loss: 3.8536 - acc: 0.3200
+TR: 18 2019-05-14 06:25:53.252050 use: 5044.97437953949
+1502/1502 [==============================] - 150s 100ms/step
+Train Loss: 2.612677767654551
+Train Accuracy: 0.5975033278550987
+742/742 [==============================] - 73s 99ms/step
+Test Loss: 3.1055088886210527
+Test Accuracy: 0.48375585473121796
+TE: 18 2019-05-14 06:29:36.390520 use: 5268.112849473953
+Epoch 1/1
+1502/1502 [==============================] - 357s 238ms/step - loss: 3.8313 - acc: 0.3243
+TR: 19 2019-05-14 06:35:33.467903 use: 5625.190231800079
+1502/1502 [==============================] - 144s 96ms/step
+Train Loss: 2.601691431434113
+Train Accuracy: 0.602126497998536
+742/742 [==============================] - 101s 137ms/step
+Test Loss: 3.099000843701864
+Test Accuracy: 0.4863236299316038
+TE: 19 2019-05-14 06:39:38.961252 use: 5870.683581829071
+Epoch 1/1
+1502/1502 [==============================] - 316s 211ms/step - loss: 3.8051 - acc: 0.3283
+TR: 20 2019-05-14 06:44:55.543309 use: 6187.265638828278
+1502/1502 [==============================] - 136s 90ms/step
+Train Loss: 2.5661081228053044
+Train Accuracy: 0.6096378156491189
+742/742 [==============================] - 67s 90ms/step
+Test Loss: 3.0779238356439507
+Test Accuracy: 0.48967360514998726
+TE: 20 2019-05-14 06:48:18.400339 use: 6390.122668266296
+
+F:\code\python\hand_writing\zj\lm2>

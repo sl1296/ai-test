@@ -1,0 +1,150 @@
+Microsoft Windows [Version 10.0.17763.475]
+(c) 2018 Microsoft Corporation。保留所有权利。
+
+F:\code\python\hand_writing\zj\lm2>python xlen11.py
+Using TensorFlow backend.
+2019-05-13 07:43:32.899138: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-13 07:43:33.024750: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-13 07:43:33.042521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 07:43:33.520564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 07:43:33.530426: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 07:43:33.537522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 07:43:33.544694: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+start: 2019-05-13 07:43:35.828056
+2019-05-13 07:43:36.475469: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 07:43:36.484853: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 07:43:36.493555: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 07:43:36.499554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 07:43:36.506393: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2019-05-13 07:43:38.027797: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 146s 97ms/step
+Train Loss: 1.4055057448172537
+Train Accuracy: 0.6573368846259009
+742/742 [==============================] - 93s 125ms/step
+Test Loss: 1.861781386880314
+Test Accuracy: 0.5582536978645852
+2019-05-13 07:47:36.015297 use: 240.18724083900452
+1502/1502 [==============================] - 141s 94ms/step
+Train Loss: 1.0812287609205742
+Train Accuracy: 0.7280279622970027
+742/742 [==============================] - 70s 95ms/step
+Test Loss: 1.6169786153517292
+Test Accuracy: 0.6103536345815247
+2019-05-13 07:51:08.077237 use: 452.24918150901794
+1502/1502 [==============================] - 139s 93ms/step
+Train Loss: 0.8952084001545583
+Train Accuracy: 0.7704806925056777
+742/742 [==============================] - 68s 92ms/step
+Test Loss: 1.4894033560070916
+Test Accuracy: 0.6378250518953914
+2019-05-13 07:54:36.230233 use: 660.4021775722504
+1502/1502 [==============================] - 138s 92ms/step
+Train Loss: 0.7528271467565062
+Train Accuracy: 0.8045352882694468
+742/742 [==============================] - 67s 90ms/step
+Test Loss: 1.3960644749529598
+Test Accuracy: 0.6580867382422789
+2019-05-13 07:58:02.311502 use: 866.4834458827972
+1502/1502 [==============================] - 136s 90ms/step
+Train Loss: 0.5895129718213837
+Train Accuracy: 0.8437323555965398
+742/742 [==============================] - 69s 93ms/step
+Test Loss: 1.3237939471875328
+Test Accuracy: 0.6744913662390445
+2019-05-13 08:01:28.107756 use: 1072.279700756073
+1502/1502 [==============================] - 142s 95ms/step
+Train Loss: 0.5302548770818825
+Train Accuracy: 0.8607336870839847
+742/742 [==============================] - 68s 92ms/step
+Test Loss: 1.303890844131325
+Test Accuracy: 0.6797348062152352
+2019-05-13 08:04:59.215597 use: 1283.3875415325165
+1502/1502 [==============================] - 136s 91ms/step
+Train Loss: 0.48132698297421245
+Train Accuracy: 0.8719880155097947
+742/742 [==============================] - 67s 90ms/step
+Test Loss: 1.2923946284508012
+Test Accuracy: 0.6834003600129634
+2019-05-13 08:08:23.435672 use: 1487.607616186142
+1502/1502 [==============================] - 139s 93ms/step
+Train Loss: 0.4350639656285313
+Train Accuracy: 0.8841517983517856
+742/742 [==============================] - 69s 93ms/step
+Test Loss: 1.2902022066368906
+Test Accuracy: 0.6858872171719966
+2019-05-13 08:11:51.831939 use: 1696.003883600235
+1502/1502 [==============================] - 138s 92ms/step
+Train Loss: 0.36707482531607233
+Train Accuracy: 0.9024034636950842
+742/742 [==============================] - 70s 94ms/step
+Test Loss: 1.2940582983565487
+Test Accuracy: 0.6869121680024687
+2019-05-13 08:15:21.642327 use: 1905.8142714500427
+1502/1502 [==============================] - 143s 95ms/step
+Train Loss: 0.3318571135818403
+Train Accuracy: 0.9114527299940666
+742/742 [==============================] - 67s 91ms/step
+Test Loss: 1.2988931839061775
+Test Accuracy: 0.6895770443752695
+2019-05-13 08:18:52.922861 use: 2117.094805240631
+1502/1502 [==============================] - 137s 91ms/step
+Train Loss: 0.30986791783658546
+Train Accuracy: 0.9178002658839549
+742/742 [==============================] - 69s 93ms/step
+Test Loss: 1.306144890841962
+Test Accuracy: 0.6898872268579366
+2019-05-13 08:22:19.258695 use: 2323.430639028549
+1502/1502 [==============================] - 139s 93ms/step
+Train Loss: 0.28730114543445895
+Train Accuracy: 0.9242197060473908
+742/742 [==============================] - 67s 91ms/step
+Test Loss: 1.315717257913934
+Test Accuracy: 0.6877671934599762
+2019-05-13 08:25:46.828926 use: 2531.0008709430695
+1502/1502 [==============================] - 135s 90ms/step
+Train Loss: 0.24178048535764773
+Train Accuracy: 0.9360745659918982
+742/742 [==============================] - 69s 93ms/step
+Test Loss: 1.3303677610012277
+Test Accuracy: 0.6881367162562231
+2019-05-13 08:29:12.937251 use: 2737.10919547081
+1502/1502 [==============================] - 138s 92ms/step
+Train Loss: 0.2280374826806363
+Train Accuracy: 0.940011982197133
+742/742 [==============================] - 75s 102ms/step
+Test Loss: 1.3482188656015202
+Test Accuracy: 0.6865183713119419
+2019-05-13 08:32:47.384554 use: 2951.5564987659454
+1386/1502 [==========================>...] - ETA: 10sTraceback (most recent call last):
+  File "xlen11.py", line 262, in <module>
+    main()
+  File "xlen11.py", line 248, in main
+    score = model.evaluate_generator(generate(train_img, size, step_train, r_len, words, False), steps=step_train, verbose=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1472, in evaluate_generator
+    verbose=verbose)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 330, in evaluate_generator
+    generator_output = next(output_generator)
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 685, in get
+    inputs = self.queue.get(block=True).get()
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 651, in get
+    self.wait(timeout)
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 648, in wait
+    self._event.wait(timeout)
+  File "C:\Program Files\Python37\lib\threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Program Files\Python37\lib\threading.py", line 296, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+F:\code\python\hand_writing\zj\lm2>

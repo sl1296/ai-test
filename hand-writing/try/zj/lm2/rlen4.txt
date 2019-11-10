@@ -1,0 +1,76 @@
+ id: 0000:04:00.0, compute capability: 6.1)
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+start: 2019-05-13 13:52:54.042322
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 13:52:55.903203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 13:52:55.903284: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 13:52:55.903304: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 13:52:55.903319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 13:52:55.903708: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8238 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+2019-05-13 13:52:57.746448: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+1502/1502 [==============================] - 574s 382ms/step - loss: 4.9274 - acc: 0.2279
+TR: 1 2019-05-13 14:02:29.770624 use: 575.7283585071564
+1502/1502 [==============================] - 237s 158ms/step
+Train Loss: 3.0990847360278257
+Train Accuracy: 0.4737949385227122
+742/742 [==============================] - 100s 135ms/step
+Test Loss: 3.4330808309332945
+Test Accuracy: 0.4061049387694171
+TE: 1 2019-05-13 14:08:07.180078 use: 913.1378080844879
+Epoch 1/1
+1463/1502 [============================>.] - ETA: 17s - loss: 2.7808 - acc: 0.51582019-05-13 14:18:53.627463: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 512.00M (536870912 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:18:53.628874: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 460.80M (483183872 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:18:53.630224: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 414.72M (434865664 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:18:53.631618: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 373.25M (391379200 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:18:53.632965: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 335.92M (352241408 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 14:18:53.634270: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 302.33M (317017344 bytes) from device: CUDA_ERROR_OUT1502/1502 [==============================] - 666s 443ms/step - loss: 2.7737 - acc: 0.5168
+TR: 2 2019-05-13 14:19:13.160387 use: 1579.1181473731995
+1502/1502 [==============================] - 212s 141ms/step
+Train Loss: 2.2188214758899654
+Train Accuracy: 0.6178495338690106
+742/742 [==============================] - 94s 127ms/step
+Test Loss: 2.703492572256276
+Test Accuracy: 0.5173958652950651
+TE: 2 2019-05-13 14:24:20.042292 use: 1886.0000426769257
+Epoch 1/1
+1502/1502 [==============================] - 629s 419ms/step - loss: 2.1948 - acc: 0.6130
+TR: 3 2019-05-13 14:34:49.587371 use: 2515.5450963974
+1502/1502 [==============================] - 193s 128ms/step
+Train Loss: 1.8635491231945003
+Train Accuracy: 0.6815339534800158
+742/742 [==============================] - 91s 123ms/step
+Test Loss: 2.4896556481438195
+Test Accuracy: 0.5545827511676173
+TE: 3 2019-05-13 14:39:33.677428 use: 2799.635135412216
+Epoch 1/1
+1502/1502 [==============================] - 626s 417ms/step - loss: 1.9144 - acc: 0.6642
+TR: 4 2019-05-13 14:49:59.699066 use: 3425.656784057617
+1502/1502 [==============================] - 186s 124ms/step
+Train Loss: 1.6375319654551073
+Train Accuracy: 0.7273275648230084
+742/742 [==============================] - 89s 120ms/step
+Test Loss: 2.379178335496699
+Test Accuracy: 0.5760528020081109
+TE: 4 2019-05-13 14:54:34.727953 use: 3700.685713529587
+Epoch 1/1
+1502/1502 [==============================] - 628s 418ms/step - loss: 1.7342 - acc: 0.6986
+TR: 5 2019-05-13 15:05:02.974941 use: 4328.932652235031
+1502/1502 [==============================] - 183s 122ms/step
+Train Loss: 1.4946990432180514
+Train Accuracy: 0.7520306254830087
+742/742 [==============================] - 90s 121ms/step
+Test Loss: 2.3732569420532754
+Test Accuracy: 0.581347487963038
+TE: 5 2019-05-13 15:09:36.104868 use: 4602.062582492828
+Epoch 1/1
+1502/1502 [==============================] - 625s 416ms/step - loss: 1.5970 - acc: 0.7249
+TR: 6 2019-05-13 15:20:01.556150 use: 5227.513859987259
+  16/1502 [..............................] - ETA: 4:36^CTraceback (most recent call last):
+  File "rlen4.py", line 255, in <module>
+    main()
+  File "rlen4.py", line 241, in main

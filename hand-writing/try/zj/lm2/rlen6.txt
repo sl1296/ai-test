@@ -1,0 +1,89 @@
+
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+start: 2019-05-13 13:53:39.600584
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 13:53:41.737618: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 13:53:41.737688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 13:53:41.737707: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 13:53:41.737721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 13:53:41.738076: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6760 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+2019-05-13 13:53:43.775549: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+1502/1502 [==============================] - 546s 363ms/step - loss: 6.1377 - acc: 0.0790
+TR: 1 2019-05-13 14:02:47.150612 use: 547.5501065254211
+1502/1502 [==============================] - 183s 122ms/step
+Train Loss: 4.436839979910819
+Train Accuracy: 0.270966711934016
+742/742 [==============================] - 82s 110ms/step
+Test Loss: 4.644229317606325
+Test Accuracy: 0.23471135489627126
+TE: 1 2019-05-13 14:07:11.892272 use: 812.2917611598969
+Epoch 1/1
+1502/1502 [==============================] - 603s 401ms/step - loss: 4.6877 - acc: 0.2028
+TR: 2 2019-05-13 14:17:15.083240 use: 1415.4827167987823
+1502/1502 [==============================] - 178s 118ms/step
+Train Loss: 3.5945598506102074
+Train Accuracy: 0.3991810915552665
+742/742 [==============================] - 82s 111ms/step
+Test Loss: 3.8984683247823377
+Test Accuracy: 0.34057812693746053
+TE: 2 2019-05-13 14:21:35.177500 use: 1675.5769963264465
+Epoch 1/1
+1502/1502 [==============================] - 570s 380ms/step - loss: 4.2469 - acc: 0.2640
+TR: 3 2019-05-13 14:31:05.373504 use: 2245.772977590561
+1502/1502 [==============================] - 162s 108ms/step
+Train Loss: 3.2468850538035365
+Train Accuracy: 0.4649187742909801
+742/742 [==============================] - 76s 103ms/step
+Test Loss: 3.604832047439619
+Test Accuracy: 0.3936922279262005
+TE: 3 2019-05-13 14:35:03.427240 use: 2483.8268580436707
+Epoch 1/1
+1502/1502 [==============================] - 572s 381ms/step - loss: 4.0088 - acc: 0.3009
+TR: 4 2019-05-13 14:44:35.842761 use: 3056.242212295532
+1502/1502 [==============================] - 158s 105ms/step
+Train Loss: 3.0005401522119577
+Train Accuracy: 0.5124181069126141
+742/742 [==============================] - 76s 102ms/step
+Test Loss: 3.380090214775551
+Test Accuracy: 0.431299881288555
+TE: 4 2019-05-13 14:48:29.984173 use: 3290.383630990982
+Epoch 1/1
+1502/1502 [==============================] - 575s 383ms/step - loss: 3.8479 - acc: 0.3278
+TR: 5 2019-05-13 14:58:04.602911 use: 3865.002354860306
+1502/1502 [==============================] - 158s 105ms/step
+Train Loss: 2.8359644303467872
+Train Accuracy: 0.5425033301273771
+742/742 [==============================] - 78s 105ms/step
+Test Loss: 3.2525347928105
+Test Accuracy: 0.4535845002123469
+TE: 5 2019-05-13 15:02:00.325539 use: 4100.725027322769
+Epoch 1/1
+1502/1502 [==============================] - 576s 384ms/step - loss: 3.7240 - acc: 0.3480
+TR: 6 2019-05-13 15:11:36.456651 use: 4676.856095790863
+1502/1502 [==============================] - 155s 103ms/step
+Train Loss: 2.7095948698993686
+Train Accuracy: 0.5686724371464053
+742/742 [==============================] - 77s 103ms/step
+Test Loss: 3.1506058328784468
+Test Accuracy: 0.4724490145537579
+TE: 6 2019-05-13 15:15:27.814132 use: 4908.213613510132
+Epoch 1/1
+ 238/1502 [===>..........................] - ETA: 8:20 - loss: 3.5927 - acc: 0.37092019-05-13 15:17:02.301887: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 512.00M (536870912 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 15:17:02.303280: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 460.80M (483183872 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 15:17:02.304638: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 414.72M (434865664 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 15:17:02.306014: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 373.25M (391379200 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 15:17:02.307352: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 335.92M (352241408 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-05-13 15:17:02.308724: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocate 302.33M (317017344 bytes) from device: CUDA_ERROR_OUT 769/1502 [==============>...............] - ETA: 4:34 - loss: 3.6113 - acc: 0.3666^CTraceback (most recent call last):
+  File "rlen6.py", line 258, in <module>
+    main()
+  File "rlen6.py", line 240, in main
+    model.fit_generator
+

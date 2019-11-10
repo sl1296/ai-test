@@ -1,0 +1,388 @@
+
+F:\code\python\hand_writing\code>python b1+.py
+Training...
+start: 2019-05-05 00:33:47.501189
+b1+.py:300: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(feature_encoder.parameters(),0.5)
+b1+.py:301: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(relation_network.parameters(),0.5)
+episode: 0 loss 0.5196865797042847
+2019-05-05 00:33:49.078632 use: 1.5774431228637695
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.034583333333333334 h: 0.0011982314816486857
+2019-05-05 00:35:16.214852 use: 88.71366262435913
+episode: 50 loss 0.032780975103378296
+2019-05-05 00:35:33.341239 use: 105.8400502204895
+episode: 100 loss 0.03022286668419838
+2019-05-05 00:35:50.113342 use: 122.61215281486511
+episode: 150 loss 0.024853773415088654
+2019-05-05 00:36:06.761091 use: 139.25990200042725
+episode: 200 loss 0.020566342398524284
+2019-05-05 00:36:23.455155 use: 155.95396542549133
+episode: 250 loss 0.01955881156027317
+2019-05-05 00:36:40.224112 use: 172.72292351722717
+episode: 300 loss 0.01568327657878399
+2019-05-05 00:36:56.902990 use: 189.4018006324768
+episode: 350 loss 0.014425222761929035
+2019-05-05 00:37:13.376410 use: 205.87522149085999
+episode: 400 loss 0.013779439963400364
+2019-05-05 00:37:29.775255 use: 222.27406644821167
+episode: 450 loss 0.014821629039943218
+2019-05-05 00:37:46.190161 use: 238.68897199630737
+episode: 500 loss 0.012989082373678684
+2019-05-05 00:38:02.620335 use: 255.11914563179016
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.8404444444444444 h: 0.004003566798831647
+2019-05-05 00:39:30.590015 use: 343.0888259410858
+episode: 550 loss 0.01574837416410446
+2019-05-05 00:39:46.690099 use: 359.1889102458954
+episode: 600 loss 0.010544012300670147
+2019-05-05 00:40:03.114142 use: 375.6129524707794
+episode: 650 loss 0.013110252097249031
+2019-05-05 00:40:19.339067 use: 391.83787751197815
+episode: 700 loss 0.012196195311844349
+2019-05-05 00:40:35.407798 use: 407.90660858154297
+episode: 750 loss 0.012390853837132454
+2019-05-05 00:40:51.497963 use: 423.99677419662476
+episode: 800 loss 0.010917680338025093
+2019-05-05 00:41:07.176373 use: 439.67518377304077
+episode: 850 loss 0.011354501359164715
+2019-05-05 00:41:23.197475 use: 455.69628643989563
+episode: 900 loss 0.012033483944833279
+2019-05-05 00:41:39.301573 use: 471.80038380622864
+episode: 950 loss 0.008100654929876328
+2019-05-05 00:41:55.082209 use: 487.58101987838745
+episode: 1000 loss 0.00810294970870018
+2019-05-05 00:42:11.008069 use: 503.5068795681
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9010555555555555 h: 0.0032382399739277266
+2019-05-05 00:43:38.478551 use: 590.9773619174957
+episode: 1050 loss 0.006006956100463867
+2019-05-05 00:43:53.939224 use: 606.4380345344543
+episode: 1100 loss 0.009020701050758362
+2019-05-05 00:44:09.860871 use: 622.3596816062927
+episode: 1150 loss 0.009588831104338169
+2019-05-05 00:44:25.584854 use: 638.0836646556854
+episode: 1200 loss 0.007717483676970005
+2019-05-05 00:44:41.110272 use: 653.6090824604034
+episode: 1250 loss 0.006731649860739708
+2019-05-05 00:44:56.712318 use: 669.2111287117004
+episode: 1300 loss 0.005811084061861038
+2019-05-05 00:45:12.377010 use: 684.8758215904236
+episode: 1350 loss 0.006365204695612192
+2019-05-05 00:45:27.962811 use: 700.4616215229034
+episode: 1400 loss 0.007769186981022358
+2019-05-05 00:45:43.575996 use: 716.0748066902161
+episode: 1450 loss 0.008346913382411003
+2019-05-05 00:45:59.063354 use: 731.5621654987335
+episode: 1500 loss 0.009222809225320816
+2019-05-05 00:46:14.619826 use: 747.1186366081238
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9257500000000001 h: 0.0027929954977228798
+2019-05-05 00:47:42.045157 use: 834.543967962265
+episode: 1550 loss 0.006334962788969278
+2019-05-05 00:47:57.406104 use: 849.9049153327942
+episode: 1600 loss 0.0067645227536559105
+2019-05-05 00:48:13.134754 use: 865.6335651874542
+episode: 1650 loss 0.007321425713598728
+2019-05-05 00:48:28.489454 use: 880.9882645606995
+episode: 1700 loss 0.009205218404531479
+2019-05-05 00:48:43.866486 use: 896.3652970790863
+episode: 1750 loss 0.005296630319207907
+2019-05-05 00:48:59.200452 use: 911.6992633342743
+episode: 1800 loss 0.009308329783380032
+2019-05-05 00:49:14.641546 use: 927.1403574943542
+episode: 1850 loss 0.007456502411514521
+2019-05-05 00:49:29.696073 use: 942.1948838233948
+episode: 1900 loss 0.007614158559590578
+2019-05-05 00:49:44.888579 use: 957.3873903751373
+episode: 1950 loss 0.00527401827275753
+2019-05-05 00:49:59.999072 use: 972.4978830814362
+episode: 2000 loss 0.006666789762675762
+2019-05-05 00:50:15.258174 use: 987.7569854259491
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9355277777777776 h: 0.0025925121809847605
+2019-05-05 00:51:42.811626 use: 1075.310436964035
+episode: 2050 loss 0.005218276288360357
+2019-05-05 00:51:57.859059 use: 1090.3578696250916
+episode: 2100 loss 0.006279753055423498
+2019-05-05 00:52:13.213731 use: 1105.7125418186188
+episode: 2150 loss 0.006012448109686375
+2019-05-05 00:52:28.327059 use: 1120.8258702754974
+episode: 2200 loss 0.006149649620056152
+2019-05-05 00:52:43.530533 use: 1136.0293436050415
+episode: 2250 loss 0.007155636791139841
+2019-05-05 00:52:58.622389 use: 1151.1211996078491
+episode: 2300 loss 0.006169723812490702
+2019-05-05 00:53:13.810918 use: 1166.3097290992737
+episode: 2350 loss 0.007616864517331123
+2019-05-05 00:53:28.701230 use: 1181.2000405788422
+episode: 2400 loss 0.005624713841825724
+2019-05-05 00:53:43.582039 use: 1196.0808501243591
+episode: 2450 loss 0.007130012381821871
+2019-05-05 00:53:58.606053 use: 1211.1048636436462
+episode: 2500 loss 0.005487329792231321
+2019-05-05 00:54:13.702164 use: 1226.2009751796722
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9434722222222223 h: 0.002442335023869663
+2019-05-05 00:55:41.451624 use: 1313.950434923172
+episode: 2550 loss 0.005998440086841583
+2019-05-05 00:55:56.226104 use: 1328.724915266037
+episode: 2600 loss 0.007079167291522026
+2019-05-05 00:56:11.184869 use: 1343.6836805343628
+episode: 2650 loss 0.006194811314344406
+2019-05-05 00:56:26.101190 use: 1358.6000008583069
+episode: 2700 loss 0.0063051702454686165
+2019-05-05 00:56:41.029721 use: 1373.528531551361
+episode: 2750 loss 0.005607109982520342
+2019-05-05 00:56:55.938548 use: 1388.437358379364
+episode: 2800 loss 0.007517491467297077
+2019-05-05 00:57:11.042201 use: 1403.5410118103027
+episode: 2850 loss 0.005059483926743269
+2019-05-05 00:57:25.946523 use: 1418.4453344345093
+episode: 2900 loss 0.006754093337804079
+2019-05-05 00:57:40.773340 use: 1433.2721512317657
+episode: 2950 loss 0.0038294538389891386
+2019-05-05 00:57:55.711421 use: 1448.2102320194244
+episode: 3000 loss 0.0049443235620856285
+2019-05-05 00:58:10.708524 use: 1463.2073352336884
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9473055555555557 h: 0.0024327713428484847
+2019-05-05 00:59:38.286510 use: 1550.7853214740753
+episode: 3050 loss 0.006671743467450142
+2019-05-05 00:59:53.125864 use: 1565.6246752738953
+episode: 3100 loss 0.0035358492750674486
+2019-05-05 01:00:08.303679 use: 1580.802490234375
+episode: 3150 loss 0.006794198881834745
+2019-05-05 01:00:23.069717 use: 1595.5685276985168
+episode: 3200 loss 0.009564997628331184
+2019-05-05 01:00:37.884451 use: 1610.383261680603
+episode: 3250 loss 0.006883066613227129
+2019-05-05 01:00:52.636297 use: 1625.135107755661
+episode: 3300 loss 0.005694722291082144
+2019-05-05 01:01:07.585145 use: 1640.0839562416077
+episode: 3350 loss 0.0041115921922028065
+2019-05-05 01:01:22.426710 use: 1654.9255213737488
+episode: 3400 loss 0.0050699906423687935
+2019-05-05 01:01:37.254174 use: 1669.7529850006104
+episode: 3450 loss 0.00507313059642911
+2019-05-05 01:01:52.048852 use: 1684.547662973404
+episode: 3500 loss 0.0048810564912855625
+2019-05-05 01:02:06.951635 use: 1699.4504458904266
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9510555555555555 h: 0.0024083092266462456
+2019-05-05 01:03:34.984818 use: 1787.4836287498474
+episode: 3550 loss 0.0029250290244817734
+2019-05-05 01:03:49.694248 use: 1802.1930587291718
+episode: 3600 loss 0.007436483632773161
+2019-05-05 01:04:04.759344 use: 1817.2581553459167
+episode: 3650 loss 0.006619690917432308
+2019-05-05 01:04:19.504543 use: 1832.003354549408
+episode: 3700 loss 0.005170048680156469
+2019-05-05 01:04:34.347762 use: 1846.8465735912323
+episode: 3750 loss 0.006290716119110584
+2019-05-05 01:04:49.092703 use: 1861.5915133953094
+episode: 3800 loss 0.004559740424156189
+2019-05-05 01:05:03.931633 use: 1876.4304435253143
+episode: 3850 loss 0.008076311089098454
+2019-05-05 01:05:18.603328 use: 1891.102138519287
+episode: 3900 loss 0.0022054528817534447
+2019-05-05 01:05:33.399476 use: 1905.8982872962952
+episode: 3950 loss 0.00514956982806325
+2019-05-05 01:05:48.079078 use: 1920.5778892040253
+episode: 4000 loss 0.00566345639526844
+2019-05-05 01:06:03.059318 use: 1935.5581290721893
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.955 h: 0.002132865559968807
+2019-05-05 01:07:31.072684 use: 2023.571495294571
+episode: 4050 loss 0.004543587565422058
+2019-05-05 01:07:45.554192 use: 2038.0530033111572
+episode: 4100 loss 0.0032807320822030306
+2019-05-05 01:08:00.539262 use: 2053.0380733013153
+episode: 4150 loss 0.005913884844630957
+2019-05-05 01:08:15.144282 use: 2067.643093109131
+episode: 4200 loss 0.005850333720445633
+2019-05-05 01:08:29.931172 use: 2082.429983139038
+episode: 4250 loss 0.004513843450695276
+2019-05-05 01:08:44.535237 use: 2097.0340480804443
+episode: 4300 loss 0.00741163082420826
+2019-05-05 01:08:59.086669 use: 2111.5854794979095
+episode: 4350 loss 0.002656065160408616
+2019-05-05 01:09:13.695382 use: 2126.194193124771
+episode: 4400 loss 0.005922689102590084
+2019-05-05 01:09:28.477017 use: 2140.9758281707764
+episode: 4450 loss 0.0048840842209756374
+2019-05-05 01:09:43.088184 use: 2155.5869946479797
+episode: 4500 loss 0.005653936415910721
+2019-05-05 01:09:57.806147 use: 2170.3049578666687
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9599722222222222 h: 0.0021189821395460307
+2019-05-05 01:11:25.586120 use: 2258.0849306583405
+episode: 4550 loss 0.004202709067612886
+2019-05-05 01:11:40.166999 use: 2272.6658103466034
+episode: 4600 loss 0.0041449409909546375
+2019-05-05 01:11:55.041777 use: 2287.540587902069
+episode: 4650 loss 0.006393090356141329
+2019-05-05 01:12:09.626959 use: 2302.1257696151733
+episode: 4700 loss 0.00415827427059412
+2019-05-05 01:12:24.440575 use: 2316.939386367798
+episode: 4750 loss 0.004502368625253439
+2019-05-05 01:12:39.147883 use: 2331.646693944931
+episode: 4800 loss 0.008475295267999172
+2019-05-05 01:12:53.817783 use: 2346.3165941238403
+episode: 4850 loss 0.0029533118940889835
+2019-05-05 01:13:08.439454 use: 2360.938265323639
+episode: 4900 loss 0.004343366250395775
+2019-05-05 01:13:23.032290 use: 2375.5311012268066
+episode: 4950 loss 0.004087324719876051
+2019-05-05 01:13:37.650068 use: 2390.14887881279
+episode: 5000 loss 0.006593005266040564
+2019-05-05 01:13:52.298450 use: 2404.7972614765167
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.962388888888889 h: 0.002085141160268565
+2019-05-05 01:15:20.556631 use: 2493.0554423332214
+episode: 5050 loss 0.0037889881059527397
+2019-05-05 01:15:34.975452 use: 2507.474262714386
+episode: 5100 loss 0.0037870178930461407
+2019-05-05 01:15:49.809057 use: 2522.307868003845
+episode: 5150 loss 0.007162490859627724
+2019-05-05 01:16:04.421196 use: 2536.9200065135956
+episode: 5200 loss 0.004410281777381897
+2019-05-05 01:16:19.170688 use: 2551.669498682022
+episode: 5250 loss 0.005696635227650404
+2019-05-05 01:16:33.783957 use: 2566.2827684879303
+episode: 5300 loss 0.004792012274265289
+2019-05-05 01:16:48.453804 use: 2580.9526147842407
+episode: 5350 loss 0.005338691174983978
+2019-05-05 01:17:03.009542 use: 2595.5083527565002
+Traceback (most recent call last):
+  File "b1+.py", line 450, in <module>
+    for num in range(3):
+  File "b1+.py", line 300, in main
+    #feature_encoder.load_state_dict(torch.load('b1-fe-'+str(xx)+'.pkl'))
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\utils\clip_grad.py", line 51, in clip_grad_norm
+    return clip_grad_norm_(parameters, max_norm, norm_type)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\utils\clip_grad.py", line 32, in clip_grad_norm_
+    param_norm = p.grad.data.norm(norm_type)
+  File "C:\Program Files\Python37\lib\site-packages\torch\tensor.py", line 252, in norm
+    return torch.norm(self, p, dim, keepdim)
+  File "C:\Program Files\Python37\lib\site-packages\torch\functional.py", line 715, in norm
+    return torch._C._VariableFunctions.norm(input, p)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python b1+.py
+  File "b1+.py", line 211
+    if len(gs) == 0):
+                   ^
+SyntaxError: invalid syntax
+
+F:\code\python\hand_writing\code>python b1+.py
+Training...
+start: 2019-05-05 01:21:45.282531
+reset GS
+Traceback (most recent call last):
+  File "b1+.py", line 474, in <module>
+    main()
+  File "b1+.py", line 303, in main
+    samples, batches, batch_labels = get_data(data, CLASS_NUM, SAMPLE_NUM, BATCH_NUM, xx)
+  File "b1+.py", line 234, in get_data
+    gs.remove(now)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python b1+.py
+Training...
+start: 2019-05-05 01:23:05.557308
+Traceback (most recent call last):
+  File "b1+.py", line 472, in <module>
+    main()
+  File "b1+.py", line 301, in main
+    samples, batches, batch_labels = get_data(data, CLASS_NUM, SAMPLE_NUM, BATCH_NUM, xx)
+  File "b1+.py", line 211, in get_data
+    if len(gs) == 0:
+UnboundLocalError: local variable 'gs' referenced before assignment
+
+F:\code\python\hand_writing\code>python b1+.py
+Training...
+start: 2019-05-05 01:23:31.125253
+reset GS
+Traceback (most recent call last):
+  File "b1+.py", line 473, in <module>
+    main()
+  File "b1+.py", line 302, in main
+    samples, batches, batch_labels = get_data(data, CLASS_NUM, SAMPLE_NUM, BATCH_NUM, xx)
+  File "b1+.py", line 233, in get_data
+    gs.remove(now)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python b1+.py
+  File "b1+.py", line 221
+    while gsp > -1 and vis.get(gs[gsp]) != None
+                                              ^
+SyntaxError: invalid syntax
+
+F:\code\python\hand_writing\code>python b1+.py
+Training...
+start: 2019-05-05 01:28:29.138427
+b1+.py:326: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(feature_encoder.parameters(),0.5)
+b1+.py:327: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(relation_network.parameters(),0.5)
+reset GS
+reset GS
+reset GS
+reset GS
+reset GS
+reset GS
+reset GS
+Traceback (most recent call last):
+  File "b1+.py", line 476, in <module>
+    main()
+  File "b1+.py", line 305, in main
+    samples, batches, batch_labels = get_data(data, CLASS_NUM, SAMPLE_NUM, BATCH_NUM, xx)
+  File "b1+.py", line 217, in get_data
+    random.shuffle(gs)
+  File "C:\Program Files\Python37\lib\random.py", line 278, in shuffle
+    x[i], x[j] = x[j], x[i]
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python b1+.py
+Training...
+start: 2019-05-05 01:29:05.131185
+b1+.py:327: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(feature_encoder.parameters(),0.5)
+b1+.py:328: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(relation_network.parameters(),0.5)
+reset GS
+episode: 5500 loss 0.005597203504294157
+2019-05-05 01:29:50.730579 use: 45.599393129348755
+Testing...
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=]
+test accuracy: 0.9644444444444443 h: 0.002108499863905372
+2019-05-05 01:31:17.867088 use: 132.7359025478363
+Traceback (most recent call last):
+  File "b1+.py", line 477, in <module>
+    main()
+  File "b1+.py", line 327, in main
+    torch.nn.utils.clip_grad_norm(feature_encoder.parameters(),0.5)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\utils\clip_grad.py", line 51, in clip_grad_norm
+    return clip_grad_norm_(parameters, max_norm, norm_type)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\utils\clip_grad.py", line 32, in clip_grad_norm_
+    param_norm = p.grad.data.norm(norm_type)
+  File "C:\Program Files\Python37\lib\site-packages\torch\tensor.py", line 252, in norm
+    return torch.norm(self, p, dim, keepdim)
+  File "C:\Program Files\Python37\lib\site-packages\torch\functional.py", line 715, in norm
+    return torch._C._VariableFunctions.norm(input, p)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>

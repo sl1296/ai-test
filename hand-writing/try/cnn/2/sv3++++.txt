@@ -1,0 +1,101 @@
+
+F:\code\python\hand_writing>python sv3++++.py
+Using TensorFlow backend.
+2019-04-19 22:27:51.371133: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-04-19 22:27:51.517055: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-04-19 22:27:51.537668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-04-19 22:27:52.197459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-04-19 22:27:52.207554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-04-19 22:27:52.216101: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-04-19 22:27:52.221977: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-19 22:27:52.258145: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-04-19 22:27:52.271362: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-04-19 22:27:52.281825: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-04-19 22:27:52.288328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-04-19 22:27:52.294461: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2019-04-19 22:27:52.605213
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-04-19 22:27:54.221911: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1754/1754 [==============================] - 251s 143ms/step - loss: 5.1326 - acc: 0.3635
+2019-04-19 22:32:04.212942 use: 251.60772895812988
+1754/1754 [==============================] - 128s 73ms/step
+Train Loss: 4.433392148761918
+Train Accuracy: 0.4657936771390656
+438/438 [==============================] - 32s 74ms/step
+Test Loss: 4.706285050896584
+Test Accuracy: 0.4167221004459263
+2019-04-19 22:34:44.149591 use: 411.5443787574768
+Epoch 1/1
+1754/1754 [==============================] - 248s 141ms/step - loss: 4.3353 - acc: 0.4776
+2019-04-19 22:38:52.364689 use: 659.759476184845
+Epoch 1/1
+1754/1754 [==============================] - 247s 141ms/step - loss: 4.1265 - acc: 0.5070
+2019-04-19 22:42:59.206379 use: 906.6011667251587
+Epoch 1/1
+1754/1754 [==============================] - 247s 141ms/step - loss: 4.0104 - acc: 0.5209
+2019-04-19 22:47:06.693599 use: 1154.088386297226
+Epoch 1/1
+1754/1754 [==============================] - 246s 140ms/step - loss: 3.9396 - acc: 0.5279
+2019-04-19 22:51:13.554121 use: 1400.9489078521729
+Epoch 1/1
+1754/1754 [==============================] - 228s 130ms/step - loss: 3.9032 - acc: 0.5310
+2019-04-19 22:55:02.656296 use: 1630.0510833263397
+1754/1754 [==============================] - 125s 71ms/step
+Train Loss: 3.960457050741287
+Train Accuracy: 0.5238850558802708
+438/438 [==============================] - 32s 73ms/step
+Test Loss: 4.771712735350977
+Test Accuracy: 0.4324057663134884
+2019-04-19 22:57:39.626697 use: 1787.0214841365814
+Epoch 1/1
+1754/1754 [==============================] - 247s 141ms/step - loss: 3.8803 - acc: 0.5324
+2019-04-19 23:01:46.610835 use: 2034.005622625351
+Epoch 1/1
+1754/1754 [==============================] - 248s 141ms/step - loss: 3.8654 - acc: 0.5336
+2019-04-19 23:05:54.895205 use: 2282.2899918556213
+Epoch 1/1
+1754/1754 [==============================] - 248s 141ms/step - loss: 3.8535 - acc: 0.5344
+2019-04-19 23:10:03.249543 use: 2530.644330263138
+Epoch 1/1
+1754/1754 [==============================] - 249s 142ms/step - loss: 3.8454 - acc: 0.5350
+2019-04-19 23:14:12.596347 use: 2779.9911341667175
+Epoch 1/1
+1754/1754 [==============================] - 247s 141ms/step - loss: 3.8394 - acc: 0.5356
+2019-04-19 23:18:20.501756 use: 3027.8965435028076
+1754/1754 [==============================] - 129s 73ms/step
+Train Loss: 3.8762353897336927
+Train Accuracy: 0.5323205139894629
+438/438 [==============================] - 36s 82ms/step
+Test Loss: 4.902508458705401
+Test Accuracy: 0.430767307627678
+2019-04-19 23:21:05.328964 use: 3192.7237510681152
+Epoch 1/1
+1754/1754 [==============================] - 248s 141ms/step - loss: 3.8345 - acc: 0.5359
+2019-04-19 23:25:13.351908 use: 3440.7466950416565
+Epoch 1/1
+1754/1754 [==============================] - 247s 141ms/step - loss: 3.8309 - acc: 0.5363
+2019-04-19 23:29:20.811300 use: 3688.206086874008
+Epoch 1/1
+  54/1754 [..............................] - ETA: 4:03 - loss: 3.8525 - acc: 0.5335Traceback (most recent call last):
+  File "sv3++++.py", line 152, in <module>
+    main()
+  File "sv3++++.py", line 132, in main
+    model.fit_generator(generate(1001, 1241, size, step_train, r_len, words, mp, False), steps_per_epoch=step_train, epochs=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 200, in fit_generator
+    batch_logs = {}
+KeyboardInterrupt
+
+F:\code\python\hand_writing>

@@ -1,0 +1,332 @@
+
+F:\code\python\hand_writing\zj\ct>python cx1.py
+Using TensorFlow backend.
+2019-05-13 16:34:52.168592: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-13 16:34:52.317772: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-13 16:34:52.335919: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 16:34:52.825842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 16:34:52.835603: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 16:34:52.843024: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 16:34:52.849802: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-13 16:34:54.920669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 16:34:54.929002: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 16:34:54.937969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 16:34:54.944398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 16:34:54.951588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-05-13 16:34:55.278028
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 16:34:57.474893: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 194s 129ms/step - loss: 2.7818 - acc: 0.5939
+TR: 1 2019-05-13 16:38:10.525058 use: 195.24703001976013
+1502/1502 [==============================] - 160s 106ms/step
+Train Loss: 1.1409656101473162
+Train Accuracy: 0.8295312923851724
+742/742 [==============================] - 80s 108ms/step
+Test Loss: 1.3296613621457525
+Test Accuracy: 0.7797755351966222
+TE: 1 2019-05-13 16:42:10.249027 use: 434.9709982872009
+Epoch 1/1
+1502/1502 [==============================] - 192s 128ms/step - loss: 1.0248 - acc: 0.8305
+TR: 2 2019-05-13 16:45:22.129058 use: 626.8510298728943
+1502/1502 [==============================] - 170s 113ms/step
+Train Loss: 0.7954257798893315
+Train Accuracy: 0.8720186410667734
+742/742 [==============================] - 81s 109ms/step
+Test Loss: 1.0634153022288992
+Test Accuracy: 0.8044337285191036
+TE: 2 2019-05-13 16:49:33.163609 use: 877.885580778122
+Epoch 1/1
+1153/1502 [======================>.......] - ETA: 44s - loss: 0.7960 - acc: 0.8637Traceback (most recent call last):
+  File "cx1.py", line 240, in <module>
+    main()
+  File "cx1.py", line 222, in main
+    model.fit_generator(generate(train_img, size, step_train, r_len, words, False), steps_per_epoch=step_train, epochs=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 181, in fit_generator
+    generator_output = next(output_generator)
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 709, in get
+    six.reraise(*sys.exc_info())
+  File "C:\Program Files\Python37\lib\site-packages\six.py", line 693, in reraise
+    raise value
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 685, in get
+    inputs = self.queue.get(block=True).get()
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 657, in get
+    raise self._value
+  File "C:\Program Files\Python37\lib\multiprocessing\pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Program Files\Python37\lib\site-packages\keras\utils\data_utils.py", line 626, in next_sample
+    return six.next(_SHARED_SEQUENCES[uid])
+  File "cx1.py", line 136, in generate
+    x = np.zeros((sz, 110, 110, 1))
+MemoryError
+
+F:\code\python\hand_writing\zj\ct>python cx1.py
+Using TensorFlow backend.
+2019-05-13 16:52:32.254837: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-13 16:52:32.397175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-05-13 16:52:32.415327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 16:52:32.901650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 16:52:32.911332: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 16:52:32.918614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 16:52:32.926462: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-13 16:52:34.985438: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 16:52:34.993613: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 16:52:35.003991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-05-13 16:52:35.011106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-05-13 16:52:35.019326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-05-13 16:52:35.534111
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-13 16:52:37.496286: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 190s 127ms/step - loss: 0.8082 - acc: 0.8578
+TR: 3 2019-05-13 16:55:46.606126 use: 191.07201433181763
+1502/1502 [==============================] - 162s 108ms/step
+Train Loss: 0.6695100999822947
+Train Accuracy: 0.887777631117723
+742/742 [==============================] - 83s 111ms/step
+Test Loss: 1.0157461782353894
+Test Accuracy: 0.808085795375829
+TE: 3 2019-05-13 16:59:51.594931 use: 436.06081986427307
+Epoch 1/1
+1502/1502 [==============================] - 186s 124ms/step - loss: 0.6918 - acc: 0.8807
+TR: 4 2019-05-13 17:02:57.476130 use: 621.9420185089111
+1502/1502 [==============================] - 162s 108ms/step
+Train Loss: 0.5967147071534562
+Train Accuracy: 0.9033661785122558
+742/742 [==============================] - 82s 111ms/step
+Test Loss: 1.0174133177136366
+Test Accuracy: 0.8085470243100086
+TE: 4 2019-05-13 17:07:01.463701 use: 865.9295899868011
+Epoch 1/1
+1502/1502 [==============================] - 186s 124ms/step - loss: 0.6251 - acc: 0.8946
+TR: 5 2019-05-13 17:10:07.684605 use: 1052.1504933834076
+1502/1502 [==============================] - 169s 112ms/step
+Train Loss: 0.5440840307628109
+Train Accuracy: 0.9141478036516675
+742/742 [==============================] - 81s 109ms/step
+Test Loss: 1.026375693565709
+Test Accuracy: 0.8084741980362727
+TE: 5 2019-05-13 17:14:17.531314 use: 1301.9972023963928
+Epoch 1/1
+1502/1502 [==============================] - 186s 124ms/step - loss: 0.5758 - acc: 0.9047
+TR: 6 2019-05-13 17:17:23.572071 use: 1488.0379600524902
+1502/1502 [==============================] - 162s 108ms/step
+Train Loss: 0.5184571052915088
+Train Accuracy: 0.9178042604666099
+742/742 [==============================] - 83s 112ms/step
+Test Loss: 1.0729229836162726
+Test Accuracy: 0.8027749248700958
+TE: 6 2019-05-13 17:21:28.772036 use: 1733.237924337387
+Epoch 1/1
+1502/1502 [==============================] - 187s 125ms/step - loss: 0.5382 - acc: 0.9131
+TR: 7 2019-05-13 17:24:36.125259 use: 1920.591147184372
+1502/1502 [==============================] - 166s 110ms/step
+Train Loss: 0.4915461645383492
+Train Accuracy: 0.9245153118703717
+742/742 [==============================] - 81s 109ms/step
+Test Loss: 1.0926350213913463
+Test Accuracy: 0.8029178786204911
+TE: 7 2019-05-13 17:28:42.827210 use: 2167.2930982112885
+Epoch 1/1
+1502/1502 [==============================] - 186s 124ms/step - loss: 0.5086 - acc: 0.9197
+TR: 8 2019-05-13 17:31:48.820083 use: 2353.285971403122
+1502/1502 [==============================] - 159s 106ms/step
+Train Loss: 0.4696392773708872
+Train Accuracy: 0.9289840200690233
+742/742 [==============================] - 80s 108ms/step
+Test Loss: 1.130292322694884
+Test Accuracy: 0.8013426874055877
+TE: 8 2019-05-13 17:35:48.357669 use: 2592.82355761528
+Epoch 1/1
+1502/1502 [==============================] - 186s 124ms/step - loss: 0.4877 - acc: 0.9240
+TR: 9 2019-05-13 17:38:55.096779 use: 2779.5626680850983
+1502/1502 [==============================] - 176s 117ms/step
+Train Loss: 0.45921823857587757
+Train Accuracy: 0.9314913437782368
+742/742 [==============================] - 80s 108ms/step
+Test Loss: 1.1540348915112713
+Test Accuracy: 0.7980871167610476
+TE: 9 2019-05-13 17:43:11.180713 use: 3035.6466014385223
+Epoch 1/1
+1502/1502 [==============================] - 184s 122ms/step - loss: 0.4688 - acc: 0.9286
+TR: 10 2019-05-13 17:46:14.844969 use: 3219.310857772827
+1502/1502 [==============================] - 158s 105ms/step
+Train Loss: 0.45331002861142317
+Train Accuracy: 0.9313754977065618
+742/742 [==============================] - 85s 114ms/step
+Test Loss: 1.2156904753985465
+Test Accuracy: 0.7969138171669998
+TE: 10 2019-05-13 17:50:17.291021 use: 3461.756909608841
+Epoch 1/1
+1502/1502 [==============================] - 190s 126ms/step - loss: 0.4553 - acc: 0.9315
+TR: 11 2019-05-13 17:53:26.971088 use: 3651.4369764328003
+ 891/1502 [================>.............] - ETA: 1:06Traceback (most recent call last):
+  File "cx1.py", line 240, in <module>
+    main()
+  File "cx1.py", line 226, in main
+    score = model.evaluate_generator(generate(train_img, size, step_train, r_len, words, False), steps=step_train, verbose=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1472, in evaluate_generator
+    verbose=verbose)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 346, in evaluate_generator
+    outs = model.test_on_batch(x, y, sample_weight=sample_weight)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1256, in test_on_batch
+    outputs = self.test_function(ins)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2715, in __call__
+    return self._call(inputs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2675, in _call
+    fetched = self._callable_fn(*array_vals)
+  File "C:\Program Files\Python37\lib\site-packages\tensorflow\python\client\session.py", line 1439, in __call__
+    run_metadata_ptr)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\zj\ct>
+
+
+2019-05-15 01:11:36.233828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0
+2019-05-15 01:11:36.239698: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] C
+start: 2019-05-15 01:11:36.976230
+2019-05-15 01:11:37.623347: I tensorflow/stream_executor/dso_loader.cc:152] successful
+1502/1502 [==============================] - 170s 113ms/step
+Train Loss: 0.43721511174295935
+Train Accuracy: 0.9363768285663722
+742/742 [==============================] - 83s 112ms/step
+Test Loss: 1.2179265913319435
+Test Accuracy: 0.7960533952886256
+TE: 11 2019-05-15 01:15:50.033255 use: 253.05702424049377
+
+start: 2019-05-15 01:18:41.271951
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-15 01:18:43.305910: I tensorflow/stream_executor/dso_loader.cc:152] successfully opene
+1502/1502 [==============================] - 233s 155ms/step - loss: 0.4608 - acc: 0.9289
+TR: 12 2019-05-15 01:22:35.443605 use: 234.17165327072144
+ 125/1502 [=>............................] - ETA: 2:58Traceback (most recent call last):
+
+start: 2019-05-15 01:24:57.131725
+2019-05-15 01:24:57.776289: I tensorflow/stream_executor/dso_loader.
+1502/1502 [==============================] - 151s 101ms/step
+Train Loss: 0.42946403422027074
+Train Accuracy: 0.9379533931672493
+742/742 [==============================] - 112s 151ms/step
+Test Loss: 1.2299888652624782
+Test Accuracy: 0.7969974320137522
+TE: 12 2019-05-15 01:29:20.978162 use: 263.84643721580505
+
+start: 2019-05-15 01:32:16.976167
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_o
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-15 01:32:18.935831: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened
+1502/1502 [==============================] - 182s 121ms/step - loss: 0.4503 - acc: 0.9317
+TR: 13 2019-05-15 01:35:19.995355 use: 183.01918768882751
+1502/1502 [==============================] - 146s 97ms/step
+Train Loss: 0.421052724212289
+Train Accuracy: 0.9398748316317201
+742/742 [==============================] - 69s 94ms/step
+Test Loss: 1.2619712002503112
+Test Accuracy: 0.7977122011687743
+TE: 13 2019-05-15 01:38:55.595043 use: 398.61887550354004
+Epoch 1/1
+1502/1502 [==============================] - 181s 121ms/step - loss: 0.4248 - acc: 0.9387
+TR: 14 2019-05-15 01:41:56.916694 use: 579.9405269622803
+1502/1502 [==============================] - 139s 92ms/step
+Train Loss: 0.42430598277861525
+Train Accuracy: 0.9388362158154362
+742/742 [==============================] - 71s 96ms/step
+Test Loss: 1.3040105114404392
+Test Accuracy: 0.7938416574592868
+TE: 14 2019-05-15 01:45:26.742207 use: 789.7660396099091
+
+start: 2019-05-15 02:57:01.017787
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-15 02:57:03.010998: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUD
+2019-05-15 02:57:04.797506: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocat
+2019-05-15 02:57:04.930898: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocat
+2019-05-15 02:57:05.064890: E tensorflow/stream_executor/cuda/cuda_driver.cc:806] failed to allocat
+1502/1502 [==============================] - 188s 125ms/step - loss: 0.4345 - acc: 0.9356
+TR: 15 2019-05-15 03:00:09.858557 use: 188.84076929092407
+1502/1502 [==============================] - 157s 105ms/step
+Train Loss: 0.41229648192657453
+Train Accuracy: 0.9419840181000858
+742/742 [==============================] - 76s 102ms/step
+Test Loss: 1.3310626064711553
+Test Accuracy: 0.7953467186686474
+TE: 15 2019-05-15 03:04:02.536248 use: 421.51846075057983
+Epoch 1/1
+1502/1502 [==============================] - 184s 123ms/step - loss: 0.4136 - acc: 0.9416
+TR: 16 2019-05-15 03:07:06.823958 use: 605.8061707019806
+1502/1502 [==============================] - 161s 107ms/step
+Train Loss: 0.4042583245352486
+Train Accuracy: 0.9440639120602259
+742/742 [==============================] - 79s 107ms/step
+Test Loss: 1.3239982042418497
+Test Accuracy: 0.7959455052852416
+TE: 16 2019-05-15 03:11:07.401255 use: 846.3834676742554
+Epoch 1/1
+1502/1502 [==============================] - 188s 125ms/step - loss: 0.4107 - acc: 0.9422
+TR: 17 2019-05-15 03:14:15.841313 use: 1034.8235256671906
+1502/1502 [==============================] - 161s 107ms/step
+Train Loss: 0.40868786322610196
+Train Accuracy: 0.9423248973016574
+742/742 [==============================] - 76s 102ms/step
+Test Loss: 1.38797452984102
+Test Accuracy: 0.7924768520818433
+TE: 17 2019-05-15 03:18:12.052489 use: 1271.034701347351
+Epoch 1/1
+1502/1502 [==============================] - 186s 124ms/step - loss: 0.4087 - acc: 0.9426
+TR: 18 2019-05-15 03:21:18.533393 use: 1457.5156054496765
+1502/1502 [==============================] - 168s 112ms/step
+Train Loss: 0.407340633597339
+Train Accuracy: 0.9425485983352052
+742/742 [==============================] - 80s 108ms/step
+Test Loss: 1.4015441994878894
+Test Accuracy: 0.7921801554736427
+TE: 18 2019-05-15 03:25:26.617027 use: 1705.5992398262024
+Epoch 1/1
+1502/1502 [==============================] - 186s 124ms/step - loss: 0.4051 - acc: 0.9433
+TR: 19 2019-05-15 03:28:32.905497 use: 1891.8877091407776
+1502/1502 [==============================] - 165s 110ms/step
+Train Loss: 0.4079629430539916
+Train Accuracy: 0.9422197047864074
+742/742 [==============================] - 80s 108ms/step
+Test Loss: 1.434738896580278
+Test Accuracy: 0.7903783969401811
+TE: 19 2019-05-15 03:32:38.467026 use: 2137.4492387771606
+Epoch 1/1
+1502/1502 [==============================] - 182s 121ms/step - loss: 0.4012 - acc: 0.9444
+TR: 20 2019-05-15 03:35:40.381725 use: 2319.363937854767
+1502/1502 [==============================] - 163s 108ms/step
+Train Loss: 0.4041125954149884
+Train Accuracy: 0.9433488648201274
+742/742 [==============================] - 81s 109ms/step
+Test Loss: 1.4416573294397814
+Test Accuracy: 0.7894883068438813
+TE: 20 2019-05-15 03:39:43.987938 use: 2562.9701504707336

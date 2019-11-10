@@ -1,0 +1,197 @@
+{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fmodern Courier New;}{\f1\fnil\fcharset134 Tahoma;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang2052\f0\fs18 pciBusID: 0000:04:00.0\cf1\highlight1 
+\par \cf0\highlight0 totalMemory: 10.92GiB freeMemory: 9.97GiB\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:42.493970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:42.495148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:42.495174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:42.495194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:42.495621: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9698 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)\cf1\highlight1 
+\par \cf0\highlight0 WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.\cf1\highlight1 
+\par \cf0\highlight0 Instructions for updating:\cf1\highlight1 
+\par \cf0\highlight0 Colocations handled automatically by placer.\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:46.204837: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:46.204903: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:46.204914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:46.204922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:46.205239: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9698 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)\cf1\highlight1 
+\par \cf0\highlight0 start: 2019-05-14 05:11:46.890694\cf1\highlight1 
+\par \cf0\highlight0 WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.\cf1\highlight1 
+\par \cf0\highlight0 Instructions for updating:\cf1\highlight1 
+\par \cf0\highlight0 Use tf.cast instead.\cf1\highlight1 
+\par \cf0\highlight0 Epoch 1/1\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:11:50.265351: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally\cf1\highlight1 
+\par \cf0\highlight0  802/1502 [===============>..............] - ETA: 3:17 - loss: 1.1498 - acc: 0.7065^CTraceback (most recent call last):\cf1\highlight1 
+\par \cf0\highlight0   File "rlen3.py", line 256, in <module>\cf1\highlight1 
+\par \cf0\highlight0     main()\cf1\highlight1 
+\par \cf0\highlight0   File "rlen3.py", line 237, in main\cf1\highlight1 
+\par \cf0\highlight0     model.fit_generator(generate(train_img, size, step_train, r_len, words, True), steps_per_epoch=step_train, epochs=1)\cf1\highlight1 
+\par \cf0\highlight0   File "/usr/local/lib/python3.5/dist-packages/keras/legacy/interfaces.py", line 91, in wrapper\cf1\highlight1 
+\par \cf0\highlight0     return func(*args, **kwargs)\cf1\highlight1 
+\par \cf0\highlight0   File "/usr/local/lib/python3.5/dist-packages/keras/engine/training.py", line 1418, in fit_generator\cf1\highlight1 
+\par \cf0\highlight0     initial_epoch=initial_epoch)\cf1\highlight1 
+\par \cf0\highlight0   File "/usr/local/lib/python3.5/dist-packages/keras/engine/training_generator.py", line 200, in fit_generator\cf1\highlight1 
+\par \cf0\highlight0     batch_logs = \{\}\cf1\highlight1 
+\par \cf0\highlight0 KeyboardInterrupt\cf1\highlight1 
+\par \cf0\highlight0 terminate called without an active exception\cf1\highlight1 
+\par \cf0\highlight0 Aborted\cf1\highlight1 
+\par \cf0\highlight0 dl-mimt@dladmin-T630:~/xyc$ cls\cf1\highlight1 
+\par \cf0\highlight0 -bash: cls: command not found\cf1\highlight1 
+\par \cf0\highlight0 dl-mimt@dladmin-T630:~/xyc$ clear\cf1\highlight1 
+\par \cf0\highlight0 dl-mimt@dladmin-T630:~/xyc$ python3 rlen3.py\cf1\highlight1 
+\par \cf0\highlight0 Using TensorFlow backend.\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.123715: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.276851: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x4a73a10 executing computations on platform CUDA. Devices:\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.276955: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.299850: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2197530000 Hz\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.301452: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x4ae0320 executing computations on platform Host. Devices:\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.301496: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.301965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:\cf1\highlight1 
+\par \cf0\highlight0 name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582\cf1\highlight1 
+\par \cf0\highlight0 pciBusID: 0000:04:00.0\cf1\highlight1 
+\par \cf0\highlight0 totalMemory: 10.92GiB freeMemory: 8.80GiB\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.301999: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.302995: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.303018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.303028: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:24.303398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8565 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)\cf1\highlight1 
+\par \cf0\highlight0 WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.\cf1\highlight1 
+\par \cf0\highlight0 Instructions for updating:\cf1\highlight1 
+\par \cf0\highlight0 Colocations handled automatically by placer.\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:28.509838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:28.509972: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:28.510001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:28.510017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:28.510607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8565 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)\cf1\highlight1 
+\par \cf0\highlight0 start: 2019-05-14 05:16:29.367765\cf1\highlight1 
+\par \cf0\highlight0 2019-05-14 05:16:30.965692: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 122s 81ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.8066836706252295\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.7885406134766682\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 60s 81ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.5056104018276513\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6364359724379808\cf1\highlight1 
+\par \cf0\highlight0 TE: 3 2019-05-14 05:19:31.410172 use: 182.04244923591614\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 130s 87ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.6276260772533963\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.8312609854852471\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 65s 88ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.4664837846253125\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6500705338353592\cf1\highlight1 
+\par \cf0\highlight0 TE: 4 2019-05-14 05:22:47.524559 use: 378.15683364868164\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 132s 88ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.5204741589516679\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.8552929416556809\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 65s 88ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.4952866688275328\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6523847667560247\cf1\highlight1 
+\par \cf0\highlight0 TE: 5 2019-05-14 05:26:04.944695 use: 575.5769755840302\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 148s 99ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.43005176382598165\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.877298269148038\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 80s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.5569309340498496\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6517428250597609\cf1\highlight1 
+\par \cf0\highlight0 TE: 6 2019-05-14 05:29:53.642197 use: 804.274482011795\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 207s 138ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.35651046209305165\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.8966644489654053\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 80s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.598668261249683\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6525762717559972\cf1\highlight1 
+\par \cf0\highlight0 TE: 7 2019-05-14 05:34:40.727972 use: 1091.3602542877197\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 161s 107ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.308799250951699\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9082250331197376\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 81s 109ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.6902627200550997\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6487138204532605\cf1\highlight1 
+\par \cf0\highlight0 TE: 8 2019-05-14 05:38:43.417479 use: 1334.049797296524\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 161s 107ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.2659454520112189\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9201238341083857\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 79s 107ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.745652288238422\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6490240040383151\cf1\highlight1 
+\par \cf0\highlight0 TE: 9 2019-05-14 05:42:43.818156 use: 1574.450427055359\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 162s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.23421916442014248\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9287616497825846\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 79s 107ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.8323085260104939\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.646499383700803\cf1\highlight1 
+\par \cf0\highlight0 TE: 10 2019-05-14 05:46:45.282666 use: 1815.914969444275\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 162s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.20728779618396423\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9360026611627815\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 80s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.8922370898105256\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6449403788138373\cf1\highlight1 
+\par \cf0\highlight0 TE: 11 2019-05-14 05:50:47.065585 use: 2057.697864294052\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 163s 109ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.18068559620078012\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9443422074959218\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 80s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.9333040615137467\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6461379540219021\cf1\highlight1 
+\par \cf0\highlight0 TE: 12 2019-05-14 05:54:50.521656 use: 2301.153951883316\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 160s 106ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.1620050902253937\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9499840181216737\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 80s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 1.9981092468807085\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6475647955682657\cf1\highlight1 
+\par \cf0\highlight0 TE: 13 2019-05-14 05:58:51.166985 use: 2541.799259185791\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 162s 108ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.1523511716959559\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9524447381417063\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 81s 110ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 2.0400964172097455\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6465803016623342\cf1\highlight1 
+\par \cf0\highlight0 TE: 14 2019-05-14 06:02:55.455270 use: 2786.0875537395477\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 158s 105ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.15084840881622108\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9526231663919161\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 73s 99ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 2.1184803551011058\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6426315381755437\cf1\highlight1 
+\par \cf0\highlight0 TE: 15 2019-05-14 06:06:47.307966 use: 3017.9402551651\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 148s 99ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.14194726411714534\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9553009293844474\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 67s 90ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 2.1602014661871576\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6437050410639354\cf1\highlight1 
+\par \cf0\highlight0 TE: 16 2019-05-14 06:10:22.821394 use: 3233.4536678791046\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 136s 90ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.134766164983557\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9581637802755785\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 66s 89ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 2.202146490936469\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6430118498576621\cf1\highlight1 
+\par \cf0\highlight0 TE: 17 2019-05-14 06:13:45.004118 use: 3435.636402130127\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 135s 90ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.1232803834232684\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.961583221323798\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 67s 90ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 2.22932115565783\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.644611315038548\cf1\highlight1 
+\par \cf0\highlight0 TE: 18 2019-05-14 06:17:07.553640 use: 3638.185920238495\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 129s 86ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.11656361292506978\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.963789613364381\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 62s 83ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 2.25369958680153\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6456956073091026\cf1\highlight1 
+\par \cf0\highlight0 TE: 19 2019-05-14 06:20:18.305349 use: 3828.937617778778\cf1\highlight1 
+\par \cf0\highlight0 1502/1502 [==============================] - 125s 83ms/step\cf1\highlight1 
+\par \cf0\highlight0 Train Loss: 0.12345169470726094\cf1\highlight1 
+\par \cf0\highlight0 Train Accuracy: 0.9613382150822092\cf1\highlight1 
+\par \cf0\highlight0 742/742 [==============================] - 62s 84ms/step\cf1\highlight1 
+\par \cf0\highlight0 Test Loss: 2.321197539323821\cf1\highlight1 
+\par \cf0\highlight0 Test Accuracy: 0.6414231736743815\cf1\highlight1 
+\par \cf0\highlight0 TE: 20 2019-05-14 06:23:25.440792 use: 4016.07305932045\cf1\highlight1 
+\par \cf0\highlight0 dl-mimt@dladmin-T630:~/xyc$\cf1\highlight1 
+\par \pard\cf0\highlight0\f1\fs20 
+\par }
+ 

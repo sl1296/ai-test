@@ -1,0 +1,105 @@
+Microsoft Windows [Version 10.0.17763.437]
+(c) 2018 Microsoft Corporation。保留所有权利。
+
+F:\code\python\hand_writing>python d2.py
+Using TensorFlow backend.
+2019-04-20 15:42:09.129622: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-04-20 15:42:09.291448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties:
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2019-04-20 15:42:09.316564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-04-20 15:42:10.006862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-04-20 15:42:10.020394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-04-20 15:42:10.028598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-04-20 15:42:10.036947: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-20 15:42:12.747021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-04-20 15:42:12.758474: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-04-20 15:42:12.770212: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0
+2019-04-20 15:42:12.777625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N
+2019-04-20 15:42:12.786100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6380 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+start: 2019-04-20 15:42:13.181743
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-04-20 15:42:15.608391: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library cublas64_100.dll locally
+1502/1502 [==============================] - 212s 141ms/step - loss: 3.0733 - acc: 0.5600
+2019-04-20 15:45:46.752629 use: 213.57088565826416
+1502/1502 [==============================] - 132s 88ms/step
+Train Loss: 1.472635440994674
+Train Accuracy: 0.7858055927226452
+742/742 [==============================] - 53s 72ms/step
+Test Loss: 1.6807164599734845
+Test Accuracy: 0.7348205934758643
+2019-04-20 15:48:52.220007 use: 399.0382640361786
+Epoch 1/1
+1502/1502 [==============================] - 189s 126ms/step - loss: 1.3624 - acc: 0.7842
+2019-04-20 15:52:01.168174 use: 587.9864308834076
+Epoch 1/1
+1502/1502 [==============================] - 157s 104ms/step - loss: 1.1405 - acc: 0.8150
+2019-04-20 15:54:37.779614 use: 744.5978710651398
+Epoch 1/1
+1502/1502 [==============================] - 156s 104ms/step - loss: 1.0339 - acc: 0.8341
+2019-04-20 15:57:13.925276 use: 900.7435331344604
+Epoch 1/1
+1502/1502 [==============================] - 153s 102ms/step - loss: 0.9626 - acc: 0.8476
+2019-04-20 15:59:47.180679 use: 1053.9989354610443
+Epoch 1/1
+1502/1502 [==============================] - 157s 104ms/step - loss: 0.9093 - acc: 0.8582
+2019-04-20 16:02:23.747331 use: 1210.5655879974365
+1502/1502 [==============================] - 105s 70ms/step
+Train Loss: 0.8130219628744214
+Train Accuracy: 0.8809027974202376
+742/742 [==============================] - 54s 73ms/step
+Test Loss: 1.4085483998414319
+Test Accuracy: 0.7625806125558643
+2019-04-20 16:05:02.780849 use: 1369.5991055965424
+Epoch 1/1
+1502/1502 [==============================] - 158s 105ms/step - loss: 0.8677 - acc: 0.8663
+2019-04-20 16:07:41.047556 use: 1527.8658130168915
+Epoch 1/1
+1502/1502 [==============================] - 156s 104ms/step - loss: 0.8343 - acc: 0.8733
+2019-04-20 16:10:17.374605 use: 1684.1928622722626
+Epoch 1/1
+1502/1502 [==============================] - 154s 103ms/step - loss: 0.8067 - acc: 0.8789
+2019-04-20 16:12:51.964956 use: 1838.7832129001617
+Epoch 1/1
+1502/1502 [==============================] - 153s 102ms/step - loss: 0.7841 - acc: 0.8835
+2019-04-20 16:15:25.249482 use: 1992.0677387714386
+Epoch 1/1
+1502/1502 [==============================] - 153s 102ms/step - loss: 0.7637 - acc: 0.8874
+2019-04-20 16:17:58.594380 use: 2145.4126365184784
+1502/1502 [==============================] - 107s 71ms/step
+Train Loss: 0.7210390049909625
+Train Accuracy: 0.8979347549011799
+742/742 [==============================] - 54s 72ms/step
+Test Loss: 1.5577366524389427
+Test Accuracy: 0.7525576608419625
+2019-04-20 16:20:39.194439 use: 2306.0126960277557
+Epoch 1/1
+ 172/1502 [==>...........................] - ETA: 2:18 - loss: 0.7136 - acc: 0.9024Traceback (most recent call last):
+  File "d2.py", line 240, in <module>
+    main()
+  File "d2.py", line 222, in main
+    model.fit_generator(generate(train_img, size, step_train, r_len, words, True), steps_per_epoch=step_train, epochs=1)
+  File "C:\Program Files\Python37\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training_generator.py", line 217, in fit_generator
+    class_weight=class_weight)
+  File "C:\Program Files\Python37\lib\site-packages\keras\engine\training.py", line 1217, in train_on_batch
+    outputs = self.train_function(ins)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2715, in __call__
+    return self._call(inputs)
+  File "C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py", line 2675, in _call
+    fetched = self._callable_fn(*array_vals)
+  File "C:\Program Files\Python37\lib\site-packages\tensorflow\python\client\session.py", line 1439, in __call__
+    run_metadata_ptr)
+KeyboardInterrupt
+
+F:\code\python\hand_writing>python d2.py

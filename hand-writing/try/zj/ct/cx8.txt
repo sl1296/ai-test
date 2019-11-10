@@ -1,0 +1,149 @@
+U:0 with 10165 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
+start: 2019-05-14 09:02:23.676228
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/1
+2019-05-14 09:02:26.760635: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+2019-05-14 09:02:27.916180: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.90GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.151422: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.47GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.213930: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.47GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.251233: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 706.05MiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.316728: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 950.51MiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.330667: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 994.78MiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.369071: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.37GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.498237: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.70GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.526039: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.15GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-05-14 09:02:28.596304: W tensorflow/core/common_runtime/bfc_allocator.cc:211] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.00GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+1502/1502 [==============================] - 740s 493ms/step - loss: 1.3507 - acc: 0.7148
+TR: 1 2019-05-14 09:14:44.684300 use: 741.0080978870392
+1502/1502 [==============================] - 252s 168ms/step
+Train Loss: 0.378092597143231
+Train Accuracy: 0.8972889495673732
+742/742 [==============================] - 124s 168ms/step
+Test Loss: 0.6709246848141363
+Test Accuracy: 0.8271310246680224
+TE: 1 2019-05-14 09:21:00.679123 use: 1117.0029230117798
+Epoch 1/1
+1502/1502 [==============================] - 730s 486ms/step - loss: 0.3471 - acc: 0.9061
+TR: 2 2019-05-14 09:33:10.901793 use: 1847.225590467453
+1502/1502 [==============================] - 251s 167ms/step
+Train Loss: 0.18746692658502476
+Train Accuracy: 0.9447762956631961
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.6249288121143814
+Test Accuracy: 0.8465889308572146
+TE: 2 2019-05-14 09:39:26.196049 use: 2222.5198426246643
+Epoch 1/1
+1502/1502 [==============================] - 730s 486ms/step - loss: 0.1638 - acc: 0.9527
+TR: 3 2019-05-14 09:51:36.344635 use: 2952.668429374695
+1502/1502 [==============================] - 252s 168ms/step
+Train Loss: 0.13420873403440065
+Train Accuracy: 0.9589520618617138
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.6962672338435519
+Test Accuracy: 0.843149946815612
+TE: 3 2019-05-14 09:57:52.152341 use: 3328.476133584976
+Epoch 1/1
+1502/1502 [==============================] - 730s 486ms/step - loss: 0.1063 - acc: 0.9679
+TR: 4 2019-05-14 10:10:02.221104 use: 4058.544900417328
+1502/1502 [==============================] - 252s 167ms/step
+Train Loss: 0.10597501194647721
+Train Accuracy: 0.9673009317184733
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.7436324680325058
+Test Accuracy: 0.8451836672811427
+TE: 4 2019-05-14 10:16:17.903820 use: 4434.227619409561
+Epoch 1/1
+1502/1502 [==============================] - 729s 485ms/step - loss: 0.0834 - acc: 0.9745
+TR: 5 2019-05-14 10:28:27.063635 use: 5163.387431144714
+1502/1502 [==============================] - 251s 167ms/step
+Train Loss: 0.07993378533613428
+Train Accuracy: 0.9754886834345232
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.7604312856732606
+Test Accuracy: 0.8505646675131645
+TE: 5 2019-05-14 10:34:42.136534 use: 5538.460336923599
+Epoch 1/1
+1502/1502 [==============================] - 729s 486ms/step - loss: 0.0665 - acc: 0.9797
+TR: 6 2019-05-14 10:46:51.690312 use: 6268.0141088962555
+1502/1502 [==============================] - 252s 167ms/step
+Train Loss: 0.07198222259558072
+Train Accuracy: 0.9779707086229134
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.7929774858188826
+Test Accuracy: 0.8474466539917266
+TE: 6 2019-05-14 10:53:07.358762 use: 6643.68256354332
+Epoch 1/1
+1502/1502 [==============================] - 730s 486ms/step - loss: 0.0560 - acc: 0.9829
+TR: 7 2019-05-14 11:05:17.050013 use: 7373.373809337616
+1502/1502 [==============================] - 252s 167ms/step
+Train Loss: 0.04831607118695379
+Train Accuracy: 0.9853075912963852
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.749435032596064
+Test Accuracy: 0.8572403412150386
+TE: 7 2019-05-14 11:11:32.668451 use: 7748.992242097855
+Epoch 1/1
+1502/1502 [==============================] - 730s 486ms/step - loss: 0.0499 - acc: 0.9850
+TR: 8 2019-05-14 11:23:42.932444 use: 8479.25624036789
+1502/1502 [==============================] - 252s 168ms/step
+Train Loss: 0.04837845423235279
+Train Accuracy: 0.9854793625966846
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.7978776446302897
+Test Accuracy: 0.8566226724367093
+TE: 8 2019-05-14 11:29:58.991714 use: 8855.315514087677
+Epoch 1/1
+1502/1502 [==============================] - 730s 486ms/step - loss: 0.0428 - acc: 0.9873
+TR: 9 2019-05-14 11:42:09.180720 use: 9585.504517316818
+1502/1502 [==============================] - 252s 168ms/step
+Train Loss: 0.04296994392639807
+Train Accuracy: 0.9873102533912532
+742/742 [==============================] - 126s 169ms/step
+Test Loss: 0.8299953253032628
+Test Accuracy: 0.8577986713275011
+TE: 9 2019-05-14 11:48:26.871204 use: 9963.19506263733
+Epoch 1/1
+1502/1502 [==============================] - 731s 487ms/step - loss: 0.0384 - acc: 0.9887
+TR: 10 2019-05-14 12:00:37.995557 use: 10694.319352149963
+1502/1502 [==============================] - 252s 168ms/step
+Train Loss: 0.035697707953489574
+Train Accuracy: 0.9897097207496709
+742/742 [==============================] - 126s 169ms/step
+Test Loss: 0.8169953890395202
+Test Accuracy: 0.8594628700549612
+TE: 10 2019-05-14 12:06:56.143037 use: 11072.466843605042
+Epoch 1/1
+1502/1502 [==============================] - 731s 487ms/step - loss: 0.0347 - acc: 0.9898
+TR: 11 2019-05-14 12:19:07.371404 use: 11803.695208311081
+1502/1502 [==============================] - 253s 169ms/step
+Train Loss: 0.03392978709751614
+Train Accuracy: 0.9902290279633513
+742/742 [==============================] - 125s 169ms/step
+Test Loss: 0.8419605434122395
+Test Accuracy: 0.8603799332686529
+TE: 11 2019-05-14 12:25:25.780396 use: 12182.104199171066
+Epoch 1/1
+1502/1502 [==============================] - 731s 486ms/step - loss: 0.0316 - acc: 0.9908
+TR: 12 2019-05-14 12:37:36.352790 use: 12912.67658662796
+1502/1502 [==============================] - 251s 167ms/step
+Train Loss: 0.03424602822672214
+Train Accuracy: 0.9900732357873422
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.8465690171995537
+Test Accuracy: 0.8581277346910631
+TE: 12 2019-05-14 12:43:51.737528 use: 13288.061322450638
+Epoch 1/1
+1502/1502 [==============================] - 729s 485ms/step - loss: 0.0298 - acc: 0.9916
+TR: 13 2019-05-14 12:56:00.828104 use: 14017.151900291443
+1502/1502 [==============================] - 251s 167ms/step
+Train Loss: 0.028147648078403108
+Train Accuracy: 0.9919560596882583
+742/742 [==============================] - 124s 167ms/step
+Test Loss: 0.8644470588382847
+Test Accuracy: 0.8612673252815262
+TE: 13 2019-05-14 13:02:16.294437 use: 14392.61823606491
+Epoch 1/1
+1426/1502 [===========================>..] - ETA: 36s - loss: 0.0269 - acc: 0.9924^CTraceback (most recent call last):
+  File "cx8.py", line 240, in <module>

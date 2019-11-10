@@ -1,0 +1,287 @@
+Microsoft Windows [Version 10.0.17763.437]
+(c) 2018 Microsoft Corporation。保留所有权利。
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:05:32.276315
+Train data:
+2/1502[>.............................] - ETA:70:39 - loss:0.008550                              Traceback (most recent call last):
+  File "a1.py", line 381, in <module>
+    main()
+  File "a1.py", line 323, in main
+    r = model(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "a1.py", line 233, in forward
+    x = self.conv2(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\container.py", line 92, in forward
+    input = module(input)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\conv.py", line 320, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 131.88 MiB (GPU 0; 8.00 GiB total capacity; 6.19 GiB already allocated; 59.41 MiB free; 16.78 MiB cached)
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:07:34.249908
+Train data:
+2/1502[>.............................] - ETA:34:46 - loss:0.008495                              Traceback (most recent call last):
+  File "a1.py", line 374, in <module>
+    main()
+  File "a1.py", line 317, in main
+    r = model(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "a1.py", line 232, in forward
+    x = self.conv2(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\container.py", line 92, in forward
+    input = module(input)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\conv.py", line 320, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 131.88 MiB (GPU 0; 8.00 GiB total capacity; 6.19 GiB already allocated; 59.41 MiB free; 16.78 MiB cached)
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:08:07.625159
+Train data:
+2/1502[>.............................] - ETA:32:28 - loss:0.008445                              Traceback (most recent call last):
+  File "a1.py", line 374, in <module>
+    main()
+  File "a1.py", line 317, in main
+    r = model(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "a1.py", line 232, in forward
+    x = self.conv2(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\container.py", line 92, in forward
+    input = module(input)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\conv.py", line 320, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 131.88 MiB (GPU 0; 8.00 GiB total capacity; 6.19 GiB already allocated; 59.41 MiB free; 16.78 MiB cached)
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:09:02.594075
+Train data:
+Traceback (most recent call last):
+  File "a1.py", line 374, in <module>
+    main()
+  File "a1.py", line 333, in main
+    closs += ls
+UnboundLocalError: local variable 'ls' referenced before assignment
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:09:21.146193
+Train data:
+76/1502[==>...........................] - ETA:12:57 - loss:0.000000                              Traceback (most recent call last):
+  File "a1.py", line 375, in <module>
+    main()
+  File "a1.py", line 313, in main
+    for tx, y in generate(train_img, size, step_train, r_len, words, False):
+  File "a1.py", line 140, in generate
+    ia = np.fromfile(f, np.uint8, data[c][2] * data[c][3])
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python a1.py
+Traceback (most recent call last):
+  File "a1.py", line 374, in <module>
+    main()
+  File "a1.py", line 266, in main
+    model.load_state_dict(torch.load('a1-0.pkl'))
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 769, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Encode:
+        Unexpected key(s) in state_dict: "cba.2.weight", "cba.2.bias", "cba.2.running_mean", "cba.2.running_var", "cba.2.num_batches_tracked".
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:12:59.723614
+Epoch 0
+15/1502[>.............................] - ETA:18:18 - loss:0.210110                              Traceback (most recent call last):
+  File "a1.py", line 372, in <module>
+    main()
+  File "a1.py", line 282, in main
+    for tx, ty in generate(train_img, size, step_train, r_len, words, False):
+  File "a1.py", line 140, in generate
+    ia = np.fromfile(f, np.uint8, data[c][2] * data[c][3])
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:13:20.348359
+Epoch 0
+9/1502[>.............................] - ETA:20:36 - loss:0.221379                              Traceback (most recent call last):
+  File "a1.py", line 372, in <module>
+    main()
+  File "a1.py", line 282, in main
+    for tx, ty in generate(train_img, size, step_train, r_len, words, False):
+  File "a1.py", line 140, in generate
+    ia = np.fromfile(f, np.uint8, data[c][2] * data[c][3])
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:14:30.744254
+Train data:
+2/1502[>.............................] - ETA:36:33 - loss:0.008553                              Traceback (most recent call last):
+  File "a1.py", line 374, in <module>
+    main()
+  File "a1.py", line 317, in main
+    r = model(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "a1.py", line 232, in forward
+    x = self.conv2(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\container.py", line 92, in forward
+    input = module(input)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\conv.py", line 320, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 131.88 MiB (GPU 0; 8.00 GiB total capacity; 6.19 GiB already allocated; 59.41 MiB free; 16.78 MiB cached)
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:14:50.911576
+Train data:
+2/1502[>.............................] - ETA:33:48 - loss:0.008460                              Traceback (most recent call last):
+  File "a1.py", line 375, in <module>
+    main()
+  File "a1.py", line 317, in main
+    r = model(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "a1.py", line 232, in forward
+    x = self.conv2(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\container.py", line 92, in forward
+    input = module(input)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\conv.py", line 320, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 131.88 MiB (GPU 0; 8.00 GiB total capacity; 6.19 GiB already allocated; 59.41 MiB free; 16.78 MiB cached)
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:18:40.968190
+Train data:
+40/1502[=>............................] - ETA:13:16 - loss:0.008540                              Traceback (most recent call last):
+  File "a1.py", line 373, in <module>
+    main()
+  File "a1.py", line 313, in main
+    for tx, y in generate(train_img, size, step_train, r_len, words, False):
+  File "a1.py", line 140, in generate
+    ia = np.fromfile(f, np.uint8, data[c][2] * data[c][3])
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:19:43.272746
+Train data:
+Traceback (most recent call last):
+  File "a1.py", line 373, in <module>
+    main()
+  File "a1.py", line 317, in main
+    r = model(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "a1.py", line 230, in forward
+    x = self.conv1(x)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\container.py", line 92, in forward
+    input = module(input)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\conv.py", line 320, in forward
+    self.padding, self.dilation, self.groups)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:20:28.116711
+Train data:
+9/1502[>.............................] - ETA:46:46 - loss:0.008505                              Traceback (most recent call last):
+  File "a1.py", line 369, in <module>
+    main()
+  File "a1.py", line 313, in main
+    for tx, y in generate(train_img, size, step_train, r_len, words, False):
+  File "a1.py", line 140, in generate
+    ia = np.fromfile(f, np.uint8, data[c][2] * data[c][3])
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>python a1.py
+Traceback (most recent call last):
+  File "a1.py", line 369, in <module>
+    main()
+  File "a1.py", line 267, in main
+    model.load_state_dict(torch.load('a1-0.pkl'))
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 769, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Encode:
+        size mismatch for abc.0.weight: copying a param with shape torch.Size([50, 2160]) from checkpoint, the shape in current model is torch.Size([20, 2160]).
+        size mismatch for abc.0.bias: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.weight: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.bias: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.running_mean: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.running_var: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for cba.0.weight: copying a param with shape torch.Size([2160, 50]) from checkpoint, the shape in current model is torch.Size([2160, 20]).
+
+F:\code\python\hand_writing\code>python a1.py
+Traceback (most recent call last):
+  File "a1.py", line 369, in <module>
+    main()
+  File "a1.py", line 267, in main
+    model.load_state_dict(torch.load('a1-0.pkl'))
+  File "C:\Program Files\Python37\lib\site-packages\torch\nn\modules\module.py", line 769, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Encode:
+        size mismatch for abc.0.weight: copying a param with shape torch.Size([50, 2160]) from checkpoint, the shape in current model is torch.Size([20, 2160]).
+        size mismatch for abc.0.bias: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.weight: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.bias: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.running_mean: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for abc.2.running_var: copying a param with shape torch.Size([50]) from checkpoint, the shape in current model is torch.Size([20]).
+        size mismatch for cba.0.weight: copying a param with shape torch.Size([2160, 50]) from checkpoint, the shape in current model is torch.Size([2160, 20]).
+
+F:\code\python\hand_writing\code>python a1.py
+start: 2019-04-25 22:22:31.802729
+Epoch 0
+1502/1502[==============================] - 713s 475ms/step - loss:0.025204
+2019-04-25 22:34:25.222114 use: 713.4193847179413
+Train data:
+1502/1502[==============================] + 249s 166ms/step + loss:0.008246
+Test data:
+742/1502[==============================] + 290s 390ms/step + loss:0.008263
+2019-04-25 22:43:24.832802 use: 1253.0300726890564
+Epoch 1
+1502/1502[==============================] - 466s 310ms/step - loss:0.007870
+2019-04-25 22:51:10.583478 use: 1718.780748128891
+Train data:
+1502/1502[==============================] + 250s 166ms/step + loss:0.006657
+Test data:
+742/1502[==============================] + 134s 180ms/step + loss:0.006691
+2019-04-25 22:57:35.549973 use: 2103.747243642807
+Epoch 2
+1502/1502[==============================] - 470s 313ms/step - loss:0.005547
+2019-04-25 23:05:25.917125 use: 2574.1143951416016
+Train data:
+1502/1502[==============================] + 255s 170ms/step + loss:0.005032
+Test data:
+742/1502[==============================] + 130s 175ms/step + loss:0.005083
+2019-04-25 23:11:51.176218 use: 2959.3734879493713
+Epoch 3
+77/1502[==>...........................] - ETA:7:03 - loss:0.004991                              Traceback (most recent call last):
+  File "a1.py", line 369, in <module>
+    print('\r%d/%d[' % (step, step_train)+'='*pos+'>'*min(1,30-pos)+'.'*(29-pos) + '] + %ds %dms/step + loss:%f'%(round(now-pre), round((now-pre)*1000/step), closs/step) +' '*30)
+  File "a1.py", line 296, in main
+    lsy = lossy(ry, y)
+  File "C:\Program Files\Python37\lib\site-packages\torch\optim\adam.py", line 93, in step
+    exp_avg.mul_(beta1).add_(1 - beta1, grad)
+KeyboardInterrupt
+
+F:\code\python\hand_writing\code>
