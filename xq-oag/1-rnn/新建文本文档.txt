@@ -1,0 +1,245 @@
+
+G:\0\code\git\OAG>python train.py
+Using TensorFlow backend.
+2020-01-17 17:39:43,952 loading training pairs...
+2020-01-17 17:39:43,993 training pairs loaded
+2020-01-17 17:39:43,993 all pairs count 1202
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-01-17 17:39:44,007 From C:\Program Files\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-01-17 17:39:44,047 From C:\Program Files\Python37\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+input_1 (InputLayer)            (None, 8)            0
+__________________________________________________________________________________________________
+input_2 (InputLayer)            (None, 8)            0
+__________________________________________________________________________________________________
+input_3 (InputLayer)            (None, 17)           0
+__________________________________________________________________________________________________
+input_4 (InputLayer)            (None, 17)           0
+__________________________________________________________________________________________________
+embedding_1 (Embedding)         (None, 8, 128)       128512      input_1[0][0]
+                                                                 input_2[0][0]
+__________________________________________________________________________________________________
+embedding_2 (Embedding)         (None, 17, 128)      128512      input_3[0][0]
+                                                                 input_4[0][0]
+__________________________________________________________________________________________________
+lstm_1 (LSTM)                   (None, 8, 32)        20608       embedding_1[0][0]
+                                                                 embedding_1[1][0]
+__________________________________________________________________________________________________
+lstm_3 (LSTM)                   (None, 17, 32)       20608       embedding_2[0][0]
+                                                                 embedding_2[1][0]
+__________________________________________________________________________________________________
+lstm_2 (LSTM)                   (None, 32)           8320        lstm_1[0][0]
+                                                                 lstm_1[1][0]
+__________________________________________________________________________________________________
+lstm_4 (LSTM)                   (None, 32)           8320        lstm_3[0][0]
+                                                                 lstm_3[1][0]
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None, 32)           0           lstm_4[0][0]
+                                                                 lstm_4[1][0]
+                                                                 lstm_2[0][0]
+                                                                 lstm_2[1][0]
+__________________________________________________________________________________________________
+input_5 (InputLayer)            (None, 32)           0
+__________________________________________________________________________________________________
+input_6 (InputLayer)            (None, 16)           0
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 240)          0           lstm_2[0][0]
+                                                                 lstm_2[1][0]
+                                                                 lstm_4[0][0]
+                                                                 lstm_4[1][0]
+                                                                 lambda_1[0][0]
+                                                                 lambda_1[1][0]
+                                                                 input_5[0][0]
+                                                                 input_6[0][0]
+__________________________________________________________________________________________________
+batch_normalization_1 (BatchNor (None, 240)          960         concatenate_1[0][0]
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 64)           15424       batch_normalization_1[0][0]
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 16)           1040        dense_1[0][0]
+__________________________________________________________________________________________________
+dense_3 (Dense)                 (None, 1)            17          dense_2[0][0]
+==================================================================================================
+Total params: 332,321
+Trainable params: 331,841
+Non-trainable params: 480
+__________________________________________________________________________________________________
+2020-01-17 17:39:45,522 training...
+WARNING:tensorflow:From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-01-17 17:39:45,670 From C:\Program Files\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Train on 841 samples, validate on 361 samples
+Epoch 1/30
+2020-01-17 17:39:49.903554: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2020-01-17 17:39:49.939756: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-01-17 17:39:49.951284: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:161] retrieving CUDA diagnostic information for host: DESKTOP-BL7P3CI
+2020-01-17 17:39:49.956704: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:168] hostname: DESKTOP-BL7P3CI
+841/841 [==============================] - 6s 8ms/step - loss: 0.4955 - acc: 0.7729 - val_loss: 0.3614 - val_acc: 0.8532
+C:\Program Files\Python37\lib\site-packages\sklearn\metrics\classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2020-01-17 17:39:57,169 test_set:
+best_thr:0.250000        precision:0.827815     recall:0.844595 f1score:0.836120
+
+Epoch 2/30
+841/841 [==============================] - 1s 747us/step - loss: 0.3079 - acc: 0.8763 - val_loss: 0.2982 - val_acc: 0.8698
+2020-01-17 17:39:59,617 test_set:
+best_thr:0.710000        precision:0.900709     recall:0.858108 f1score:0.878893
+
+Epoch 3/30
+841/841 [==============================] - 1s 752us/step - loss: 0.2018 - acc: 0.9227 - val_loss: 0.4325 - val_acc: 0.8283
+2020-01-17 17:40:00,589 test_set:
+best_thr:0.750000        precision:0.842466     recall:0.831081 f1score:0.836735
+
+Epoch 4/30
+841/841 [==============================] - 1s 741us/step - loss: 0.1449 - acc: 0.9548 - val_loss: 0.2668 - val_acc: 0.9030
+2020-01-17 17:40:01,349 test_set:
+best_thr:0.570000        precision:0.898649     recall:0.898649 f1score:0.898649
+
+Epoch 5/30
+841/841 [==============================] - 1s 721us/step - loss: 0.0952 - acc: 0.9643 - val_loss: 0.2849 - val_acc: 0.9114
+2020-01-17 17:40:02,187 test_set:
+best_thr:0.470000        precision:0.904110     recall:0.891892 f1score:0.897959
+
+Epoch 6/30
+841/841 [==============================] - 1s 734us/step - loss: 0.0784 - acc: 0.9703 - val_loss: 0.4372 - val_acc: 0.8726
+2020-01-17 17:40:02,939 test_set:
+best_thr:0.560000        precision:0.822086     recall:0.905405 f1score:0.861736
+
+Epoch 7/30
+841/841 [==============================] - 1s 809us/step - loss: 0.0778 - acc: 0.9762 - val_loss: 0.2805 - val_acc: 0.9030
+2020-01-17 17:40:03,771 test_set:
+best_thr:0.770000        precision:0.933333     recall:0.851351 f1score:0.890459
+
+Epoch 8/30
+841/841 [==============================] - 1s 780us/step - loss: 0.0630 - acc: 0.9774 - val_loss: 0.3237 - val_acc: 0.9058
+2020-01-17 17:40:04,566 test_set:
+best_thr:0.250000        precision:0.860759     recall:0.918919 f1score:0.888889
+
+Epoch 9/30
+841/841 [==============================] - 1s 736us/step - loss: 0.0503 - acc: 0.9774 - val_loss: 0.3685 - val_acc: 0.9030
+2020-01-17 17:40:05,316 test_set:
+best_thr:0.290000        precision:0.879195     recall:0.885135 f1score:0.882155
+
+Epoch 10/30
+841/841 [==============================] - 1s 725us/step - loss: 0.0515 - acc: 0.9774 - val_loss: 0.4047 - val_acc: 0.8864
+2020-01-17 17:40:06,057 test_set:
+best_thr:0.670000        precision:0.925373     recall:0.837838 f1score:0.879433
+
+Epoch 11/30
+841/841 [==============================] - 1s 719us/step - loss: 0.0468 - acc: 0.9845 - val_loss: 0.4459 - val_acc: 0.8892
+2020-01-17 17:40:06,795 test_set:
+best_thr:0.140000        precision:0.908451     recall:0.871622 f1score:0.889655
+
+Epoch 12/30
+841/841 [==============================] - 1s 713us/step - loss: 0.0744 - acc: 0.9786 - val_loss: 0.3644 - val_acc: 0.8892
+2020-01-17 17:40:07,525 test_set:
+best_thr:0.050000        precision:0.859873     recall:0.912162 f1score:0.885246
+
+Epoch 13/30
+841/841 [==============================] - 1s 727us/step - loss: 0.0503 - acc: 0.9774 - val_loss: 0.3670 - val_acc: 0.9058
+2020-01-17 17:40:08,269 test_set:
+best_thr:0.270000        precision:0.887417     recall:0.905405 f1score:0.896321
+
+Epoch 14/30
+841/841 [==============================] - 1s 703us/step - loss: 0.0467 - acc: 0.9834 - val_loss: 0.4148 - val_acc: 0.8920
+2020-01-17 17:40:08,988 test_set:
+best_thr:0.130000        precision:0.841463     recall:0.932432 f1score:0.884615
+
+Epoch 15/30
+841/841 [==============================] - 1s 712us/step - loss: 0.0369 - acc: 0.9845 - val_loss: 0.4549 - val_acc: 0.8947
+2020-01-17 17:40:09,717 test_set:
+best_thr:0.870000        precision:0.901408     recall:0.864865 f1score:0.882759
+
+Epoch 16/30
+841/841 [==============================] - 1s 709us/step - loss: 0.0269 - acc: 0.9917 - val_loss: 0.4089 - val_acc: 0.9086
+2020-01-17 17:40:10,444 test_set:
+best_thr:0.580000        precision:0.893333     recall:0.905405 f1score:0.899329
+
+Epoch 17/30
+841/841 [==============================] - 1s 716us/step - loss: 0.0282 - acc: 0.9881 - val_loss: 0.3830 - val_acc: 0.9086
+2020-01-17 17:40:11,174 test_set:
+best_thr:0.770000        precision:0.927007     recall:0.858108 f1score:0.891228
+
+Epoch 18/30
+841/841 [==============================] - 1s 714us/step - loss: 0.0388 - acc: 0.9869 - val_loss: 0.3985 - val_acc: 0.9224
+2020-01-17 17:40:11,910 test_set:
+best_thr:0.240000        precision:0.930070     recall:0.898649 f1score:0.914089
+
+Epoch 19/30
+841/841 [==============================] - 1s 707us/step - loss: 0.0216 - acc: 0.9941 - val_loss: 0.3570 - val_acc: 0.9114
+2020-01-17 17:40:12,635 test_set:
+best_thr:0.040000        precision:0.844311     recall:0.952703 f1score:0.895238
+
+Epoch 20/30
+841/841 [==============================] - 1s 731us/step - loss: 0.0257 - acc: 0.9905 - val_loss: 0.3887 - val_acc: 0.9030
+2020-01-17 17:40:13,385 test_set:
+best_thr:0.070000        precision:0.852761     recall:0.939189 f1score:0.893891
+
+Epoch 21/30
+841/841 [==============================] - 1s 735us/step - loss: 0.0270 - acc: 0.9905 - val_loss: 0.4383 - val_acc: 0.9003
+2020-01-17 17:40:14,133 test_set:
+best_thr:0.850000        precision:0.909091     recall:0.878378 f1score:0.893471
+
+Epoch 22/30
+841/841 [==============================] - 1s 721us/step - loss: 0.0185 - acc: 0.9929 - val_loss: 0.4388 - val_acc: 0.9058
+2020-01-17 17:40:14,872 test_set:
+best_thr:0.630000        precision:0.875817     recall:0.905405 f1score:0.890365
+
+Epoch 23/30
+841/841 [==============================] - 1s 707us/step - loss: 0.0368 - acc: 0.9881 - val_loss: 0.3749 - val_acc: 0.9141
+2020-01-17 17:40:15,597 test_set:
+best_thr:0.310000        precision:0.869565     recall:0.945946 f1score:0.906149
+
+Epoch 24/30
+841/841 [==============================] - 1s 743us/step - loss: 0.0221 - acc: 0.9917 - val_loss: 0.4714 - val_acc: 0.9030
+2020-01-17 17:40:16,364 test_set:
+best_thr:0.070000        precision:0.861635     recall:0.925676 f1score:0.892508
+
+Epoch 25/30
+841/841 [==============================] - 1s 711us/step - loss: 0.0235 - acc: 0.9952 - val_loss: 0.5039 - val_acc: 0.9003
+2020-01-17 17:40:17,088 test_set:
+best_thr:0.100000        precision:0.881579     recall:0.905405 f1score:0.893333
+
+Epoch 26/30
+841/841 [==============================] - 1s 704us/step - loss: 0.0170 - acc: 0.9952 - val_loss: 0.4710 - val_acc: 0.9030
+2020-01-17 17:40:17,815 test_set:
+best_thr:0.310000        precision:0.871795     recall:0.918919 f1score:0.894737
+
+Epoch 27/30
+841/841 [==============================] - 1s 716us/step - loss: 0.0111 - acc: 0.9941 - val_loss: 0.4834 - val_acc: 0.8947
+2020-01-17 17:40:18,547 test_set:
+best_thr:0.230000        precision:0.860759     recall:0.918919 f1score:0.888889
+
+Epoch 28/30
+841/841 [==============================] - 1s 728us/step - loss: 0.0343 - acc: 0.9869 - val_loss: 0.4449 - val_acc: 0.9086
+2020-01-17 17:40:19,291 test_set:
+best_thr:0.570000        precision:0.883117     recall:0.918919 f1score:0.900662
+
+Epoch 29/30
+841/841 [==============================] - 1s 722us/step - loss: 0.0260 - acc: 0.9952 - val_loss: 0.4036 - val_acc: 0.8864
+2020-01-17 17:40:20,031 test_set:
+best_thr:0.120000        precision:0.844720     recall:0.918919 f1score:0.880259
+
+Epoch 30/30
+841/841 [==============================] - 1s 709us/step - loss: 0.0409 - acc: 0.9822 - val_loss: 0.5124 - val_acc: 0.8753
+2020-01-17 17:40:20,759 test_set:
+best_thr:0.010000        precision:0.831325     recall:0.932432 f1score:0.878981
+
+2020-01-17 17:40:20,760 <keras.callbacks.History object at 0x00000223A6EAC518>
+2020-01-17 17:40:20,761 total time elapsed: 35.2390s
+
+G:\0\code\git\OAG>

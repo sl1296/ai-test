@@ -1,0 +1,30 @@
+
+G:\0\code\git\OAG>python hash.py
+2020-01-17 17:51:29,807 loading doc2vec model name doc2vec-100.mod
+2020-01-17 17:51:29,807 loading Doc2Vec object from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod
+2020-01-17 17:51:31,222 loading vocabulary recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.vocabulary.* with mmap=None
+2020-01-17 17:51:31,222 loading trainables recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.trainables.* with mmap=None
+2020-01-17 17:51:31,222 loading syn1 from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.trainables.syn1.npy with mmap=None
+2020-01-17 17:51:31,265 loading wv recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.wv.* with mmap=None
+2020-01-17 17:51:31,266 loading vectors from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.wv.vectors.npy with mmap=None
+2020-01-17 17:51:31,302 loading docvecs recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.docvecs.* with mmap=None
+2020-01-17 17:51:31,302 loading vectors_docs from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.docvecs.vectors_docs.npy with mmap=None
+2020-01-17 17:51:31,427 loaded G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod
+2020-01-17 17:51:31,428 doc2vec model doc2vec-100.mod loaded
+2020-01-17 17:51:31,428 loading src-titles-doc2vec-test.pkl ...
+2020-01-17 17:51:31,437 src-titles-doc2vec-test.pkl loaded
+2020-01-17 17:51:31,438 loading dst-titles-doc2vec.pkl ...
+2020-01-17 17:51:31,471 dst-titles-doc2vec.pkl loaded
+2020-01-17 17:51:32,646 dumping hash_to_dst_paper_id.json ...
+2020-01-17 17:51:32,800 hash_to_dst_paper_id.json dumped.
+2020-01-17 17:51:32,818 loading src-titles-doc2vec-test.pkl ...
+2020-01-17 17:51:32,824 src-titles-doc2vec-test.pkl loaded
+2020-01-17 17:51:32,825 loading dst-titles-doc2vec.pkl ...
+2020-01-17 17:51:32,855 dst-titles-doc2vec.pkl loaded
+2020-01-17 17:51:32,980 loading hash_to_dst_paper_id.json ...
+2020-01-17 17:51:33,096 hash_to_dst_paper_id.json loaded
+2020-01-17 17:51:33,252 eval results: Prec. 0.9974, Rec. 0.4135, F1. 0.5846
+2020-01-17 17:51:33,252 test time 0.43s, predict time 0.15s
+2020-01-17 17:51:33,260 done
+
+G:\0\code\git\OAG>

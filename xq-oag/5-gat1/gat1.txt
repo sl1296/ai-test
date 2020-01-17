@@ -1,0 +1,63 @@
+
+G:\0\code\git\OAG>python preprocessing.py
+2020-01-17 18:09:06,031 loading pos_person_pairs.json ...
+2020-01-17 18:09:06,037 pos_person_pairs.json loaded
+2020-01-17 18:09:06,037 loading neg_person_pairs.json ...
+2020-01-17 18:09:06,047 neg_person_pairs.json loaded
+2020-01-17 18:09:06,047 loading aminer_aid_to_vids.json ...
+2020-01-17 18:09:06,671 aminer_aid_to_vids.json loaded
+2020-01-17 18:09:06,671 loading mag_aid_to_vids.json ...
+2020-01-17 18:09:08,195 mag_aid_to_vids.json loaded
+2020-01-17 18:09:08,196 loading aminer_aid_to_sorted_pubs.json ...
+2020-01-17 18:09:09,070 aminer_aid_to_sorted_pubs.json loaded
+2020-01-17 18:09:09,070 loading mag_aid_to_sorted_pubs.json ...
+2020-01-17 18:09:10,530 mag_aid_to_sorted_pubs.json loaded
+2020-01-17 18:09:10,530 loading aminer_coauthor_dict.json ...
+2020-01-17 18:09:10,562 aminer_coauthor_dict.json loaded
+2020-01-17 18:09:10,562 loading mag_coauthor_dict.json ...
+2020-01-17 18:09:10,591 mag_coauthor_dict.json loaded
+2020-01-17 18:09:10,628 loading ego_person_dict.json ...
+2020-01-17 18:09:11,640 ego_person_dict.json loaded
+2020-01-17 18:09:11,642 ***********iter 0 nnz 540
+2020-01-17 18:09:11,642 n_nodes real 210, n_authors 22, n_venues 56, n_papers 132.
+2020-01-17 18:09:12,230 ***********iter 1000 nnz 179
+2020-01-17 18:09:12,230 n_nodes real 104, n_authors 20, n_venues 29, n_papers 55.
+2020-01-17 18:09:12,831 ***********iter 2000 nnz 328
+2020-01-17 18:09:12,831 n_nodes real 194, n_authors 22, n_venues 51, n_papers 121.
+2020-01-17 18:09:13,421 ***********iter 3000 nnz 130
+2020-01-17 18:09:13,421 n_nodes real 85, n_authors 14, n_venues 22, n_papers 49.
+2020-01-17 18:09:14,034 ***********iter 4000 nnz 257
+2020-01-17 18:09:14,034 n_nodes real 122, n_authors 18, n_venues 24, n_papers 80.
+2020-01-17 18:09:14,630 ***********iter 5000 nnz 259
+2020-01-17 18:09:14,631 n_nodes real 89, n_authors 22, n_venues 13, n_papers 54.
+2020-01-17 18:09:15,169 ***********iter 6000 nnz 516
+2020-01-17 18:09:15,169 n_nodes real 138, n_authors 21, n_venues 35, n_papers 82.
+2020-01-17 18:09:15,704 ***********iter 7000 nnz 339
+2020-01-17 18:09:15,704 n_nodes real 176, n_authors 22, n_venues 34, n_papers 120.
+2020-01-17 18:09:16,248 ***********iter 8000 nnz 218
+2020-01-17 18:09:16,248 n_nodes real 157, n_authors 17, n_venues 39, n_papers 101.
+2020-01-17 18:09:16,777 ***********iter 9000 nnz 389
+2020-01-17 18:09:16,777 n_nodes real 166, n_authors 22, n_venues 39, n_papers 105.
+2020-01-17 18:09:17,300 ***********iter 10000 nnz 549
+2020-01-17 18:09:17,300 n_nodes real 236, n_authors 22, n_venues 32, n_papers 182.
+2020-01-17 18:09:17,855 ***********iter 11000 nnz 182
+2020-01-17 18:09:17,855 n_nodes real 122, n_authors 22, n_venues 32, n_papers 68.
+2020-01-17 18:09:18,423 ***********iter 12000 nnz 403
+2020-01-17 18:09:18,423 n_nodes real 158, n_authors 22, n_venues 29, n_papers 107.
+2020-01-17 18:09:18,983 ***********iter 13000 nnz 330
+2020-01-17 18:09:18,983 n_nodes real 161, n_authors 22, n_venues 36, n_papers 103.
+2020-01-17 18:09:19,540 ***********iter 14000 nnz 384
+2020-01-17 18:09:19,540 n_nodes real 179, n_authors 21, n_venues 45, n_papers 113.
+2020-01-17 18:09:20,097 ***********iter 15000 nnz 277
+2020-01-17 18:09:20,097 n_nodes real 150, n_authors 22, n_venues 32, n_papers 96.
+2020-01-17 18:09:20,674 ***********iter 16000 nnz 75
+2020-01-17 18:09:20,674 n_nodes real 65, n_authors 10, n_venues 13, n_papers 42.
+2020-01-17 18:09:21,234 ***********iter 17000 nnz 480
+2020-01-17 18:09:21,234 n_nodes real 188, n_authors 22, n_venues 38, n_papers 128.
+2020-01-17 18:09:21,788 ***********iter 18000 nnz 35
+2020-01-17 18:09:21,788 n_nodes real 30, n_authors 18, n_venues 3, n_papers 9.
+2020-01-17 18:09:22,350 ***********iter 19000 nnz 456
+2020-01-17 18:09:22,350 n_nodes real 159, n_authors 16, n_venues 32, n_papers 111.
+2020-01-17 18:10:25,615 done
+
+G:\0\code\git\OAG>

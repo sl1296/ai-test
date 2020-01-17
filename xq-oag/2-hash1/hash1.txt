@@ -1,0 +1,416 @@
+
+G:\0\code\git\OAG>python title2vec.py
+2020-01-17 17:42:28,372 loading doc2vec-train-corpus.json ...
+2020-01-17 17:42:34,476 doc2vec-train-corpus.json loaded
+2020-01-17 17:42:34,477 training documents loaded
+2020-01-17 17:42:34,477 documents number: 910894
+2020-01-17 17:42:34,477 process doc 0
+2020-01-17 17:42:36,878 process doc 10000
+2020-01-17 17:42:39,116 process doc 20000
+2020-01-17 17:42:41,349 process doc 30000
+2020-01-17 17:42:43,633 process doc 40000
+2020-01-17 17:42:45,881 process doc 50000
+2020-01-17 17:42:48,132 process doc 60000
+2020-01-17 17:42:50,432 process doc 70000
+2020-01-17 17:42:52,670 process doc 80000
+2020-01-17 17:42:54,902 process doc 90000
+2020-01-17 17:42:57,198 process doc 100000
+2020-01-17 17:42:59,435 process doc 110000
+2020-01-17 17:43:01,667 process doc 120000
+2020-01-17 17:43:03,904 process doc 130000
+2020-01-17 17:43:06,224 process doc 140000
+2020-01-17 17:43:08,452 process doc 150000
+2020-01-17 17:43:10,761 process doc 160000
+2020-01-17 17:43:13,011 process doc 170000
+2020-01-17 17:43:15,235 process doc 180000
+2020-01-17 17:43:17,567 process doc 190000
+2020-01-17 17:43:19,821 process doc 200000
+2020-01-17 17:43:22,035 process doc 210000
+2020-01-17 17:43:24,256 process doc 220000
+2020-01-17 17:43:26,485 process doc 230000
+2020-01-17 17:43:28,815 process doc 240000
+2020-01-17 17:43:31,033 process doc 250000
+2020-01-17 17:43:33,260 process doc 260000
+2020-01-17 17:43:35,481 process doc 270000
+2020-01-17 17:43:37,706 process doc 280000
+2020-01-17 17:43:39,930 process doc 290000
+2020-01-17 17:43:42,157 process doc 300000
+2020-01-17 17:43:44,513 process doc 310000
+2020-01-17 17:43:46,741 process doc 320000
+2020-01-17 17:43:48,962 process doc 330000
+2020-01-17 17:43:51,191 process doc 340000
+2020-01-17 17:43:53,403 process doc 350000
+2020-01-17 17:43:55,654 process doc 360000
+2020-01-17 17:43:57,885 process doc 370000
+2020-01-17 17:44:00,121 process doc 380000
+2020-01-17 17:44:02,359 process doc 390000
+2020-01-17 17:44:04,777 process doc 400000
+2020-01-17 17:44:07,017 process doc 410000
+2020-01-17 17:44:09,254 process doc 420000
+2020-01-17 17:44:11,505 process doc 430000
+2020-01-17 17:44:13,737 process doc 440000
+2020-01-17 17:44:15,952 process doc 450000
+2020-01-17 17:44:18,174 process doc 460000
+2020-01-17 17:44:20,396 process doc 470000
+2020-01-17 17:44:22,614 process doc 480000
+2020-01-17 17:44:24,841 process doc 490000
+2020-01-17 17:44:27,283 process doc 500000
+2020-01-17 17:44:29,521 process doc 510000
+2020-01-17 17:44:31,746 process doc 520000
+2020-01-17 17:44:33,977 process doc 530000
+2020-01-17 17:44:36,202 process doc 540000
+2020-01-17 17:44:38,422 process doc 550000
+2020-01-17 17:44:40,644 process doc 560000
+2020-01-17 17:44:42,874 process doc 570000
+2020-01-17 17:44:45,107 process doc 580000
+2020-01-17 17:44:47,337 process doc 590000
+2020-01-17 17:44:49,559 process doc 600000
+2020-01-17 17:44:51,778 process doc 610000
+2020-01-17 17:44:53,993 process doc 620000
+2020-01-17 17:44:56,283 process doc 630000
+2020-01-17 17:45:00,773 process doc 640000
+2020-01-17 17:45:04,816 process doc 650000
+2020-01-17 17:45:08,845 process doc 660000
+2020-01-17 17:45:12,881 process doc 670000
+2020-01-17 17:45:16,944 process doc 680000
+2020-01-17 17:45:20,993 process doc 690000
+2020-01-17 17:45:25,005 process doc 700000
+2020-01-17 17:45:29,044 process doc 710000
+2020-01-17 17:45:33,258 process doc 720000
+2020-01-17 17:45:37,325 process doc 730000
+2020-01-17 17:45:41,553 process doc 740000
+2020-01-17 17:45:45,982 process doc 750000
+2020-01-17 17:45:50,015 process doc 760000
+2020-01-17 17:45:53,907 process doc 770000
+2020-01-17 17:45:57,839 process doc 780000
+2020-01-17 17:46:01,742 process doc 790000
+2020-01-17 17:46:05,705 process doc 800000
+2020-01-17 17:46:10,147 process doc 810000
+2020-01-17 17:46:14,148 process doc 820000
+2020-01-17 17:46:18,191 process doc 830000
+2020-01-17 17:46:22,139 process doc 840000
+2020-01-17 17:46:26,104 process doc 850000
+2020-01-17 17:46:30,062 process doc 860000
+2020-01-17 17:46:33,949 process doc 870000
+2020-01-17 17:46:37,724 process doc 880000
+2020-01-17 17:46:41,794 process doc 890000
+2020-01-17 17:46:45,938 process doc 900000
+2020-01-17 17:46:50,218 process doc 910000
+2020-01-17 17:46:50,690 building vocabulary...
+2020-01-17 17:46:50,691 collecting all words and their counts
+2020-01-17 17:46:50,691 PROGRESS: at example #0, processed 0 words (0/s), 0 word types, 0 tags
+2020-01-17 17:46:50,710 PROGRESS: at example #10000, processed 70832 words (3694400/s), 10285 word types, 10000 tags
+2020-01-17 17:46:50,730 PROGRESS: at example #20000, processed 143343 words (3655230/s), 15242 word types, 20000 tags
+2020-01-17 17:46:50,750 PROGRESS: at example #30000, processed 214440 words (3579801/s), 19765 word types, 30000 tags
+2020-01-17 17:46:50,773 PROGRESS: at example #40000, processed 286148 words (3149037/s), 23516 word types, 40000 tags
+2020-01-17 17:46:50,796 PROGRESS: at example #50000, processed 358357 words (3293259/s), 26864 word types, 50000 tags
+2020-01-17 17:46:50,818 PROGRESS: at example #60000, processed 430307 words (3250919/s), 29838 word types, 60000 tags
+2020-01-17 17:46:50,840 PROGRESS: at example #70000, processed 501901 words (3296558/s), 32247 word types, 70000 tags
+2020-01-17 17:46:50,861 PROGRESS: at example #80000, processed 569139 words (3277536/s), 34657 word types, 80000 tags
+2020-01-17 17:46:50,882 PROGRESS: at example #90000, processed 632553 words (2986352/s), 36815 word types, 90000 tags
+2020-01-17 17:46:50,903 PROGRESS: at example #100000, processed 697497 words (3140562/s), 38848 word types, 100000 tags
+2020-01-17 17:46:50,924 PROGRESS: at example #110000, processed 764822 words (3274323/s), 40761 word types, 110000 tags
+2020-01-17 17:46:50,945 PROGRESS: at example #120000, processed 828805 words (3101243/s), 42420 word types, 120000 tags
+2020-01-17 17:46:50,967 PROGRESS: at example #130000, processed 896321 words (3100292/s), 44035 word types, 130000 tags
+2020-01-17 17:46:50,988 PROGRESS: at example #140000, processed 968091 words (3411105/s), 45769 word types, 140000 tags
+2020-01-17 17:46:51,008 PROGRESS: at example #150000, processed 1029845 words (3116197/s), 47333 word types, 150000 tags
+2020-01-17 17:46:51,030 PROGRESS: at example #160000, processed 1087855 words (2756631/s), 48723 word types, 160000 tags
+2020-01-17 17:46:51,050 PROGRESS: at example #170000, processed 1146250 words (2969368/s), 49982 word types, 170000 tags
+2020-01-17 17:46:51,069 PROGRESS: at example #180000, processed 1204936 words (3051080/s), 51213 word types, 180000 tags
+2020-01-17 17:46:51,090 PROGRESS: at example #190000, processed 1270514 words (3224661/s), 52372 word types, 190000 tags
+2020-01-17 17:46:51,111 PROGRESS: at example #200000, processed 1344688 words (3484163/s), 53480 word types, 200000 tags
+2020-01-17 17:46:51,132 PROGRESS: at example #210000, processed 1414251 words (3352401/s), 54607 word types, 210000 tags
+2020-01-17 17:46:51,152 PROGRESS: at example #220000, processed 1475996 words (3116545/s), 55818 word types, 220000 tags
+2020-01-17 17:46:51,173 PROGRESS: at example #230000, processed 1538249 words (3130541/s), 56996 word types, 230000 tags
+2020-01-17 17:46:51,192 PROGRESS: at example #240000, processed 1599007 words (3171019/s), 58005 word types, 240000 tags
+2020-01-17 17:46:51,211 PROGRESS: at example #250000, processed 1659888 words (3192384/s), 58971 word types, 250000 tags
+2020-01-17 17:46:51,233 PROGRESS: at example #260000, processed 1723102 words (2992732/s), 61184 word types, 260000 tags
+2020-01-17 17:46:51,254 PROGRESS: at example #270000, processed 1788481 words (3097121/s), 64302 word types, 270000 tags
+2020-01-17 17:46:51,275 PROGRESS: at example #280000, processed 1854543 words (3213460/s), 66868 word types, 280000 tags
+2020-01-17 17:46:51,297 PROGRESS: at example #290000, processed 1919451 words (3007771/s), 68097 word types, 290000 tags
+2020-01-17 17:46:51,318 PROGRESS: at example #300000, processed 1983869 words (3024830/s), 69206 word types, 300000 tags
+2020-01-17 17:46:51,339 PROGRESS: at example #310000, processed 2048974 words (3144212/s), 70501 word types, 310000 tags
+2020-01-17 17:46:51,360 PROGRESS: at example #320000, processed 2112391 words (3110094/s), 71665 word types, 320000 tags
+2020-01-17 17:46:51,380 PROGRESS: at example #330000, processed 2175291 words (3137923/s), 72714 word types, 330000 tags
+2020-01-17 17:46:51,401 PROGRESS: at example #340000, processed 2238300 words (3033902/s), 73724 word types, 340000 tags
+2020-01-17 17:46:51,423 PROGRESS: at example #350000, processed 2305456 words (3211361/s), 74765 word types, 350000 tags
+2020-01-17 17:46:51,444 PROGRESS: at example #360000, processed 2372433 words (3129371/s), 75923 word types, 360000 tags
+2020-01-17 17:46:51,465 PROGRESS: at example #370000, processed 2437550 words (3150116/s), 77200 word types, 370000 tags
+2020-01-17 17:46:51,486 PROGRESS: at example #380000, processed 2502356 words (3184554/s), 78477 word types, 380000 tags
+2020-01-17 17:46:51,508 PROGRESS: at example #390000, processed 2569551 words (3128419/s), 79654 word types, 390000 tags
+2020-01-17 17:46:51,530 PROGRESS: at example #400000, processed 2639037 words (3144845/s), 80731 word types, 400000 tags
+2020-01-17 17:46:51,552 PROGRESS: at example #410000, processed 2708655 words (3184720/s), 81772 word types, 410000 tags
+2020-01-17 17:46:51,574 PROGRESS: at example #420000, processed 2779083 words (3211227/s), 82775 word types, 420000 tags
+2020-01-17 17:46:51,596 PROGRESS: at example #430000, processed 2850203 words (3269208/s), 83743 word types, 430000 tags
+2020-01-17 17:46:51,617 PROGRESS: at example #440000, processed 2915917 words (3181043/s), 84775 word types, 440000 tags
+2020-01-17 17:46:51,637 PROGRESS: at example #450000, processed 2972125 words (2894246/s), 85626 word types, 450000 tags
+2020-01-17 17:46:51,658 PROGRESS: at example #460000, processed 3031300 words (2870900/s), 86426 word types, 460000 tags
+2020-01-17 17:46:51,678 PROGRESS: at example #470000, processed 3091167 words (2972291/s), 87157 word types, 470000 tags
+2020-01-17 17:46:51,702 PROGRESS: at example #480000, processed 3150924 words (2568414/s), 87930 word types, 480000 tags
+2020-01-17 17:46:51,723 PROGRESS: at example #490000, processed 3213275 words (2975783/s), 88779 word types, 490000 tags
+2020-01-17 17:46:51,746 PROGRESS: at example #500000, processed 3285662 words (3206994/s), 89973 word types, 500000 tags
+2020-01-17 17:46:51,768 PROGRESS: at example #510000, processed 3356239 words (3247786/s), 90995 word types, 510000 tags
+2020-01-17 17:46:51,788 PROGRESS: at example #520000, processed 3417668 words (3036830/s), 91715 word types, 520000 tags
+2020-01-17 17:46:51,810 PROGRESS: at example #530000, processed 3479178 words (2849888/s), 92454 word types, 530000 tags
+2020-01-17 17:46:51,831 PROGRESS: at example #540000, processed 3540651 words (3006352/s), 93122 word types, 540000 tags
+2020-01-17 17:46:51,852 PROGRESS: at example #550000, processed 3600887 words (2949434/s), 93831 word types, 550000 tags
+2020-01-17 17:46:51,873 PROGRESS: at example #560000, processed 3663042 words (2984318/s), 95304 word types, 560000 tags
+2020-01-17 17:46:51,895 PROGRESS: at example #570000, processed 3729135 words (3062370/s), 97488 word types, 570000 tags
+2020-01-17 17:46:51,916 PROGRESS: at example #580000, processed 3798104 words (3202661/s), 98944 word types, 580000 tags
+2020-01-17 17:46:51,938 PROGRESS: at example #590000, processed 3864105 words (3101565/s), 99739 word types, 590000 tags
+2020-01-17 17:46:51,959 PROGRESS: at example #600000, processed 3928436 words (3030949/s), 100446 word types, 600000 tags
+2020-01-17 17:46:51,980 PROGRESS: at example #610000, processed 3991334 words (3090203/s), 101097 word types, 610000 tags
+2020-01-17 17:46:52,000 PROGRESS: at example #620000, processed 4049659 words (2968435/s), 101693 word types, 620000 tags
+2020-01-17 17:46:52,023 PROGRESS: at example #630000, processed 4129602 words (3527109/s), 102900 word types, 630000 tags
+2020-01-17 17:46:52,171 PROGRESS: at example #640000, processed 5061222 words (6310185/s), 113358 word types, 640000 tags
+2020-01-17 17:46:52,303 PROGRESS: at example #650000, processed 5916127 words (6472703/s), 119693 word types, 650000 tags
+2020-01-17 17:46:52,435 PROGRESS: at example #660000, processed 6767740 words (6480224/s), 126283 word types, 660000 tags
+2020-01-17 17:46:52,568 PROGRESS: at example #670000, processed 7623242 words (6432597/s), 132079 word types, 670000 tags
+2020-01-17 17:46:52,704 PROGRESS: at example #680000, processed 8482240 words (6334312/s), 137560 word types, 680000 tags
+2020-01-17 17:46:52,836 PROGRESS: at example #690000, processed 9328029 words (6427031/s), 143231 word types, 690000 tags
+2020-01-17 17:46:52,969 PROGRESS: at example #700000, processed 10168465 words (6347497/s), 149044 word types, 700000 tags
+2020-01-17 17:46:53,105 PROGRESS: at example #710000, processed 11017372 words (6224831/s), 157280 word types, 710000 tags
+2020-01-17 17:46:53,251 PROGRESS: at example #720000, processed 11953087 words (6442201/s), 162561 word types, 720000 tags
+2020-01-17 17:46:53,386 PROGRESS: at example #730000, processed 12816813 words (6420317/s), 166741 word types, 730000 tags
+2020-01-17 17:46:53,531 PROGRESS: at example #740000, processed 13749144 words (6435163/s), 174199 word types, 740000 tags
+2020-01-17 17:46:53,698 PROGRESS: at example #750000, processed 14762942 words (6104113/s), 182214 word types, 750000 tags
+2020-01-17 17:46:53,835 PROGRESS: at example #760000, processed 15614668 words (6191907/s), 191947 word types, 760000 tags
+2020-01-17 17:46:53,961 PROGRESS: at example #770000, processed 16395751 words (6223084/s), 198043 word types, 770000 tags
+2020-01-17 17:46:54,088 PROGRESS: at example #780000, processed 17171157 words (6173575/s), 202248 word types, 780000 tags
+2020-01-17 17:46:54,213 PROGRESS: at example #790000, processed 17963666 words (6291012/s), 206309 word types, 790000 tags
+2020-01-17 17:46:54,346 PROGRESS: at example #800000, processed 18781353 words (6159234/s), 209394 word types, 800000 tags
+2020-01-17 17:46:54,479 PROGRESS: at example #810000, processed 19600307 words (6211731/s), 212420 word types, 810000 tags
+2020-01-17 17:46:54,616 PROGRESS: at example #820000, processed 20444628 words (6139998/s), 215652 word types, 820000 tags
+2020-01-17 17:46:54,757 PROGRESS: at example #830000, processed 21306095 words (6135477/s), 218802 word types, 830000 tags
+2020-01-17 17:46:54,889 PROGRESS: at example #840000, processed 22114032 words (6124024/s), 230252 word types, 840000 tags
+2020-01-17 17:46:55,026 PROGRESS: at example #850000, processed 22925360 words (5971047/s), 233249 word types, 850000 tags
+2020-01-17 17:46:55,167 PROGRESS: at example #860000, processed 23739048 words (5773031/s), 237096 word types, 860000 tags
+2020-01-17 17:46:55,304 PROGRESS: at example #870000, processed 24521662 words (5714771/s), 240201 word types, 870000 tags
+2020-01-17 17:46:55,420 PROGRESS: at example #880000, processed 25235481 words (6175786/s), 242385 word types, 880000 tags
+2020-01-17 17:46:55,559 PROGRESS: at example #890000, processed 26098657 words (6228899/s), 246099 word types, 890000 tags
+2020-01-17 17:46:55,703 PROGRESS: at example #900000, processed 26985906 words (6145056/s), 250189 word types, 900000 tags
+2020-01-17 17:46:55,859 PROGRESS: at example #910000, processed 27940731 words (6158059/s), 255229 word types, 910000 tags
+2020-01-17 17:46:55,875 collected 255719 word types and 910894 unique tags from a corpus of 910894 examples and 28029661 words
+2020-01-17 17:46:55,875 Loading a fresh vocabulary
+2020-01-17 17:46:56,175 effective_min_count=1 retains 255719 unique words (100% of original 255719, drops 0)
+2020-01-17 17:46:56,175 effective_min_count=1 leaves 28029661 word corpus (100% of original 28029661, drops 0)
+2020-01-17 17:46:56,629 deleting the raw counts dictionary of 255719 items
+2020-01-17 17:46:56,634 sample=0 downsamples 0 most-common words
+2020-01-17 17:46:56,634 downsampling leaves estimated 28029661 word corpus (100.0% of prior 28029661)
+2020-01-17 17:46:56,816 constructing a huffman tree from 255720 words
+2020-01-17 17:47:02,125 built huffman tree with maximum node depth 25
+2020-01-17 17:47:02,202 estimated required memory for 255719 words and 100 dimensions: 747936100 bytes
+2020-01-17 17:47:02,203 resetting layer weights
+2020-01-17 17:47:12,613 building vocab finished
+2020-01-17 17:47:12,613 epoch 0
+2020-01-17 17:47:12,614 training model with 3 workers on 255720 vocabulary and 100 features, using sg=1 hs=1 sample=0 negative=0 window=5
+2020-01-17 17:47:13,671 EPOCH 1 - PROGRESS: at 4.45% examples, 316117 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:14,682 EPOCH 1 - PROGRESS: at 8.97% examples, 321687 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:15,684 EPOCH 1 - PROGRESS: at 13.53% examples, 318138 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:16,692 EPOCH 1 - PROGRESS: at 18.16% examples, 315959 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:17,700 EPOCH 1 - PROGRESS: at 22.80% examples, 316685 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:18,705 EPOCH 1 - PROGRESS: at 27.44% examples, 314033 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:19,717 EPOCH 1 - PROGRESS: at 32.18% examples, 314810 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:20,722 EPOCH 1 - PROGRESS: at 36.65% examples, 312853 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:21,786 EPOCH 1 - PROGRESS: at 41.49% examples, 312959 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:22,801 EPOCH 1 - PROGRESS: at 46.11% examples, 314376 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:23,894 EPOCH 1 - PROGRESS: at 51.01% examples, 312678 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:24,911 EPOCH 1 - PROGRESS: at 55.70% examples, 313052 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:25,918 EPOCH 1 - PROGRESS: at 60.34% examples, 312086 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:26,970 EPOCH 1 - PROGRESS: at 65.19% examples, 312487 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:27,975 EPOCH 1 - PROGRESS: at 69.49% examples, 330218 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:28,976 EPOCH 1 - PROGRESS: at 71.32% examples, 399879 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:29,980 EPOCH 1 - PROGRESS: at 72.95% examples, 450397 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:30,988 EPOCH 1 - PROGRESS: at 74.69% examples, 500780 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:31,991 EPOCH 1 - PROGRESS: at 76.54% examples, 548719 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:32,993 EPOCH 1 - PROGRESS: at 78.37% examples, 593624 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:33,993 EPOCH 1 - PROGRESS: at 80.12% examples, 633043 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:35,005 EPOCH 1 - PROGRESS: at 81.77% examples, 669996 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:36,016 EPOCH 1 - PROGRESS: at 83.55% examples, 703999 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:37,028 EPOCH 1 - PROGRESS: at 85.58% examples, 734307 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:38,032 EPOCH 1 - PROGRESS: at 87.57% examples, 763173 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:39,038 EPOCH 1 - PROGRESS: at 89.51% examples, 790161 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:40,047 EPOCH 1 - PROGRESS: at 91.41% examples, 815374 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:41,057 EPOCH 1 - PROGRESS: at 93.36% examples, 837356 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:42,062 EPOCH 1 - PROGRESS: at 95.10% examples, 853245 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:43,063 EPOCH 1 - PROGRESS: at 97.07% examples, 869907 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:44,072 EPOCH 1 - PROGRESS: at 98.81% examples, 886970 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:44,804 worker thread finished; awaiting finish of 2 more threads
+2020-01-17 17:47:44,814 worker thread finished; awaiting finish of 1 more threads
+2020-01-17 17:47:44,815 worker thread finished; awaiting finish of 0 more threads
+2020-01-17 17:47:44,815 EPOCH - 1 : training on 28029661 raw words (28940555 effective words) took 32.2s, 899065 effective words/s
+2020-01-17 17:47:44,817 training on a 28029661 raw words (28940555 effective words) took 32.2s, 898710 effective words/s
+2020-01-17 17:47:44,817 epoch 1
+2020-01-17 17:47:44,819 training model with 3 workers on 255720 vocabulary and 100 features, using sg=1 hs=1 sample=0 negative=0 window=5
+2020-01-17 17:47:45,868 EPOCH 1 - PROGRESS: at 4.29% examples, 307946 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:46,877 EPOCH 1 - PROGRESS: at 8.62% examples, 312114 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:47,896 EPOCH 1 - PROGRESS: at 13.02% examples, 306216 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:48,910 EPOCH 1 - PROGRESS: at 17.60% examples, 306473 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:49,929 EPOCH 1 - PROGRESS: at 22.33% examples, 308537 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:50,975 EPOCH 1 - PROGRESS: at 26.90% examples, 305078 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:52,003 EPOCH 1 - PROGRESS: at 31.50% examples, 304870 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:53,047 EPOCH 1 - PROGRESS: at 36.12% examples, 304075 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:54,055 EPOCH 1 - PROGRESS: at 40.65% examples, 304596 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:55,086 EPOCH 1 - PROGRESS: at 45.17% examples, 305292 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:47:56,102 EPOCH 1 - PROGRESS: at 49.53% examples, 304378 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:57,170 EPOCH 1 - PROGRESS: at 54.33% examples, 303453 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:58,196 EPOCH 1 - PROGRESS: at 58.89% examples, 303453 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:47:59,204 EPOCH 1 - PROGRESS: at 63.37% examples, 303083 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:00,213 EPOCH 1 - PROGRESS: at 68.04% examples, 303526 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:01,217 EPOCH 1 - PROGRESS: at 70.50% examples, 359698 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:02,225 EPOCH 1 - PROGRESS: at 72.36% examples, 422763 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:03,232 EPOCH 1 - PROGRESS: at 74.19% examples, 478403 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:04,236 EPOCH 1 - PROGRESS: at 76.07% examples, 528893 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:05,247 EPOCH 1 - PROGRESS: at 77.92% examples, 573521 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:06,255 EPOCH 1 - PROGRESS: at 79.62% examples, 614973 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:07,262 EPOCH 1 - PROGRESS: at 81.38% examples, 651514 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:08,267 EPOCH 1 - PROGRESS: at 83.02% examples, 684641 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:09,276 EPOCH 1 - PROGRESS: at 84.95% examples, 714501 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:10,285 EPOCH 1 - PROGRESS: at 86.95% examples, 743177 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:11,285 EPOCH 1 - PROGRESS: at 88.86% examples, 769880 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:12,286 EPOCH 1 - PROGRESS: at 90.70% examples, 794251 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:13,291 EPOCH 1 - PROGRESS: at 92.57% examples, 815734 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:14,295 EPOCH 1 - PROGRESS: at 94.50% examples, 837099 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:15,306 EPOCH 1 - PROGRESS: at 96.54% examples, 855641 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:16,314 EPOCH 1 - PROGRESS: at 98.38% examples, 874221 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:17,275 worker thread finished; awaiting finish of 2 more threads
+2020-01-17 17:48:17,286 worker thread finished; awaiting finish of 1 more threads
+2020-01-17 17:48:17,289 worker thread finished; awaiting finish of 0 more threads
+2020-01-17 17:48:17,289 EPOCH - 1 : training on 28029661 raw words (28940555 effective words) took 32.5s, 891652 effective words/s
+2020-01-17 17:48:17,290 training on a 28029661 raw words (28940555 effective words) took 32.5s, 891298 effective words/s
+2020-01-17 17:48:17,291 epoch 2
+2020-01-17 17:48:17,291 training model with 3 workers on 255720 vocabulary and 100 features, using sg=1 hs=1 sample=0 negative=0 window=5
+2020-01-17 17:48:18,340 EPOCH 1 - PROGRESS: at 4.29% examples, 309444 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:19,366 EPOCH 1 - PROGRESS: at 8.79% examples, 315875 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:20,419 EPOCH 1 - PROGRESS: at 13.36% examples, 309139 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:21,460 EPOCH 1 - PROGRESS: at 17.97% examples, 306747 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:22,510 EPOCH 1 - PROGRESS: at 22.62% examples, 306787 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:23,517 EPOCH 1 - PROGRESS: at 27.26% examples, 305688 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:24,535 EPOCH 1 - PROGRESS: at 31.50% examples, 302568 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:25,555 EPOCH 1 - PROGRESS: at 35.77% examples, 300159 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:26,620 EPOCH 1 - PROGRESS: at 40.14% examples, 298028 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:27,623 EPOCH 1 - PROGRESS: at 44.55% examples, 299089 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:28,631 EPOCH 1 - PROGRESS: at 48.96% examples, 299848 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:29,665 EPOCH 1 - PROGRESS: at 53.58% examples, 298406 words/s, in_qsize 4, out_qsize 1
+2020-01-17 17:48:30,699 EPOCH 1 - PROGRESS: at 58.18% examples, 299391 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:31,762 EPOCH 1 - PROGRESS: at 62.90% examples, 299007 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:32,809 EPOCH 1 - PROGRESS: at 67.48% examples, 298925 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:33,815 EPOCH 1 - PROGRESS: at 70.34% examples, 349127 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:34,820 EPOCH 1 - PROGRESS: at 72.15% examples, 410739 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:35,824 EPOCH 1 - PROGRESS: at 73.99% examples, 466758 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:36,824 EPOCH 1 - PROGRESS: at 75.85% examples, 517135 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:37,825 EPOCH 1 - PROGRESS: at 77.71% examples, 562367 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:38,827 EPOCH 1 - PROGRESS: at 79.43% examples, 604804 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:39,831 EPOCH 1 - PROGRESS: at 81.20% examples, 641752 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:40,834 EPOCH 1 - PROGRESS: at 82.81% examples, 675164 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:41,839 EPOCH 1 - PROGRESS: at 84.71% examples, 704997 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:42,847 EPOCH 1 - PROGRESS: at 86.70% examples, 733625 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:43,852 EPOCH 1 - PROGRESS: at 88.61% examples, 760108 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:44,853 EPOCH 1 - PROGRESS: at 90.49% examples, 785457 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:45,855 EPOCH 1 - PROGRESS: at 92.36% examples, 807613 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:46,858 EPOCH 1 - PROGRESS: at 94.26% examples, 828521 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:47,865 EPOCH 1 - PROGRESS: at 96.29% examples, 847742 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:48,873 EPOCH 1 - PROGRESS: at 98.16% examples, 866557 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:49,876 EPOCH 1 - PROGRESS: at 99.83% examples, 883830 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:49,967 worker thread finished; awaiting finish of 2 more threads
+2020-01-17 17:48:49,973 worker thread finished; awaiting finish of 1 more threads
+2020-01-17 17:48:49,977 worker thread finished; awaiting finish of 0 more threads
+2020-01-17 17:48:49,977 EPOCH - 1 : training on 28029661 raw words (28940555 effective words) took 32.7s, 885900 effective words/s
+2020-01-17 17:48:49,978 training on a 28029661 raw words (28940555 effective words) took 32.7s, 885493 effective words/s
+2020-01-17 17:48:49,980 epoch 3
+2020-01-17 17:48:49,981 training model with 3 workers on 255720 vocabulary and 100 features, using sg=1 hs=1 sample=0 negative=0 window=5
+2020-01-17 17:48:51,036 EPOCH 1 - PROGRESS: at 4.45% examples, 315356 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:52,041 EPOCH 1 - PROGRESS: at 8.97% examples, 322260 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:53,109 EPOCH 1 - PROGRESS: at 13.70% examples, 315432 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:54,152 EPOCH 1 - PROGRESS: at 18.54% examples, 314274 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:55,194 EPOCH 1 - PROGRESS: at 23.32% examples, 315376 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:56,243 EPOCH 1 - PROGRESS: at 28.15% examples, 312666 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:48:57,292 EPOCH 1 - PROGRESS: at 32.86% examples, 311973 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:58,294 EPOCH 1 - PROGRESS: at 37.51% examples, 311920 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:48:59,322 EPOCH 1 - PROGRESS: at 42.00% examples, 310887 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:00,323 EPOCH 1 - PROGRESS: at 46.42% examples, 311741 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:01,368 EPOCH 1 - PROGRESS: at 51.19% examples, 310652 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:02,388 EPOCH 1 - PROGRESS: at 55.86% examples, 311099 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:03,433 EPOCH 1 - PROGRESS: at 60.53% examples, 309426 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:04,455 EPOCH 1 - PROGRESS: at 65.19% examples, 309836 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:05,470 EPOCH 1 - PROGRESS: at 69.49% examples, 327380 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:06,474 EPOCH 1 - PROGRESS: at 71.36% examples, 398425 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:07,485 EPOCH 1 - PROGRESS: at 73.24% examples, 459965 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:08,487 EPOCH 1 - PROGRESS: at 75.11% examples, 514520 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:09,490 EPOCH 1 - PROGRESS: at 77.02% examples, 564273 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:10,500 EPOCH 1 - PROGRESS: at 78.83% examples, 609027 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:11,507 EPOCH 1 - PROGRESS: at 80.68% examples, 649479 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:12,508 EPOCH 1 - PROGRESS: at 82.23% examples, 685196 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:13,511 EPOCH 1 - PROGRESS: at 84.12% examples, 717603 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:14,511 EPOCH 1 - PROGRESS: at 86.13% examples, 746697 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:15,515 EPOCH 1 - PROGRESS: at 88.09% examples, 774938 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:16,525 EPOCH 1 - PROGRESS: at 90.02% examples, 801242 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:17,525 EPOCH 1 - PROGRESS: at 91.89% examples, 824755 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:18,542 EPOCH 1 - PROGRESS: at 93.84% examples, 846442 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:19,549 EPOCH 1 - PROGRESS: at 95.87% examples, 867035 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:20,553 EPOCH 1 - PROGRESS: at 97.84% examples, 886327 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:21,556 EPOCH 1 - PROGRESS: at 99.56% examples, 904527 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:21,806 worker thread finished; awaiting finish of 2 more threads
+2020-01-17 17:49:21,807 worker thread finished; awaiting finish of 1 more threads
+2020-01-17 17:49:21,809 worker thread finished; awaiting finish of 0 more threads
+2020-01-17 17:49:21,810 EPOCH - 1 : training on 28029661 raw words (28940555 effective words) took 31.8s, 909466 effective words/s
+2020-01-17 17:49:21,810 training on a 28029661 raw words (28940555 effective words) took 31.8s, 909239 effective words/s
+2020-01-17 17:49:21,811 epoch 4
+2020-01-17 17:49:21,812 training model with 3 workers on 255720 vocabulary and 100 features, using sg=1 hs=1 sample=0 negative=0 window=5
+2020-01-17 17:49:22,835 EPOCH 1 - PROGRESS: at 4.29% examples, 315918 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:23,842 EPOCH 1 - PROGRESS: at 8.62% examples, 316492 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:24,852 EPOCH 1 - PROGRESS: at 13.19% examples, 313874 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:25,865 EPOCH 1 - PROGRESS: at 17.79% examples, 312330 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:26,923 EPOCH 1 - PROGRESS: at 22.62% examples, 313000 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:27,955 EPOCH 1 - PROGRESS: at 27.44% examples, 311510 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:29,013 EPOCH 1 - PROGRESS: at 32.18% examples, 310557 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:30,041 EPOCH 1 - PROGRESS: at 36.82% examples, 309741 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:31,044 EPOCH 1 - PROGRESS: at 41.49% examples, 311017 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:32,103 EPOCH 1 - PROGRESS: at 45.96% examples, 310166 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:33,111 EPOCH 1 - PROGRESS: at 50.64% examples, 310152 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:34,117 EPOCH 1 - PROGRESS: at 55.24% examples, 310138 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:35,131 EPOCH 1 - PROGRESS: at 59.79% examples, 309136 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:36,193 EPOCH 1 - PROGRESS: at 64.51% examples, 308763 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:37,196 EPOCH 1 - PROGRESS: at 69.24% examples, 314129 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:38,207 EPOCH 1 - PROGRESS: at 71.03% examples, 384964 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:39,209 EPOCH 1 - PROGRESS: at 72.90% examples, 447313 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:40,216 EPOCH 1 - PROGRESS: at 74.76% examples, 502768 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:41,218 EPOCH 1 - PROGRESS: at 76.64% examples, 552067 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:42,222 EPOCH 1 - PROGRESS: at 78.49% examples, 597702 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:43,225 EPOCH 1 - PROGRESS: at 80.28% examples, 638199 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:44,237 EPOCH 1 - PROGRESS: at 81.91% examples, 674725 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:45,253 EPOCH 1 - PROGRESS: at 83.71% examples, 708054 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:46,266 EPOCH 1 - PROGRESS: at 85.75% examples, 738072 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:47,274 EPOCH 1 - PROGRESS: at 87.74% examples, 767022 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:48,275 EPOCH 1 - PROGRESS: at 89.65% examples, 792843 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:49,276 EPOCH 1 - PROGRESS: at 91.48% examples, 816322 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:50,290 EPOCH 1 - PROGRESS: at 93.42% examples, 838118 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:51,295 EPOCH 1 - PROGRESS: at 95.38% examples, 858772 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:52,296 EPOCH 1 - PROGRESS: at 97.37% examples, 876845 words/s, in_qsize 5, out_qsize 0
+2020-01-17 17:49:53,301 EPOCH 1 - PROGRESS: at 99.12% examples, 894894 words/s, in_qsize 6, out_qsize 0
+2020-01-17 17:49:53,818 worker thread finished; awaiting finish of 2 more threads
+2020-01-17 17:49:53,828 worker thread finished; awaiting finish of 1 more threads
+2020-01-17 17:49:53,829 worker thread finished; awaiting finish of 0 more threads
+2020-01-17 17:49:53,830 EPOCH - 1 : training on 28029661 raw words (28940555 effective words) took 32.0s, 904272 effective words/s
+2020-01-17 17:49:53,831 training on a 28029661 raw words (28940555 effective words) took 32.0s, 903883 effective words/s
+2020-01-17 17:49:53,831 saving Doc2Vec object under G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod, separately None
+2020-01-17 17:49:53,832 storing np array 'syn1' to G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.trainables.syn1.npy
+2020-01-17 17:49:55,214 storing np array 'vectors' to G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.wv.vectors.npy
+2020-01-17 17:49:56,495 storing np array 'vectors_docs' to G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.docvecs.vectors_docs.npy
+2020-01-17 17:50:06,735 saved G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod
+2020-01-17 17:50:06,735 doc2vec model saved
+2020-01-17 17:50:06,738 doc2vec training time 458.3671s
+2020-01-17 17:50:07,792 loading doc2vec model name doc2vec-100.mod
+2020-01-17 17:50:07,792 loading Doc2Vec object from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod
+2020-01-17 17:50:08,968 loading vocabulary recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.vocabulary.* with mmap=None
+2020-01-17 17:50:08,969 loading trainables recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.trainables.* with mmap=None
+2020-01-17 17:50:08,970 loading syn1 from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.trainables.syn1.npy with mmap=None
+2020-01-17 17:50:09,013 loading wv recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.wv.* with mmap=None
+2020-01-17 17:50:09,013 loading vectors from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.wv.vectors.npy with mmap=None
+2020-01-17 17:50:09,053 loading docvecs recursively from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.docvecs.* with mmap=None
+2020-01-17 17:50:09,053 loading vectors_docs from G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod.docvecs.vectors_docs.npy with mmap=None
+2020-01-17 17:50:09,184 loaded G:\0\code\git\OAG\core\utils\..\..\out\doc2vec\doc2vec-100.mod
+2020-01-17 17:50:09,185 doc2vec model doc2vec-100.mod loaded
+2020-01-17 17:50:26,388 done
+
+G:\0\code\git\OAG>
