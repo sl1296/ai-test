@@ -91,7 +91,7 @@ def evaluate(epoch, loader, model, node_init_features, thr=None, return_best_thr
 
         if args.cuda:
             graph = graph.cuda()
-            labels = labels.cuda()
+            labels = labels.long().cuda()
             features = features.cuda()
             v_types = v_types.cuda()
 
@@ -152,7 +152,7 @@ def train(epoch, train_loader, valid_loader, test_loader, model, optimizer, node
 
         if args.cuda:
             graph = graph.cuda()
-            labels = labels.cuda()
+            labels = labels.long().cuda()
             features = features.cuda()
             v_types = v_types.cuda()
 
@@ -164,7 +164,6 @@ def train(epoch, train_loader, valid_loader, test_loader, model, optimizer, node
         total += bs
         loss_train.backward()
         optimizer.step()
-
     logger.info("train loss epoch %d: %f", epoch, loss / total)
     if (epoch + 1) % args.check_point == 0:
         logger.info("epoch %d, checkpoint! validation...", epoch)

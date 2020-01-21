@@ -80,10 +80,10 @@ class BatchMultiHeadGraphAttention(nn.Module):
 
         attn = self.leaky_relu(attn)
         mask = 1 - adj.unsqueeze(1) # bs x 1 x n x n
-        attn.data.masked_fill_(mask, float("-inf"))
         attn = self.softmax(attn) # bs x n_head x n x n
         attn = self.dropout(attn)
         output = torch.matmul(attn, h_prime) # bs x n_head x n x f_out
+        
         if self.bias is not None:
             return output + self.bias
         else:

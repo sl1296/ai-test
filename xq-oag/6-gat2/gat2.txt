@@ -1,0 +1,421 @@
+Microsoft Windows [版本 10.0.18362.592]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+D:\xq-oag>python train.py
+2020-01-20 14:18:38,536 cuda is available True
+2020-01-20 14:18:38,537 loading adjs...
+2020-01-20 14:18:40,924 adjs loaded
+2020-01-20 14:18:48,167 graph processed.
+D:\xq-oag\core\utils\..\..\data\authors\entity_node_emb.vec
+2020-01-20 14:18:48,168 load entity_node_emb.vec, line 0
+2020-01-20 14:18:49,138 load entity_node_emb.vec, line 10000
+2020-01-20 14:18:50,108 load entity_node_emb.vec, line 20000
+2020-01-20 14:18:51,078 load entity_node_emb.vec, line 30000
+2020-01-20 14:18:52,130 load entity_node_emb.vec, line 40000
+2020-01-20 14:18:53,130 load entity_node_emb.vec, line 50000
+2020-01-20 14:18:54,109 load entity_node_emb.vec, line 60000
+2020-01-20 14:18:55,091 load entity_node_emb.vec, line 70000
+2020-01-20 14:18:56,056 load entity_node_emb.vec, line 80000
+2020-01-20 14:18:57,020 load entity_node_emb.vec, line 90000
+2020-01-20 14:18:57,995 load entity_node_emb.vec, line 100000
+2020-01-20 14:18:58,954 load entity_node_emb.vec, line 110000
+2020-01-20 14:18:59,923 load entity_node_emb.vec, line 120000
+2020-01-20 14:19:01,162 load entity_node_emb.vec, line 130000
+2020-01-20 14:19:02,117 load entity_node_emb.vec, line 140000
+2020-01-20 14:19:03,088 load entity_node_emb.vec, line 150000
+2020-01-20 14:19:04,062 load entity_node_emb.vec, line 160000
+2020-01-20 14:19:05,019 load entity_node_emb.vec, line 170000
+2020-01-20 14:19:06,002 load entity_node_emb.vec, line 180000
+2020-01-20 14:19:06,965 load entity_node_emb.vec, line 190000
+2020-01-20 14:19:07,940 load entity_node_emb.vec, line 200000
+2020-01-20 14:19:08,919 load entity_node_emb.vec, line 210000
+2020-01-20 14:19:10,398 load entity_node_emb.vec, line 220000
+2020-01-20 14:19:11,370 load entity_node_emb.vec, line 230000
+2020-01-20 14:19:12,350 load entity_node_emb.vec, line 240000
+2020-01-20 14:19:13,321 load entity_node_emb.vec, line 250000
+2020-01-20 14:19:14,290 load entity_node_emb.vec, line 260000
+2020-01-20 14:19:15,272 load entity_node_emb.vec, line 270000
+2020-01-20 14:19:16,238 load entity_node_emb.vec, line 280000
+2020-01-20 14:19:17,212 load entity_node_emb.vec, line 290000
+2020-01-20 14:19:18,182 load entity_node_emb.vec, line 300000
+2020-01-20 14:19:19,162 load entity_node_emb.vec, line 310000
+2020-01-20 14:19:20,909 load entity_node_emb.vec, line 320000
+2020-01-20 14:19:21,892 load entity_node_emb.vec, line 330000
+2020-01-20 14:19:22,863 load entity_node_emb.vec, line 340000
+2020-01-20 14:19:23,839 load entity_node_emb.vec, line 350000
+2020-01-20 14:19:24,810 load entity_node_emb.vec, line 360000
+2020-01-20 14:19:25,773 load entity_node_emb.vec, line 370000
+2020-01-20 14:19:26,767 load entity_node_emb.vec, line 380000
+2020-01-20 14:19:27,744 load entity_node_emb.vec, line 390000
+2020-01-20 14:19:28,712 load entity_node_emb.vec, line 400000
+2020-01-20 14:19:29,673 load entity_node_emb.vec, line 410000
+2020-01-20 14:19:30,634 load entity_node_emb.vec, line 420000
+2020-01-20 14:19:32,649 load entity_node_emb.vec, line 430000
+2020-01-20 14:19:33,625 load entity_node_emb.vec, line 440000
+2020-01-20 14:19:34,577 load entity_node_emb.vec, line 450000
+2020-01-20 14:19:35,530 load entity_node_emb.vec, line 460000
+2020-01-20 14:19:36,485 load entity_node_emb.vec, line 470000
+2020-01-20 14:19:37,439 load entity_node_emb.vec, line 480000
+2020-01-20 14:19:38,413 load entity_node_emb.vec, line 490000
+2020-01-20 14:19:39,371 load entity_node_emb.vec, line 500000
+2020-01-20 14:19:40,328 load entity_node_emb.vec, line 510000
+2020-01-20 14:19:41,297 load entity_node_emb.vec, line 520000
+2020-01-20 14:19:42,257 load entity_node_emb.vec, line 530000
+2020-01-20 14:19:43,234 load entity_node_emb.vec, line 540000
+2020-01-20 14:19:44,188 load entity_node_emb.vec, line 550000
+2020-01-20 14:19:46,652 load entity_node_emb.vec, line 560000
+2020-01-20 14:19:47,605 load entity_node_emb.vec, line 570000
+2020-01-20 14:19:48,562 load entity_node_emb.vec, line 580000
+2020-01-20 14:19:49,535 load entity_node_emb.vec, line 590000
+2020-01-20 14:19:50,490 load entity_node_emb.vec, line 600000
+2020-01-20 14:19:51,439 load entity_node_emb.vec, line 610000
+2020-01-20 14:19:52,405 load entity_node_emb.vec, line 620000
+2020-01-20 14:19:53,374 load entity_node_emb.vec, line 630000
+2020-01-20 14:19:54,331 load entity_node_emb.vec, line 640000
+2020-01-20 14:19:55,306 load entity_node_emb.vec, line 650000
+2020-01-20 14:19:56,257 load entity_node_emb.vec, line 660000
+2020-01-20 14:19:57,215 load entity_node_emb.vec, line 670000
+2020-01-20 14:19:58,170 load entity_node_emb.vec, line 680000
+2020-01-20 14:19:59,127 load entity_node_emb.vec, line 690000
+2020-01-20 14:20:00,131 load entity_node_emb.vec, line 700000
+2020-01-20 14:20:01,110 load entity_node_emb.vec, line 710000
+2020-01-20 14:20:02,145 load entity_node_emb.vec, line 720000
+2020-01-20 14:20:05,048 load entity_node_emb.vec, line 730000
+2020-01-20 14:20:06,062 load entity_node_emb.vec, line 740000
+2020-01-20 14:20:07,076 load entity_node_emb.vec, line 750000
+2020-01-20 14:20:08,076 load entity_node_emb.vec, line 760000
+2020-01-20 14:20:09,130 load entity_node_emb.vec, line 770000
+2020-01-20 14:20:10,115 load entity_node_emb.vec, line 780000
+2020-01-20 14:20:11,076 load entity_node_emb.vec, line 790000
+2020-01-20 14:20:12,047 load entity_node_emb.vec, line 800000
+2020-01-20 14:20:13,081 load entity_node_emb.vec, line 810000
+2020-01-20 14:20:14,106 load entity_node_emb.vec, line 820000
+2020-01-20 14:20:15,108 load entity_node_emb.vec, line 830000
+2020-01-20 14:20:16,070 load entity_node_emb.vec, line 840000
+2020-01-20 14:20:17,424 load entity_node_emb.vec, line 850000
+2020-01-20 14:20:18,646 load entity_node_emb.vec, line 860000
+2020-01-20 14:20:19,622 load entity_node_emb.vec, line 870000
+2020-01-20 14:20:20,650 load entity_node_emb.vec, line 880000
+2020-01-20 14:20:21,672 load entity_node_emb.vec, line 890000
+2020-01-20 14:20:22,677 load entity_node_emb.vec, line 900000
+2020-01-20 14:20:23,650 load entity_node_emb.vec, line 910000
+2020-01-20 14:20:24,638 load entity_node_emb.vec, line 920000
+2020-01-20 14:20:25,620 load entity_node_emb.vec, line 930000
+2020-01-20 14:20:32,968 load entity_node_emb.vec, line 940000
+2020-01-20 14:20:33,947 load entity_node_emb.vec, line 950000
+2020-01-20 14:20:34,926 load entity_node_emb.vec, line 960000
+2020-01-20 14:20:35,931 load entity_node_emb.vec, line 970000
+2020-01-20 14:20:36,906 load entity_node_emb.vec, line 980000
+2020-01-20 14:20:37,879 load entity_node_emb.vec, line 990000
+2020-01-20 14:20:38,847 load entity_node_emb.vec, line 1000000
+2020-01-20 14:20:39,825 load entity_node_emb.vec, line 1010000
+2020-01-20 14:20:40,823 load entity_node_emb.vec, line 1020000
+2020-01-20 14:20:41,802 load entity_node_emb.vec, line 1030000
+2020-01-20 14:20:42,790 load entity_node_emb.vec, line 1040000
+2020-01-20 14:20:43,767 load entity_node_emb.vec, line 1050000
+2020-01-20 14:20:45,404 load entity_node_emb.vec, line 1060000
+2020-01-20 14:20:46,409 load entity_node_emb.vec, line 1070000
+2020-01-20 14:20:47,544 load entity_node_emb.vec, line 1080000
+2020-01-20 14:20:48,563 load entity_node_emb.vec, line 1090000
+2020-01-20 14:20:49,547 load entity_node_emb.vec, line 1100000
+2020-01-20 14:20:50,558 load entity_node_emb.vec, line 1110000
+2020-01-20 14:20:51,549 load entity_node_emb.vec, line 1120000
+2020-01-20 14:20:52,513 load entity_node_emb.vec, line 1130000
+2020-01-20 14:20:53,490 load entity_node_emb.vec, line 1140000
+2020-01-20 14:20:54,480 load entity_node_emb.vec, line 1150000
+2020-01-20 14:20:55,454 load entity_node_emb.vec, line 1160000
+2020-01-20 14:20:56,424 load entity_node_emb.vec, line 1170000
+2020-01-20 14:20:57,530 load entity_node_emb.vec, line 1180000
+2020-01-20 14:20:58,596 load entity_node_emb.vec, line 1190000
+2020-01-20 14:20:59,588 load entity_node_emb.vec, line 1200000
+2020-01-20 14:21:59,529 load entity_node_emb.vec, line 1210000
+2020-01-20 14:22:00,511 load entity_node_emb.vec, line 1220000
+2020-01-20 14:22:01,489 load entity_node_emb.vec, line 1230000
+2020-01-20 14:22:02,447 load entity_node_emb.vec, line 1240000
+2020-01-20 14:22:03,409 load entity_node_emb.vec, line 1250000
+2020-01-20 14:22:04,366 load entity_node_emb.vec, line 1260000
+2020-01-20 14:22:05,324 load entity_node_emb.vec, line 1270000
+2020-01-20 14:22:06,301 load entity_node_emb.vec, line 1280000
+2020-01-20 14:22:07,255 load entity_node_emb.vec, line 1290000
+2020-01-20 14:22:08,214 load entity_node_emb.vec, line 1300000
+2020-01-20 14:22:09,178 load entity_node_emb.vec, line 1310000
+2020-01-20 14:22:10,141 load entity_node_emb.vec, line 1320000
+2020-01-20 14:22:11,105 load entity_node_emb.vec, line 1330000
+2020-01-20 14:22:12,084 load entity_node_emb.vec, line 1340000
+2020-01-20 14:22:13,054 load entity_node_emb.vec, line 1350000
+2020-01-20 14:22:14,011 load entity_node_emb.vec, line 1360000
+2020-01-20 14:22:14,986 load entity_node_emb.vec, line 1370000
+2020-01-20 14:22:16,323 load entity_node_emb.vec, line 1380000
+2020-01-20 14:22:20,205 load entity_node_emb.vec, line 1390000
+2020-01-20 14:22:21,800 load entity_node_emb.vec, line 1400000
+2020-01-20 14:22:23,852 load entity_node_emb.vec, line 1410000
+2020-01-20 14:22:24,819 load entity_node_emb.vec, line 1420000
+2020-01-20 14:22:25,779 load entity_node_emb.vec, line 1430000
+2020-01-20 14:22:26,749 load entity_node_emb.vec, line 1440000
+2020-01-20 14:22:27,723 load entity_node_emb.vec, line 1450000
+2020-01-20 14:22:28,674 load entity_node_emb.vec, line 1460000
+2020-01-20 14:22:29,628 load entity_node_emb.vec, line 1470000
+2020-01-20 14:22:30,861 load entity_node_emb.vec, line 1480000
+2020-01-20 14:22:31,996 load entity_node_emb.vec, line 1490000
+2020-01-20 14:22:33,248 load entity_node_emb.vec, line 1500000
+2020-01-20 14:22:34,225 load entity_node_emb.vec, line 1510000
+2020-01-20 14:22:35,179 load entity_node_emb.vec, line 1520000
+2020-01-20 14:22:36,750 load entity_node_emb.vec, line 1530000
+2020-01-20 14:22:38,764 load entity_node_emb.vec, line 1540000
+2020-01-20 14:25:32,966 load entity_node_emb.vec, line 1550000
+2020-01-20 14:25:34,052 load entity_node_emb.vec, line 1560000
+2020-01-20 14:25:35,077 load entity_node_emb.vec, line 1570000
+2020-01-20 14:25:36,863 load entity_node_emb.vec, line 1580000
+2020-01-20 14:25:37,819 load entity_node_emb.vec, line 1590000
+2020-01-20 14:25:38,794 load entity_node_emb.vec, line 1600000
+2020-01-20 14:25:38,939 input node features loaded!
+2020-01-20 14:25:38,962 labels loaded!
+2020-01-20 14:25:39,807 vertices loaded
+2020-01-20 14:25:39,837 vertex types loaded
+2020-01-20 14:25:56,730 constructing node map...
+2020-01-20 14:25:59,741 all node count 1647732
+2020-01-20 14:26:08,089 input node features dim 400
+2020-01-20 14:26:08,097 construct node 0 features, n_hit_emb 0
+2020-01-20 14:26:10,724 construct node 10000 features, n_hit_emb 9205
+2020-01-20 14:26:13,019 construct node 20000 features, n_hit_emb 18353
+2020-01-20 14:26:15,122 construct node 30000 features, n_hit_emb 27518
+2020-01-20 14:26:16,826 construct node 40000 features, n_hit_emb 36693
+2020-01-20 14:26:18,701 construct node 50000 features, n_hit_emb 45913
+2020-01-20 14:26:20,935 construct node 60000 features, n_hit_emb 55051
+2020-01-20 14:26:23,349 construct node 70000 features, n_hit_emb 64255
+2020-01-20 14:26:25,335 construct node 80000 features, n_hit_emb 73412
+2020-01-20 14:26:27,351 construct node 90000 features, n_hit_emb 82577
+2020-01-20 14:26:29,335 construct node 100000 features, n_hit_emb 91747
+2020-01-20 14:26:31,326 construct node 110000 features, n_hit_emb 100939
+2020-01-20 14:26:33,272 construct node 120000 features, n_hit_emb 110122
+2020-01-20 14:26:35,176 construct node 130000 features, n_hit_emb 119296
+2020-01-20 14:26:37,076 construct node 140000 features, n_hit_emb 128448
+2020-01-20 14:26:38,940 construct node 150000 features, n_hit_emb 137624
+2020-01-20 14:26:42,541 construct node 160000 features, n_hit_emb 146833
+2020-01-20 14:26:44,666 construct node 170000 features, n_hit_emb 156025
+2020-01-20 14:26:46,424 construct node 180000 features, n_hit_emb 165247
+2020-01-20 14:26:48,636 construct node 190000 features, n_hit_emb 174452
+2020-01-20 14:26:50,924 construct node 200000 features, n_hit_emb 183653
+2020-01-20 14:26:52,924 construct node 210000 features, n_hit_emb 192837
+2020-01-20 14:26:55,410 construct node 220000 features, n_hit_emb 202033
+2020-01-20 14:26:57,940 construct node 230000 features, n_hit_emb 211237
+2020-01-20 14:27:00,473 construct node 240000 features, n_hit_emb 220416
+2020-01-20 14:27:02,960 construct node 250000 features, n_hit_emb 229579
+2020-01-20 14:27:05,343 construct node 260000 features, n_hit_emb 238741
+2020-01-20 14:27:07,817 construct node 270000 features, n_hit_emb 247938
+2020-01-20 14:27:11,375 construct node 280000 features, n_hit_emb 257127
+2020-01-20 14:27:13,998 construct node 290000 features, n_hit_emb 266302
+2020-01-20 14:27:16,560 construct node 300000 features, n_hit_emb 275462
+2020-01-20 14:27:19,165 construct node 310000 features, n_hit_emb 284652
+2020-01-20 14:27:21,846 construct node 320000 features, n_hit_emb 293769
+2020-01-20 14:27:24,422 construct node 330000 features, n_hit_emb 302990
+2020-01-20 14:27:26,892 construct node 340000 features, n_hit_emb 312135
+2020-01-20 14:27:29,843 construct node 350000 features, n_hit_emb 321321
+2020-01-20 14:27:32,222 construct node 360000 features, n_hit_emb 330515
+2020-01-20 14:27:34,575 construct node 370000 features, n_hit_emb 339743
+2020-01-20 14:27:37,371 construct node 380000 features, n_hit_emb 348963
+2020-01-20 14:27:40,020 construct node 390000 features, n_hit_emb 358165
+2020-01-20 14:27:42,408 construct node 400000 features, n_hit_emb 367353
+2020-01-20 14:27:45,100 construct node 410000 features, n_hit_emb 376584
+2020-01-20 14:27:48,091 construct node 420000 features, n_hit_emb 385779
+2020-01-20 14:27:51,269 construct node 430000 features, n_hit_emb 394943
+2020-01-20 14:27:54,973 construct node 440000 features, n_hit_emb 404150
+2020-01-20 14:27:58,329 construct node 450000 features, n_hit_emb 413336
+2020-01-20 14:28:01,156 construct node 460000 features, n_hit_emb 422481
+2020-01-20 14:28:04,147 construct node 470000 features, n_hit_emb 431645
+2020-01-20 14:28:07,204 construct node 480000 features, n_hit_emb 440852
+2020-01-20 14:28:10,232 construct node 490000 features, n_hit_emb 450055
+2020-01-20 14:28:13,810 construct node 500000 features, n_hit_emb 459258
+2020-01-20 14:28:17,377 construct node 510000 features, n_hit_emb 468436
+2020-01-20 14:28:20,989 construct node 520000 features, n_hit_emb 477606
+2020-01-20 14:28:24,430 construct node 530000 features, n_hit_emb 486789
+2020-01-20 14:28:27,783 construct node 540000 features, n_hit_emb 496012
+2020-01-20 14:28:31,391 construct node 550000 features, n_hit_emb 505276
+2020-01-20 14:28:34,832 construct node 560000 features, n_hit_emb 514415
+2020-01-20 14:28:38,335 construct node 570000 features, n_hit_emb 523603
+2020-01-20 14:28:42,672 construct node 580000 features, n_hit_emb 532777
+2020-01-20 14:28:45,944 construct node 590000 features, n_hit_emb 541947
+2020-01-20 14:28:49,637 construct node 600000 features, n_hit_emb 551127
+2020-01-20 14:28:52,981 construct node 610000 features, n_hit_emb 560233
+2020-01-20 14:28:56,757 construct node 620000 features, n_hit_emb 569474
+2020-01-20 14:29:00,279 construct node 630000 features, n_hit_emb 578692
+2020-01-20 14:29:03,872 construct node 640000 features, n_hit_emb 587901
+2020-01-20 14:29:07,215 construct node 650000 features, n_hit_emb 597079
+2020-01-20 14:29:11,010 construct node 660000 features, n_hit_emb 606269
+2020-01-20 14:29:14,420 construct node 670000 features, n_hit_emb 615446
+2020-01-20 14:29:18,422 construct node 680000 features, n_hit_emb 624654
+2020-01-20 14:29:22,440 construct node 690000 features, n_hit_emb 633819
+2020-01-20 14:29:25,891 construct node 700000 features, n_hit_emb 642997
+2020-01-20 14:29:29,411 construct node 710000 features, n_hit_emb 652195
+2020-01-20 14:29:33,316 construct node 720000 features, n_hit_emb 661397
+2020-01-20 14:29:36,907 construct node 730000 features, n_hit_emb 670614
+2020-01-20 14:29:41,354 construct node 740000 features, n_hit_emb 679811
+2020-01-20 14:29:44,994 construct node 750000 features, n_hit_emb 689010
+2020-01-20 14:29:49,602 construct node 760000 features, n_hit_emb 698222
+2020-01-20 14:29:52,929 construct node 770000 features, n_hit_emb 707437
+2020-01-20 14:29:57,086 construct node 780000 features, n_hit_emb 716620
+2020-01-20 14:30:00,466 construct node 790000 features, n_hit_emb 725809
+2020-01-20 14:30:05,665 construct node 800000 features, n_hit_emb 735022
+2020-01-20 14:30:10,380 construct node 810000 features, n_hit_emb 744170
+2020-01-20 14:30:14,119 construct node 820000 features, n_hit_emb 753374
+2020-01-20 14:30:17,936 construct node 830000 features, n_hit_emb 762600
+2020-01-20 14:30:21,799 construct node 840000 features, n_hit_emb 771807
+2020-01-20 14:30:26,542 construct node 850000 features, n_hit_emb 781018
+2020-01-20 14:30:30,595 construct node 860000 features, n_hit_emb 790217
+2020-01-20 14:30:34,801 construct node 870000 features, n_hit_emb 799403
+2020-01-20 14:30:38,748 construct node 880000 features, n_hit_emb 808588
+2020-01-20 14:30:43,387 construct node 890000 features, n_hit_emb 817775
+2020-01-20 14:30:49,825 construct node 900000 features, n_hit_emb 826961
+2020-01-20 14:30:53,949 construct node 910000 features, n_hit_emb 836137
+2020-01-20 14:30:58,130 construct node 920000 features, n_hit_emb 845350
+2020-01-20 14:31:02,941 construct node 930000 features, n_hit_emb 854523
+2020-01-20 14:31:07,610 construct node 940000 features, n_hit_emb 863740
+2020-01-20 14:31:11,889 construct node 950000 features, n_hit_emb 872959
+2020-01-20 14:31:15,868 construct node 960000 features, n_hit_emb 882143
+2020-01-20 14:31:20,302 construct node 970000 features, n_hit_emb 891318
+2020-01-20 14:31:24,983 construct node 980000 features, n_hit_emb 900479
+2020-01-20 14:31:28,723 construct node 990000 features, n_hit_emb 909616
+2020-01-20 14:31:32,722 construct node 1000000 features, n_hit_emb 918812
+2020-01-20 14:31:36,819 construct node 1010000 features, n_hit_emb 927999
+2020-01-20 14:31:42,069 construct node 1020000 features, n_hit_emb 937189
+2020-01-20 14:31:46,531 construct node 1030000 features, n_hit_emb 946397
+2020-01-20 14:31:50,512 construct node 1040000 features, n_hit_emb 955559
+2020-01-20 14:31:55,330 construct node 1050000 features, n_hit_emb 964735
+2020-01-20 14:31:59,419 construct node 1060000 features, n_hit_emb 973934
+2020-01-20 14:32:04,671 construct node 1070000 features, n_hit_emb 983101
+2020-01-20 14:32:08,982 construct node 1080000 features, n_hit_emb 992346
+2020-01-20 14:32:14,303 construct node 1090000 features, n_hit_emb 1001494
+2020-01-20 14:32:19,662 construct node 1100000 features, n_hit_emb 1010697
+2020-01-20 14:32:24,377 construct node 1110000 features, n_hit_emb 1019855
+2020-01-20 14:32:29,203 construct node 1120000 features, n_hit_emb 1029027
+2020-01-20 14:32:34,517 construct node 1130000 features, n_hit_emb 1038214
+2020-01-20 14:32:42,551 construct node 1140000 features, n_hit_emb 1047402
+2020-01-20 14:32:47,556 construct node 1150000 features, n_hit_emb 1056613
+2020-01-20 14:32:53,480 construct node 1160000 features, n_hit_emb 1065807
+2020-01-20 14:32:58,463 construct node 1170000 features, n_hit_emb 1075006
+2020-01-20 14:33:04,590 construct node 1180000 features, n_hit_emb 1084192
+2020-01-20 14:33:11,123 construct node 1190000 features, n_hit_emb 1093381
+2020-01-20 14:33:18,241 construct node 1200000 features, n_hit_emb 1102574
+2020-01-20 14:33:23,561 construct node 1210000 features, n_hit_emb 1111758
+2020-01-20 14:33:29,859 construct node 1220000 features, n_hit_emb 1120956
+2020-01-20 14:33:35,262 construct node 1230000 features, n_hit_emb 1130167
+2020-01-20 14:33:40,457 construct node 1240000 features, n_hit_emb 1139435
+2020-01-20 14:33:46,244 construct node 1250000 features, n_hit_emb 1148644
+2020-01-20 14:33:51,203 construct node 1260000 features, n_hit_emb 1157842
+2020-01-20 14:33:56,649 construct node 1270000 features, n_hit_emb 1167037
+2020-01-20 14:34:01,832 construct node 1280000 features, n_hit_emb 1176194
+2020-01-20 14:34:08,024 construct node 1290000 features, n_hit_emb 1185404
+2020-01-20 14:34:13,401 construct node 1300000 features, n_hit_emb 1194629
+2020-01-20 14:34:19,170 construct node 1310000 features, n_hit_emb 1203802
+2020-01-20 14:34:25,057 construct node 1320000 features, n_hit_emb 1212990
+2020-01-20 14:34:30,695 construct node 1330000 features, n_hit_emb 1222198
+2020-01-20 14:34:37,070 construct node 1340000 features, n_hit_emb 1231324
+2020-01-20 14:34:42,691 construct node 1350000 features, n_hit_emb 1240541
+2020-01-20 14:34:48,867 construct node 1360000 features, n_hit_emb 1249752
+2020-01-20 14:34:54,350 construct node 1370000 features, n_hit_emb 1258937
+2020-01-20 14:35:00,089 construct node 1380000 features, n_hit_emb 1268113
+2020-01-20 14:35:06,033 construct node 1390000 features, n_hit_emb 1277317
+2020-01-20 14:35:11,806 construct node 1400000 features, n_hit_emb 1286519
+2020-01-20 14:35:17,316 construct node 1410000 features, n_hit_emb 1295721
+2020-01-20 14:35:23,156 construct node 1420000 features, n_hit_emb 1304891
+2020-01-20 14:35:28,517 construct node 1430000 features, n_hit_emb 1314076
+2020-01-20 14:35:35,356 construct node 1440000 features, n_hit_emb 1323284
+2020-01-20 14:35:40,588 construct node 1450000 features, n_hit_emb 1332494
+2020-01-20 14:35:46,424 construct node 1460000 features, n_hit_emb 1341712
+2020-01-20 14:35:51,522 construct node 1470000 features, n_hit_emb 1350961
+2020-01-20 14:35:56,783 construct node 1480000 features, n_hit_emb 1360158
+2020-01-20 14:36:02,292 construct node 1490000 features, n_hit_emb 1369362
+2020-01-20 14:36:08,584 construct node 1500000 features, n_hit_emb 1378535
+2020-01-20 14:36:14,989 construct node 1510000 features, n_hit_emb 1387657
+2020-01-20 14:36:20,286 construct node 1520000 features, n_hit_emb 1396868
+2020-01-20 14:36:26,127 construct node 1530000 features, n_hit_emb 1406041
+2020-01-20 14:36:31,837 construct node 1540000 features, n_hit_emb 1415216
+2020-01-20 14:36:38,205 construct node 1550000 features, n_hit_emb 1424402
+2020-01-20 14:36:43,583 construct node 1560000 features, n_hit_emb 1433574
+2020-01-20 14:36:50,246 construct node 1570000 features, n_hit_emb 1442740
+2020-01-20 14:36:55,830 construct node 1580000 features, n_hit_emb 1451925
+2020-01-20 14:37:02,656 construct node 1590000 features, n_hit_emb 1461086
+2020-01-20 14:37:08,061 construct node 1600000 features, n_hit_emb 1470287
+2020-01-20 14:37:16,389 construct node 1610000 features, n_hit_emb 1479539
+2020-01-20 14:37:22,015 construct node 1620000 features, n_hit_emb 1488797
+2020-01-20 14:37:29,789 construct node 1630000 features, n_hit_emb 1497977
+2020-01-20 14:37:35,447 construct node 1640000 features, n_hit_emb 1507135
+2020-01-20 14:37:55,821 20000 pair ego networks loaded, each with size 382
+2020-01-20 14:39:07,911 training...
+2020-01-20 14:39:23,943 train loss epoch 0: 0.618514
+2020-01-20 14:39:35,944 train loss epoch 1: 0.390125
+2020-01-20 14:39:47,961 train loss epoch 2: 0.331296
+2020-01-20 14:39:59,961 train loss epoch 3: 0.294053
+2020-01-20 14:40:11,970 train loss epoch 4: 0.268789
+2020-01-20 14:40:11,971 epoch 4, checkpoint! validation...
+2020-01-20 14:40:17,380 loss: 0.3300 AUC: 0.9426 Prec: 0.8814 Rec: 0.8103 F1: 0.8444
+2020-01-20 14:40:17,383 best threshold=-1.937543, f1=0.8779
+2020-01-20 14:40:17,383 eval on test data!...
+2020-01-20 14:40:22,714 using threshold -1.9375
+2020-01-20 14:40:22,722 loss: 0.3216 AUC: 0.9442 Prec: 0.8099 Rec: 0.9486 F1: 0.8738
+2020-01-20 14:40:34,754 train loss epoch 5: 0.244927
+2020-01-20 14:40:46,793 train loss epoch 6: 0.224770
+2020-01-20 14:40:58,821 train loss epoch 7: 0.210914
+2020-01-20 14:41:10,846 train loss epoch 8: 0.207223
+2020-01-20 14:41:22,861 train loss epoch 9: 0.191270
+2020-01-20 14:41:22,861 epoch 9, checkpoint! validation...
+2020-01-20 14:41:27,826 loss: 0.3573 AUC: 0.9491 Prec: 0.8834 Rec: 0.8381 F1: 0.8602
+2020-01-20 14:41:27,828 best threshold=-2.154061, f1=0.8835
+2020-01-20 14:41:27,828 eval on test data!...
+2020-01-20 14:41:32,729 using threshold -2.1541
+2020-01-20 14:41:32,736 loss: 0.3325 AUC: 0.9517 Prec: 0.8393 Rec: 0.9352 F1: 0.8846
+2020-01-20 14:41:44,809 train loss epoch 10: 0.175957
+2020-01-20 14:41:56,880 train loss epoch 11: 0.163696
+2020-01-20 14:42:08,899 train loss epoch 12: 0.156180
+2020-01-20 14:42:20,979 train loss epoch 13: 0.162565
+2020-01-20 14:42:33,051 train loss epoch 14: 0.181450
+2020-01-20 14:42:33,051 epoch 14, checkpoint! validation...
+2020-01-20 14:42:37,966 loss: 0.3216 AUC: 0.9527 Prec: 0.8456 Rec: 0.9193 F1: 0.8809
+2020-01-20 14:42:37,969 best threshold=-0.922077, f1=0.8836
+2020-01-20 14:42:37,969 eval on test data!...
+2020-01-20 14:42:42,920 using threshold -0.9221
+2020-01-20 14:42:42,927 loss: 0.3020 AUC: 0.9575 Prec: 0.8386 Rec: 0.9409 F1: 0.8868
+2020-01-20 14:42:54,946 train loss epoch 15: 0.180235
+2020-01-20 14:43:07,032 train loss epoch 16: 0.159989
+2020-01-20 14:43:19,119 train loss epoch 17: 0.137026
+2020-01-20 14:43:31,204 train loss epoch 18: 0.120253
+2020-01-20 14:43:43,303 train loss epoch 19: 0.110910
+2020-01-20 14:43:43,304 epoch 19, checkpoint! validation...
+2020-01-20 14:43:48,229 loss: 0.4086 AUC: 0.9545 Prec: 0.8672 Rec: 0.9014 F1: 0.8839
+2020-01-20 14:43:48,231 best threshold=-2.050151, f1=0.8881
+2020-01-20 14:43:48,231 eval on test data!...
+2020-01-20 14:43:53,135 using threshold -2.0502
+2020-01-20 14:43:53,142 loss: 0.3881 AUC: 0.9576 Prec: 0.8348 Rec: 0.9458 F1: 0.8868
+2020-01-20 14:44:05,238 train loss epoch 20: 0.105165
+2020-01-20 14:44:17,324 train loss epoch 21: 0.102142
+2020-01-20 14:44:29,405 train loss epoch 22: 0.108350
+2020-01-20 14:44:41,468 train loss epoch 23: 0.134856
+2020-01-20 14:44:53,528 train loss epoch 24: 0.128873
+2020-01-20 14:44:53,528 epoch 24, checkpoint! validation...
+2020-01-20 14:44:58,478 loss: 0.5412 AUC: 0.9543 Prec: 0.8997 Rec: 0.8421 F1: 0.8699
+2020-01-20 14:44:58,480 best threshold=-3.446680, f1=0.8881
+2020-01-20 14:44:58,480 eval on test data!...
+2020-01-20 14:45:03,383 using threshold -3.4467
+2020-01-20 14:45:03,390 loss: 0.4777 AUC: 0.9579 Prec: 0.8528 Rec: 0.9282 F1: 0.8889
+2020-01-20 14:45:15,482 train loss epoch 25: 0.105974
+2020-01-20 14:45:27,562 train loss epoch 26: 0.086926
+2020-01-20 14:45:39,601 train loss epoch 27: 0.077966
+2020-01-20 14:45:51,710 train loss epoch 28: 0.074118
+2020-01-20 14:46:03,876 train loss epoch 29: 0.069297
+2020-01-20 14:46:03,876 epoch 29, checkpoint! validation...
+2020-01-20 14:46:08,789 loss: 0.6801 AUC: 0.9537 Prec: 0.8992 Rec: 0.8449 F1: 0.8712
+2020-01-20 14:46:08,791 best threshold=-4.814907, f1=0.8874
+2020-01-20 14:46:08,791 eval on test data!...
+2020-01-20 14:46:13,740 using threshold -4.8149
+2020-01-20 14:46:13,747 loss: 0.6185 AUC: 0.9560 Prec: 0.8486 Rec: 0.9303 F1: 0.8875
+2020-01-20 14:46:13,748 optimization Finished!
+2020-01-20 14:46:13,748 total time elapsed: 425.8362s
+2020-01-20 14:46:13,748 retrieve best threshold...
+2020-01-20 14:46:18,664 loss: 0.6801 AUC: 0.9537 Prec: 0.8992 Rec: 0.8449 F1: 0.8712
+2020-01-20 14:46:18,667 best threshold=-4.814907, f1=0.8874
+2020-01-20 14:46:18,667 testing...
+2020-01-20 14:46:23,561 using threshold -4.8149
+2020-01-20 14:46:23,568 loss: 0.6185 AUC: 0.9560 Prec: 0.8486 Rec: 0.9303 F1: 0.8875
+2020-01-20 14:46:23,578 gat model saved
+
+D:\xq-oag>
